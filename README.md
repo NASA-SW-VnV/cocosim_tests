@@ -1,4 +1,6 @@
 # cocosim_tests
 Regression and unit tests for CoCoSim
 
-http://cocosim_tests.com/
+View test results summary at:
+
+[https://nasa-sw-vnv.github.io/cocosim_tests/](https://nasa-sw-vnv.github.io/cocosim_tests/)
