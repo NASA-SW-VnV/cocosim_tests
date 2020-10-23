@@ -1,0 +1,382 @@
+{
+    "meta": {
+        "Declarations": {
+            "Enumerations": []
+        },
+        "date": "23-Oct-2020",
+        "file_path": "/Users/hbourbou/Documents/babelfish.arc.nasa.gov/cocosim_github/cocosim_tests/Simulink/unitTests/Prelookup/preLookupTestGen25_PP.slx",
+        "sampleTime": 0.2
+    },
+    "preLookupTestGen25_PP": {
+        "AllCompiledSampleTimes": [
+            [
+                0.2,
+                0
+            ]
+        ],
+        "BlockType": "block_diagram",
+        "CompiledSampleTime": [
+            0.2,
+            0
+        ],
+        "Content": {
+            "In1": {
+                "AttributesFormatString": "",
+                "BlockType": "Inport",
+                "BusObject": "BusObject",
+                "CompiledPortComplexSignals": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": 0,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDataTypes": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": [
+                        "uint16"
+                    ],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDimensions": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": [
+                        1,
+                        1
+                    ],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortWidths": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": 1,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledSampleTime": [
+                    0.2,
+                    0
+                ],
+                "Handle": 2.3551025390625,
+                "LineHandles": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": 5.4150390625,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "Name": "In1",
+                "Origin_path": "preLookupTestGen25_PP/In1",
+                "OutMax": "[]",
+                "OutMin": "[]",
+                "Path": "preLookupTestGen25_PP/In1",
+                "Port": "1",
+                "PortConnectivity": {
+                    "DstBlock": 3.361328125,
+                    "DstPort": 0,
+                    "Position": [
+                        110,
+                        90
+                    ],
+                    "SrcBlock": [],
+                    "SrcPort": [],
+                    "Type": "1"
+                },
+                "Ports": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Position": [
+                    75,
+                    83,
+                    105,
+                    97
+                ],
+                "UseBusObject": "off"
+            },
+            "Out1": {
+                "AttributesFormatString": "",
+                "BlockType": "Outport",
+                "BusObject": "BusObject",
+                "CompiledPortComplexSignals": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": 0,
+                    "LConn": [],
+                    "Outport": [],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDataTypes": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [
+                        "kfBus"
+                    ],
+                    "LConn": [],
+                    "Outport": [],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDimensions": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [
+                        1,
+                        1
+                    ],
+                    "LConn": [],
+                    "Outport": [],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortWidths": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": 1,
+                    "LConn": [],
+                    "Outport": [],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledSampleTime": [
+                    0.2,
+                    0
+                ],
+                "Handle": 4.3575439453125,
+                "InitialOutput": "[]",
+                "LineHandles": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": 6.41796875,
+                    "LConn": [],
+                    "Outport": [],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "Name": "Out1",
+                "Origin_path": "preLookupTestGen25_PP/Out1",
+                "OutMax": "[]",
+                "OutMin": "[]",
+                "OutputWhenDisabled": "held",
+                "Path": "preLookupTestGen25_PP/Out1",
+                "Port": "1",
+                "PortConnectivity": {
+                    "DstBlock": [],
+                    "DstPort": [],
+                    "Position": [
+                        250,
+                        90
+                    ],
+                    "SrcBlock": 3.361328125,
+                    "SrcPort": 0,
+                    "Type": "1"
+                },
+                "Ports": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Position": [
+                    255,
+                    83,
+                    285,
+                    97
+                ],
+                "UseBusObject": "off"
+            },
+            "P": {
+                "AttributesFormatString": "",
+                "BeginIndexSearchUsingPreviousIndexResult": "off",
+                "BlockType": "PreLookup",
+                "BreakpointDataTypeStr": "uint8",
+                "BreakpointMax": "[]",
+                "BreakpointMin": "[]",
+                "BreakpointObject": "",
+                "BreakpointsData": "[10:10:110]",
+                "BreakpointsDataSource": "Dialog",
+                "BreakpointsFirstPoint": "20",
+                "BreakpointsNumPoints": "3",
+                "BreakpointsSpacing": "3",
+                "BreakpointsSpecification": "Even spacing",
+                "CompiledPortComplexSignals": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": 0,
+                    "LConn": [],
+                    "Outport": 0,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDataTypes": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [
+                        "uint16"
+                    ],
+                    "LConn": [],
+                    "Outport": [
+                        "kfBus"
+                    ],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDimensions": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [
+                        1,
+                        1
+                    ],
+                    "LConn": [],
+                    "Outport": [
+                        1,
+                        1
+                    ],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortWidths": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": 1,
+                    "LConn": [],
+                    "Outport": 1,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledSampleTime": [
+                    0.2,
+                    0
+                ],
+                "DiagnosticForOutOfRangeInput": "None",
+                "ExtrapMethod": "Clip",
+                "FractionDataTypeStr": "Inherit: Inherit via internal rule",
+                "Handle": 3.361328125,
+                "IndexDataTypeStr": "uint32",
+                "IndexSearchMethod": "Evenly spaced points",
+                "LineHandles": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": 5.4150390625,
+                    "LConn": [],
+                    "Outport": 6.41796875,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "LockScale": "off",
+                "Name": "P",
+                "Origin_path": "preLookupTestGen25_PP/P",
+                "OutputBusDataTypeStr": "Bus: kfBus",
+                "OutputSelection": "Index and fraction as bus",
+                "Path": "preLookupTestGen25_PP/P",
+                "PortConnectivity": [
+                    {
+                        "DstBlock": [],
+                        "DstPort": [],
+                        "Position": [
+                            160,
+                            90
+                        ],
+                        "SrcBlock": 2.3551025390625,
+                        "SrcPort": 0,
+                        "Type": "1"
+                    },
+                    {
+                        "DstBlock": 4.3575439453125,
+                        "DstPort": 0,
+                        "Position": [
+                            200,
+                            90
+                        ],
+                        "SrcBlock": [],
+                        "SrcPort": [],
+                        "Type": "1"
+                    }
+                ],
+                "Ports": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Position": [
+                    165,
+                    75,
+                    195,
+                    105
+                ],
+                "RemoveProtectionInput": "off",
+                "RndMeth": "Round",
+                "SampleTime": "-1",
+                "UseLastBreakpoint": "on"
+            }
+        },
+        "Handle": 0.3551025390625,
+        "Name": "preLookupTestGen25_PP",
+        "Origin_path": "preLookupTestGen25_PP",
+        "Path": "preLookupTestGen25_PP"
+    }
+}

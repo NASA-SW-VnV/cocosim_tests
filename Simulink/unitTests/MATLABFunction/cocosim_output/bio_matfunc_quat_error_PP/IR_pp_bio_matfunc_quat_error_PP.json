@@ -1,0 +1,536 @@
+{
+    "bio_matfunc_quat_error_PP": {
+        "AllCompiledSampleTimes": [
+            [
+                0.1,
+                0
+            ]
+        ],
+        "BlockType": "block_diagram",
+        "CompiledSampleTime": [
+            0.1,
+            0
+        ],
+        "Content": {
+            "M": {
+                "AttributesFormatString": "",
+                "BlockType": "SubSystem",
+                "CompiledPortComplexSignals": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [
+                        0,
+                        0
+                    ],
+                    "LConn": [],
+                    "Outport": 0,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDataTypes": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [
+                        "double",
+                        "double"
+                    ],
+                    "LConn": [],
+                    "Outport": [
+                        "double"
+                    ],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDimensions": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [
+                        1,
+                        4,
+                        1,
+                        4
+                    ],
+                    "LConn": [],
+                    "Outport": [
+                        1,
+                        4
+                    ],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortWidths": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [
+                        4,
+                        4
+                    ],
+                    "LConn": [],
+                    "Outport": 4,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledSampleTime": [
+                    0.1,
+                    0
+                ],
+                "DataTypeOverride": "UseLocalSettings",
+                "Handle": 4.2708740234375,
+                "Inputs": [
+                    {
+                        "ArraySize": "-1",
+                        "CompiledSize": "4",
+                        "CompiledType": "double",
+                        "Datatype": "Inherit: Same as Simulink",
+                        "Id": 736,
+                        "Name": "qc",
+                        "Port": 1,
+                        "Scope": "Input"
+                    },
+                    {
+                        "ArraySize": "-1",
+                        "CompiledSize": "4",
+                        "CompiledType": "double",
+                        "Datatype": "Inherit: Same as Simulink",
+                        "Id": 737,
+                        "Name": "q",
+                        "Port": 2,
+                        "Scope": "Input"
+                    }
+                ],
+                "IsSubsystemVirtual": "off",
+                "LineHandles": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [
+                        17.203125,
+                        18.204345703125
+                    ],
+                    "LConn": [],
+                    "Outport": 19.2030029296875,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "Mask": "off",
+                "MaskType": "",
+                "MinAlgLoopOccurrences": "off",
+                "MinMaxOverflowLogging": "UseLocalSettings",
+                "Name": "M",
+                "Origin_path": "bio_matfunc_quat_error_PP/M",
+                "Outputs": [
+                    {
+                        "ArraySize": "-1",
+                        "CompiledSize": "4",
+                        "CompiledType": "double",
+                        "Datatype": "Inherit: Same as Simulink",
+                        "Id": 738,
+                        "Name": "q_error",
+                        "Port": 1,
+                        "Scope": "Output"
+                    }
+                ],
+                "Path": "bio_matfunc_quat_error_PP/M",
+                "Permissions": "ReadWrite",
+                "PermitHierarchicalResolution": "ExplicitOnly",
+                "PortConnectivity": [
+                    {
+                        "DstBlock": [],
+                        "DstPort": [],
+                        "Position": [
+                            395,
+                            225
+                        ],
+                        "SrcBlock": 2.2686767578125,
+                        "SrcPort": 0,
+                        "Type": "1"
+                    },
+                    {
+                        "DstBlock": [],
+                        "DstPort": [],
+                        "Position": [
+                            395,
+                            260
+                        ],
+                        "SrcBlock": 3.274658203125,
+                        "SrcPort": 0,
+                        "Type": "2"
+                    },
+                    {
+                        "DstBlock": 16.2060546875,
+                        "DstPort": 0,
+                        "Position": [
+                            550,
+                            245
+                        ],
+                        "SrcBlock": [],
+                        "SrcPort": [],
+                        "Type": "1"
+                    }
+                ],
+                "Ports": [
+                    2,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Position": [
+                    400,
+                    205,
+                    545,
+                    280
+                ],
+                "PropExecContextOutsideSubsystem": "off",
+                "SFBlockType": "MATLAB Function",
+                "Script": "function q_error = quat_error(qc,q)\n%#codegen\n\n%qc = q_comm\n%q = q_meas\n\nqcm = [qc(4) qc(3) -qc(2) -qc(1);\n       -qc(3) qc(4) qc(1) -qc(2);\n       qc(2) -qc(1) qc(4) -qc(3);\n       qc(1) qc(2) qc(3) qc(4)];\n\nq_error = qcm*[q(1);q(2);q(3);q(4)];",
+                "ShowPortLabels": "FromPortIcon",
+                "TemplateBlock": "",
+                "TreatAsAtomicUnit": "on",
+                "Virtual": "off"
+            },
+            "Out1": {
+                "AttributesFormatString": "",
+                "BlockType": "Outport",
+                "BusObject": "BusObject",
+                "CompiledPortComplexSignals": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": 0,
+                    "LConn": [],
+                    "Outport": [],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDataTypes": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [
+                        "double"
+                    ],
+                    "LConn": [],
+                    "Outport": [],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDimensions": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [
+                        1,
+                        4
+                    ],
+                    "LConn": [],
+                    "Outport": [],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortWidths": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": 4,
+                    "LConn": [],
+                    "Outport": [],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledSampleTime": [
+                    0.1,
+                    0
+                ],
+                "Handle": 16.2060546875,
+                "InitialOutput": "[]",
+                "LineHandles": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": 19.2030029296875,
+                    "LConn": [],
+                    "Outport": [],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "Name": "Out1",
+                "Origin_path": "bio_matfunc_quat_error_PP/Out1",
+                "OutMax": "[]",
+                "OutMin": "[]",
+                "OutputWhenDisabled": "held",
+                "Path": "bio_matfunc_quat_error_PP/Out1",
+                "Port": "1",
+                "PortConnectivity": {
+                    "DstBlock": [],
+                    "DstPort": [],
+                    "Position": [
+                        605,
+                        245
+                    ],
+                    "SrcBlock": 4.2708740234375,
+                    "SrcPort": 0,
+                    "Type": "1"
+                },
+                "Ports": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Position": [
+                    610,
+                    238,
+                    640,
+                    252
+                ],
+                "UseBusObject": "off"
+            },
+            "q_com": {
+                "AttributesFormatString": "",
+                "BlockType": "Inport",
+                "BusObject": "BusObject",
+                "CompiledPortComplexSignals": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": 0,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDataTypes": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": [
+                        "double"
+                    ],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDimensions": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": [
+                        1,
+                        4
+                    ],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortWidths": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": 4,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledSampleTime": [
+                    0.1,
+                    0
+                ],
+                "Handle": 2.2686767578125,
+                "LineHandles": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": 17.203125,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "Name": "q_com",
+                "Origin_path": "bio_matfunc_quat_error_PP/q_com",
+                "OutMax": "[]",
+                "OutMin": "[]",
+                "Path": "bio_matfunc_quat_error_PP/q_com",
+                "Port": "1",
+                "PortConnectivity": {
+                    "DstBlock": 4.2708740234375,
+                    "DstPort": 0,
+                    "Position": [
+                        300,
+                        225
+                    ],
+                    "SrcBlock": [],
+                    "SrcPort": [],
+                    "Type": "1"
+                },
+                "Ports": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Position": [
+                    265,
+                    218,
+                    295,
+                    232
+                ],
+                "UseBusObject": "off"
+            },
+            "q_meas": {
+                "AttributesFormatString": "",
+                "BlockType": "Inport",
+                "BusObject": "BusObject",
+                "CompiledPortComplexSignals": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": 0,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDataTypes": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": [
+                        "double"
+                    ],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDimensions": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": [
+                        1,
+                        4
+                    ],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortWidths": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": 4,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledSampleTime": [
+                    0.1,
+                    0
+                ],
+                "Handle": 3.274658203125,
+                "LineHandles": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": 18.204345703125,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "Name": "q_meas",
+                "Origin_path": "bio_matfunc_quat_error_PP/q_meas",
+                "OutMax": "[]",
+                "OutMin": "[]",
+                "Path": "bio_matfunc_quat_error_PP/q_meas",
+                "Port": "2",
+                "PortConnectivity": {
+                    "DstBlock": 4.2708740234375,
+                    "DstPort": 1,
+                    "Position": [
+                        300,
+                        260
+                    ],
+                    "SrcBlock": [],
+                    "SrcPort": [],
+                    "Type": "1"
+                },
+                "Ports": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Position": [
+                    265,
+                    253,
+                    295,
+                    267
+                ],
+                "UseBusObject": "off"
+            }
+        },
+        "Handle": 0.2686767578125,
+        "Name": "bio_matfunc_quat_error_PP",
+        "Origin_path": "bio_matfunc_quat_error_PP",
+        "Path": "bio_matfunc_quat_error_PP"
+    },
+    "meta": {
+        "Declarations": {
+            "Enumerations": []
+        },
+        "date": "23-Oct-2020",
+        "file_path": "/Users/hbourbou/Documents/babelfish.arc.nasa.gov/cocosim_github/cocosim_tests/Simulink/unitTests/MATLABFunction/bio_matfunc_quat_error_PP.slx",
+        "sampleTime": 0.1
+    }
+}
