@@ -366,7 +366,7 @@ function save_report(regression_path, backend, destination, not_valid_models_dir
             end
             % add everyone
             system(sprintf('git commit -a -m "regression results"'));
-            system('git push');
+            %system('git push');
             cd(PWD)
         catch ME
             display_msg(ME.message, Constants.ERROR, 'Runner', '');
