@@ -1,0 +1,377 @@
+{
+    "Delay1_PP": {
+        "AllCompiledSampleTimes": [
+            [
+                0.2,
+                0
+            ]
+        ],
+        "BlockType": "block_diagram",
+        "CompiledSampleTime": [
+            0.2,
+            0
+        ],
+        "Content": {
+            "Delay2": {
+                "AttributesFormatString": "",
+                "BlockType": "Delay",
+                "CodeGenStateStorageTypeQualifier": "",
+                "CompiledPortComplexSignals": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": 0,
+                    "LConn": [],
+                    "Outport": 0,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDataTypes": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [
+                        "double"
+                    ],
+                    "LConn": [],
+                    "Outport": [
+                        "double"
+                    ],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDimensions": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [
+                        1,
+                        2
+                    ],
+                    "LConn": [],
+                    "Outport": [
+                        1,
+                        2
+                    ],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortWidths": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": 2,
+                    "LConn": [],
+                    "Outport": 2,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledSampleTime": [
+                    0.2,
+                    0
+                ],
+                "DelayLength": "1",
+                "DelayLengthSource": "Dialog",
+                "DelayLengthUpperLimit": "100",
+                "DiagnosticForDelayLength": "None",
+                "ExternalReset": "None",
+                "Handle": 3.08203125,
+                "InitialCondition": "1",
+                "InitialConditionSource": "Dialog",
+                "InputProcessing": "Elements as channels (sample based)",
+                "LineHandles": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": 6.08203125,
+                    "LConn": [],
+                    "Outport": 5.08203125,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "Name": "Delay2",
+                "Origin_path": "Delay1_PP/Delay2",
+                "Path": "Delay1_PP/Delay2",
+                "PortConnectivity": [
+                    {
+                        "DstBlock": [],
+                        "DstPort": [],
+                        "Position": [
+                            1085,
+                            290
+                        ],
+                        "SrcBlock": 2.08203125,
+                        "SrcPort": 0,
+                        "Type": "1"
+                    },
+                    {
+                        "DstBlock": 4.08203125,
+                        "DstPort": 0,
+                        "Position": [
+                            1150,
+                            290
+                        ],
+                        "SrcBlock": [],
+                        "SrcPort": [],
+                        "Type": "1"
+                    }
+                ],
+                "Ports": [
+                    1,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Position": [
+                    1090,
+                    252,
+                    1145,
+                    328
+                ],
+                "PreventDirectFeedthrough": "off",
+                "RemoveDelayLengthCheckInGeneratedCode": "off",
+                "SampleTime": "-1",
+                "ShowEnablePort": "off",
+                "StateMustResolveToSignalObject": "off",
+                "StateName": "",
+                "StateSignalObject": [],
+                "StateStorageClass": "Auto",
+                "UseCircularBuffer": "off"
+            },
+            "Out1": {
+                "AttributesFormatString": "",
+                "BlockType": "Outport",
+                "BusObject": "BusObject",
+                "CompiledPortComplexSignals": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": 0,
+                    "LConn": [],
+                    "Outport": [],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDataTypes": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [
+                        "double"
+                    ],
+                    "LConn": [],
+                    "Outport": [],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDimensions": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [
+                        1,
+                        2
+                    ],
+                    "LConn": [],
+                    "Outport": [],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortWidths": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": 2,
+                    "LConn": [],
+                    "Outport": [],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledSampleTime": [
+                    0.2,
+                    0
+                ],
+                "Handle": 4.08203125,
+                "InitialOutput": "[]",
+                "LineHandles": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": 5.08203125,
+                    "LConn": [],
+                    "Outport": [],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "Name": "Out1",
+                "Origin_path": "Delay1_PP/Out1",
+                "OutMax": "[]",
+                "OutMin": "[]",
+                "OutputWhenDisabled": "held",
+                "Path": "Delay1_PP/Out1",
+                "Port": "1",
+                "PortConnectivity": {
+                    "DstBlock": [],
+                    "DstPort": [],
+                    "Position": [
+                        1185,
+                        290
+                    ],
+                    "SrcBlock": 3.08203125,
+                    "SrcPort": 0,
+                    "Type": "1"
+                },
+                "Ports": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Position": [
+                    1190,
+                    283,
+                    1220,
+                    297
+                ],
+                "UseBusObject": "off"
+            },
+            "U": {
+                "AttributesFormatString": "",
+                "BlockType": "Inport",
+                "BusObject": "BusObject",
+                "CompiledPortComplexSignals": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": 0,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDataTypes": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": [
+                        "double"
+                    ],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortDimensions": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": [
+                        1,
+                        2
+                    ],
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledPortWidths": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": 2,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "CompiledSampleTime": [
+                    0.2,
+                    0
+                ],
+                "Handle": 2.08203125,
+                "LineHandles": {
+                    "Enable": [],
+                    "Ifaction": [],
+                    "Inport": [],
+                    "LConn": [],
+                    "Outport": 6.08203125,
+                    "RConn": [],
+                    "Reset": [],
+                    "State": [],
+                    "Trigger": []
+                },
+                "Name": "U",
+                "Origin_path": "Delay1_PP/U",
+                "OutMax": "[]",
+                "OutMin": "[]",
+                "Path": "Delay1_PP/U",
+                "Port": "1",
+                "PortConnectivity": {
+                    "DstBlock": 3.08203125,
+                    "DstPort": 0,
+                    "Position": [
+                        1000,
+                        290
+                    ],
+                    "SrcBlock": [],
+                    "SrcPort": [],
+                    "Type": "1"
+                },
+                "Ports": [
+                    0,
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ],
+                "Position": [
+                    965,
+                    283,
+                    995,
+                    297
+                ],
+                "UseBusObject": "off"
+            }
+        },
+        "Handle": 0.08203125,
+        "Name": "Delay1_PP",
+        "Origin_path": "Delay1_PP",
+        "Path": "Delay1_PP"
+    },
+    "meta": {
+        "Declarations": {
+            "Enumerations": []
+        },
+        "date": "22-Oct-2020",
+        "file_path": "/Users/hbourbou/Documents/babelfish.arc.nasa.gov/cocosim_github/cocosim_tests/Simulink/unitTests/Delay/Delay1_PP.slx",
+        "sampleTime": 0.2
+    }
+}

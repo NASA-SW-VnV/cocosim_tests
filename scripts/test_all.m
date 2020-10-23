@@ -42,21 +42,24 @@
 % Simply stated, the results of CoCoSim are only as good as
 % the inputs given to CoCoSim.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-function test_all(SimulinkTestPath, backend, commitReport, ignore_preFailedModels)
+function test_all(SimulinkTestPath, results_path, backend, commitReport, ignore_preFailedModels)
 % Get start time
 t_start = tic;
 bdclose('all')
-if nargin < 2 || isempty(backend)
+if nargin < 2 || isempty(results_path)
+    results_path = fullfile(SimulinkTestPath,'test_result');
+end
+if nargin < 3 || isempty(backend)
     backend = coco_nasa_utils.LusBackendType.LUSTREC;
 end
-if nargin < 3 || isempty(commitReport)
+if nargin < 4 || isempty(commitReport)
     commitReport = false;
 end
-if nargin < 4
+if nargin < 5
     ignore_preFailedModels = true;
 end
-destination = fullfile(SimulinkTestPath,'test_result');
-if ~exist(destination, 'dir'); mkdir(destination); end
+
+if ~exist(results_path, 'dir'); mkdir(results_path); end
 
 % delete PP files
 coco_nasa_utils.MatlabUtils.reg_delete(SimulinkTestPath, '*_PP.slx*');
@@ -70,7 +73,7 @@ options{1} = nasa_toLustre.utils.ToLustreOptions.SKIP_COMPATIBILITY;
 options{2} = nasa_toLustre.utils.ToLustreOptions.FORCE_CODE_GEN;
 options{3} = nasa_toLustre.utils.ToLustreOptions.NODISPLAY;
 % options{4} = nasa_toLustre.utils.ToLustreOptions.;% skip sf parser check
-runner(SimulinkTestPath, destination, backend, options, commitReport, ignore_preFailedModels);
+runner(SimulinkTestPath, results_path, backend, options, commitReport, ignore_preFailedModels);
 
 % delete PP files
 coco_nasa_utils.MatlabUtils.reg_delete(SimulinkTestPath, '*_PP.slx*');
