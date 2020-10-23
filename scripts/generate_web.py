@@ -6,8 +6,8 @@ import argparse
 
 
 PWD = ""
-HOST = "https://babelfish.arc.nasa.gov/trac/cocosim_tests/changeset/"
-BROWSE_FILE = "https://babelfish.arc.nasa.gov/trac/cocosim_tests/browser/"
+HOST = "https://github.com/NASA-SW-VnV/cocosim_tests/commit/"
+BROWSE_FILE = "https://github.com/NASA-SW-VnV/cocosim_tests/blob/main/"
 HTML_DATE_COLUMnS = ['Date', '#Tests', '#Valid',
                     '#Failed', '#Broken', '#Unsupported']
 COLORS = ['', 'table-success', 'table-danger', 'table-danger', '']
