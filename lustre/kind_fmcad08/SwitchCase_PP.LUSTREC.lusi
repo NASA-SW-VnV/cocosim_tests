@@ -1,0 +1,62 @@
+(* Generated Lustre Interface file from SwitchCase_PP.LUSTREC.lus *)
+(* by Lustre-C compiler version 1.7-1090-unstable, 2020/9/22, 16:30:56 *)
+(* Feel free to mask some of the definitions by removing them from this file. *)
+
+function IfActionSubsystem1_19_527 (In1_1: real; __time_step: real;
+                                    __nb_step: int) returns (Out1_1: real)
+
+;
+
+function IfActionSubsystem2_24_284 (In1_1: bool; __time_step: real;
+                                    __nb_step: int) returns (Out1_1: bool)
+
+;
+
+function IfActionSubsystem3_29_278 (In1_1: real; __time_step: real;
+                                    __nb_step: int) returns (Out1_1: real)
+
+;
+
+function IfActionSubsystem_14_054 (In3_1: bool; __time_step: real;
+                                   __nb_step: int) returns (Out4_1: bool)
+
+;
+
+function abs_int (x: int) returns (y: int)
+
+;
+
+node IfActionSubsystem1_19_527_condExecSS (In1_1: real; _isEnabled: bool;
+                                           __time_step: real; __nb_step: int)
+     returns (Out1_1: real)
+
+;
+
+node IfActionSubsystem2_24_284_condExecSS (In1_1: bool; _isEnabled: bool;
+                                           __time_step: real; __nb_step: int)
+     returns (Out1_1: bool)
+
+;
+
+node IfActionSubsystem3_29_278_condExecSS (In1_1: real; _isEnabled: bool;
+                                           __time_step: real; __nb_step: int)
+     returns (Out1_1: real)
+
+;
+
+node IfActionSubsystem_14_054_condExecSS (In3_1: bool; _isEnabled: bool;
+                                          __time_step: real; __nb_step: int)
+     returns (Out4_1: bool)
+
+;
+
+function mod_int_int (x: int; y: int) returns (z: int)
+
+;
+
+node SwitchCase_PP (In1_1: int; In7_1: bool; In2_1: real)
+     returns (Out2_1: real; Out15_1: bool; Out3_1: bool; Out4_1: real)
+
+;
+
+

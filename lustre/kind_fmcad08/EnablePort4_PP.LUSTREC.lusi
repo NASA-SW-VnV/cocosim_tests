@@ -1,0 +1,24 @@
+(* Generated Lustre Interface file from EnablePort4_PP.LUSTREC.lus *)
+(* by Lustre-C compiler version 1.7-1090-unstable, 2020/9/22, 16:25:29 *)
+(* Feel free to mask some of the definitions by removing them from this file. *)
+
+node case_held_held_held_18_597 (Cpre_compx_1: real; Enable_1: real;
+                                 __time_step: real; __nb_step: int)
+     returns (Ccor_x_1: real; pre_x_1: real; Out1_1: real)
+
+;
+
+node case_held_held_held_18_597_condExecSS (Cpre_compx_1: real;
+                                            Enable_1: real; _isEnabled: bool;
+                                            __time_step: real;
+                                            __nb_step: int)
+     returns (Ccor_x_1: real; pre_x_1: real; Out1_1: real)
+
+;
+
+node EnablePort4_PP (In1_1: real; In2_1: real)
+     returns (Out1_1: real; Out2_1: real; Out3_1: real)
+
+;
+
+

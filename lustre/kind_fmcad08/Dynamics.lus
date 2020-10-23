@@ -1,0 +1,56 @@
+
+node abs(x:int)
+returns(y:int)
+let y = if x >= 0 then x else -x ; tel
+
+node sum(a_0,a_1,a_2,a_3:int) returns(sum:int); 
+let 
+  sum = a_0 + a_1 + a_2 + a_3; 
+tel
+
+node level_failure(level_defect:int) returns(level_failure:bool); 
+let 
+  level_failure = (level_defect<>0); 
+tel
+
+node steam_failure(steam_defect:int) returns(steam_failure:bool); 
+let 
+  steam_failure = (steam_defect<>0); 
+tel
+
+node Dynamics(valve_state,level,steam,level_defect,steam_defect:int; 
+  flow_0,flow_1,flow_2,flow_3:bool) 
+  returns (q,v:int; p_0,p_1,p_2,p_3:int); 
+let 
+  q = level-> 
+    if level_failure(level_defect) then 
+      pre(q) + steam*5 + sum(p_0,p_1,p_2,p_3)*5 +1- (if valve_state=1 then 10*5 else 0) 
+    else 
+      level; 
+  v = steam-> 
+    if steam_failure(steam_defect) then 
+      abs(pre(q) -q) / 5 
+    else 
+      steam; 
+  p_0 = 0-> 
+    if (not(flow_0)) then 
+      0 
+    else 
+      15; 
+  p_1 = 0-> 
+    if (not(flow_1)) then 
+      0 
+    else 
+      15; 
+  p_2 = 0-> 
+    if (not(flow_2)) then 
+      0 
+    else 
+      15; 
+  p_3 = 0-> 
+    if (not(flow_3)) then 
+      0 
+    else 
+      15; 
+tel
+

@@ -1,0 +1,166 @@
+(* Generated Lustre Interface file from EnableBio1_PP.LUSTREC.lus *)
+(* by Lustre-C compiler version 1.7-1090-unstable, 2020/9/22, 16:22:45 *)
+(* Feel free to mask some of the definitions by removing them from this file. *)
+
+function abs_int (x: int) returns (y: int)
+
+;
+
+function rem_int_int (x: int; y: int) returns (z: int)
+
+;
+
+function int_to_uint16 (x: int) returns (y: int)
+
+;
+
+function IncrementStoredInteger_48_386 (u_1: int; __time_step: real;
+                                        __nb_step: int) returns (y_1: int)
+
+;
+
+function ChangeMode_equal_MMAddtosequence_20_350 (mm_flag_1: int;
+                                                  cmp_cmd_msg_1_BusElem1: int;
+                                                  cmp_cmd_msg_1_BusElem2: int;
+                                                  cmp_cmd_msg_1_BusElem3: int;
+                                                  cmp_cmd_msg_1_BusElem4: int;
+                                                  cmp_cmd_msg_1_BusElem5: int;
+                                                  cmp_cmd_msg_1_BusElem6: int;
+                                                  cmp_cmd_msg_1_BusElem7: int;
+                                                  cmp_cmd_msg_1_BusElem8: int;
+                                                  cmp_cmd_msg_1_BusElem9: int;
+                                                  cmp_cmd_msg_1_BusElem10: int;
+                                                  cmp_cmd_msg_1_BusElem11: int;
+                                                  cmp_cmd_msg_1_BusElem12: int;
+                                                  cmp_cmd_msg_1_BusElem13: int;
+                                                  cmp_cmd_msg_1_BusElem14: int;
+                                                  cmp_cmd_msg_1_BusElem15: int;
+                                                  cmp_cmd_msg_1_BusElem16: int;
+                                                  cmp_cmd_msg_1_BusElem17: int;
+                                                  cmp_cmd_msg_1_BusElem18: int;
+                                                  cmp_cmd_msg_1_BusElem19: int;
+                                                  cmp_cmd_msg_1_BusElem20: int;
+                                                  cmp_cmd_msg_1_BusElem21: int;
+                                                  cmp_cmd_msg_1_BusElem22: int;
+                                                  cmp_cmd_msg_1_BusElem23: int;
+                                                  cmp_cmd_msg_1_BusElem24: int;
+                                                  cmp_cmd_msg_1_BusElem25: int;
+                                                  cmp_cmd_msg_1_BusElem26: int;
+                                                  cmp_cmd_msg_1_BusElem27: int;
+                                                  cmp_cmd_msg_1_BusElem28: int;
+                                                  cmp_cmd_msg_1_BusElem29: int;
+                                                  cmp_cmd_msg_1_BusElem30: int;
+                                                  cmp_cmd_msg_1_BusElem31: int;
+                                                  cmp_cmd_msg_1_BusElem32: int;
+                                                  cmp_cmd_msg_1_BusElem33: int;
+                                                  cmp_cmd_msg_1_BusElem34: int;
+                                                  cmp_cmd_msg_1_BusElem35: int;
+                                                  cmp_cmd_msg_1_BusElem36: int;
+                                                  cmp_cmd_msg_1_BusElem37: int;
+                                                  cmp_cmd_msg_1_BusElem38: int;
+                                                  cmp_cmd_msg_1_BusElem39: int;
+                                                  __time_step: real;
+                                                  __nb_step: int)
+         returns (fm_command_1_BusElem1: int; fm_command_1_BusElem2: int;
+                  fm_command_1_BusElem3: int; fm_command_1_BusElem4: int;
+                  fm_command_1_BusElem5: int; fm_command_1_BusElem6: int;
+                  fm_command_1_BusElem7: int; fm_command_1_BusElem8: int;
+                  fm_command_1_BusElem9: int; fm_command_1_BusElem10: int;
+                  fm_command_1_BusElem11: int; fm_command_1_BusElem12: int;
+                  fm_command_1_BusElem13: int; fm_command_1_BusElem14: int;
+                  fm_command_1_BusElem15: int; fm_command_1_BusElem16: int;
+                  fm_command_1_BusElem17: int; fm_command_1_BusElem18: int;
+                  fm_command_1_BusElem19: int; fm_command_1_BusElem20: int;
+                  fm_command_1_BusElem21: int; fm_command_1_BusElem22: int;
+                  fm_command_1_BusElem23: int; fm_command_1_BusElem24: int;
+                  fm_command_1_BusElem25: int; fm_command_1_BusElem26: int;
+                  fm_command_1_BusElem27: int; fm_command_1_BusElem28: int;
+                  fm_command_1_BusElem29: int; fm_command_1_BusElem30: int;
+                  fm_command_1_BusElem31: int; fm_command_1_BusElem32: int;
+                  fm_command_1_BusElem33: int; fm_command_1_BusElem34: int;
+                  fm_command_1_BusElem35: int; fm_command_1_BusElem36: int;
+                  fm_command_1_BusElem37: int; fm_command_1_BusElem38: int;
+                  fm_command_1_BusElem39: int)
+
+;
+
+node ChangeMode_equal_MMAddtosequence_20_350_condExecSS (mm_flag_1: int;
+                                                         cmp_cmd_msg_1_BusElem1: int;
+                                                         cmp_cmd_msg_1_BusElem2: int;
+                                                         cmp_cmd_msg_1_BusElem3: int;
+                                                         cmp_cmd_msg_1_BusElem4: int;
+                                                         cmp_cmd_msg_1_BusElem5: int;
+                                                         cmp_cmd_msg_1_BusElem6: int;
+                                                         cmp_cmd_msg_1_BusElem7: int;
+                                                         cmp_cmd_msg_1_BusElem8: int;
+                                                         cmp_cmd_msg_1_BusElem9: int;
+                                                         cmp_cmd_msg_1_BusElem10: int;
+                                                         cmp_cmd_msg_1_BusElem11: int;
+                                                         cmp_cmd_msg_1_BusElem12: int;
+                                                         cmp_cmd_msg_1_BusElem13: int;
+                                                         cmp_cmd_msg_1_BusElem14: int;
+                                                         cmp_cmd_msg_1_BusElem15: int;
+                                                         cmp_cmd_msg_1_BusElem16: int;
+                                                         cmp_cmd_msg_1_BusElem17: int;
+                                                         cmp_cmd_msg_1_BusElem18: int;
+                                                         cmp_cmd_msg_1_BusElem19: int;
+                                                         cmp_cmd_msg_1_BusElem20: int;
+                                                         cmp_cmd_msg_1_BusElem21: int;
+                                                         cmp_cmd_msg_1_BusElem22: int;
+                                                         cmp_cmd_msg_1_BusElem23: int;
+                                                         cmp_cmd_msg_1_BusElem24: int;
+                                                         cmp_cmd_msg_1_BusElem25: int;
+                                                         cmp_cmd_msg_1_BusElem26: int;
+                                                         cmp_cmd_msg_1_BusElem27: int;
+                                                         cmp_cmd_msg_1_BusElem28: int;
+                                                         cmp_cmd_msg_1_BusElem29: int;
+                                                         cmp_cmd_msg_1_BusElem30: int;
+                                                         cmp_cmd_msg_1_BusElem31: int;
+                                                         cmp_cmd_msg_1_BusElem32: int;
+                                                         cmp_cmd_msg_1_BusElem33: int;
+                                                         cmp_cmd_msg_1_BusElem34: int;
+                                                         cmp_cmd_msg_1_BusElem35: int;
+                                                         cmp_cmd_msg_1_BusElem36: int;
+                                                         cmp_cmd_msg_1_BusElem37: int;
+                                                         cmp_cmd_msg_1_BusElem38: int;
+                                                         cmp_cmd_msg_1_BusElem39: int;
+                                                         _isEnabled: bool;
+                                                         __time_step: real;
+                                                         __nb_step: int)
+     returns (fm_command_1_BusElem1: int; fm_command_1_BusElem2: int;
+              fm_command_1_BusElem3: int; fm_command_1_BusElem4: int;
+              fm_command_1_BusElem5: int; fm_command_1_BusElem6: int;
+              fm_command_1_BusElem7: int; fm_command_1_BusElem8: int;
+              fm_command_1_BusElem9: int; fm_command_1_BusElem10: int;
+              fm_command_1_BusElem11: int; fm_command_1_BusElem12: int;
+              fm_command_1_BusElem13: int; fm_command_1_BusElem14: int;
+              fm_command_1_BusElem15: int; fm_command_1_BusElem16: int;
+              fm_command_1_BusElem17: int; fm_command_1_BusElem18: int;
+              fm_command_1_BusElem19: int; fm_command_1_BusElem20: int;
+              fm_command_1_BusElem21: int; fm_command_1_BusElem22: int;
+              fm_command_1_BusElem23: int; fm_command_1_BusElem24: int;
+              fm_command_1_BusElem25: int; fm_command_1_BusElem26: int;
+              fm_command_1_BusElem27: int; fm_command_1_BusElem28: int;
+              fm_command_1_BusElem29: int; fm_command_1_BusElem30: int;
+              fm_command_1_BusElem31: int; fm_command_1_BusElem32: int;
+              fm_command_1_BusElem33: int; fm_command_1_BusElem34: int;
+              fm_command_1_BusElem35: int; fm_command_1_BusElem36: int;
+              fm_command_1_BusElem37: int; fm_command_1_BusElem38: int;
+              fm_command_1_BusElem39: int)
+
+;
+
+node EnableBio1_PP (Enable_1: bool; In1_1: int)
+     returns (Out1_1: int; Out2_1: int; Out2_2: int; Out2_3: int;
+              Out2_4: int; Out2_5: int; Out2_6: int; Out2_7: int;
+              Out2_8: int; Out2_9: int; Out2_10: int; Out2_11: int;
+              Out2_12: int; Out2_13: int; Out2_14: int; Out2_15: int;
+              Out2_16: int; Out2_17: int; Out2_18: int; Out2_19: int;
+              Out2_20: int; Out2_21: int; Out2_22: int; Out2_23: int;
+              Out2_24: int; Out2_25: int; Out2_26: int; Out2_27: int;
+              Out2_28: int; Out2_29: int; Out2_30: int; Out2_31: int;
+              Out2_32: int; Out2_33: int; Out2_34: int)
+
+;
+
+

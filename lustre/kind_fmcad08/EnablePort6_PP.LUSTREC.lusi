@@ -1,0 +1,33 @@
+(* Generated Lustre Interface file from EnablePort6_PP.LUSTREC.lus *)
+(* by Lustre-C compiler version 1.7-1090-unstable, 2020/9/22, 16:25:42 *)
+(* Feel free to mask some of the definitions by removing them from this file. *)
+
+node Subsystem_30_931 (In1_1: real; Enable_1: real; __time_step: real;
+                       __nb_step: int) returns (Out1_1: real; Out2_1: real)
+
+;
+
+node Subsystem_30_931_condExecSS (In1_1: real; Enable_1: real;
+                                  _isEnabled: bool; __time_step: real;
+                                  __nb_step: int)
+     returns (Out1_1: real; Out2_1: real)
+
+;
+
+node Enabled_Counter_18_598 (In1_1: real; __time_step: real; __nb_step: int)
+     returns (Out1_1: real; Out2_1: real; Out3_1: real)
+
+;
+
+node Enabled_Counter_18_598_condExecSS (In1_1: real; _isEnabled: bool;
+                                        __time_step: real; __nb_step: int)
+     returns (Out1_1: real; Out2_1: real; Out3_1: real)
+
+;
+
+node EnablePort6_PP (In1_1: real; Enable_1: real)
+     returns (Out1_1: real; Out2_1: real; Out3_1: real)
+
+;
+
+

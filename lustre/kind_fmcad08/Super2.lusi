@@ -1,0 +1,279 @@
+(* Generated Lustre Interface file from Super2.lus *)
+(* by Lustre-C compiler version 1.7-1090-unstable, 2020/9/22, 16:25:58 *)
+(* Feel free to mask some of the definitions by removing them from this file. *)
+
+type super2_c__type = enum {POINTSuper2_C, POINT__TO__C_C1_1, C_C1__TO__SUPER2_B_1, C_C1_IDL };
+
+type super2_super2__type = enum {POINTSuper2_Super2, POINT__TO__SUPER2_A_1, SUPER2_A__TO__SUPER2_C_1, SUPER2_A__TO__C_C1_2, SUPER2_B__TO__SUPER2_A_1, SUPER2_C__TO__SUPER2_B_1, SUPER2_A_IDL, SUPER2_B_IDL, SUPER2_C_IDL };
+
+function C_C1_ex (idSuper2_C_1: int; isInner: bool) returns (idSuper2_C: int)
+
+;
+
+function Super2_B_en (idSuper2_Super2_1: int; s_1: real; isInner: bool)
+         returns (idSuper2_Super2: int; s: real)
+
+;
+
+function Super2_C_ex (idSuper2_C_1: int; idSuper2_Super2_1: int;
+                      isInner: bool)
+         returns (idSuper2_C: int; idSuper2_Super2: int)
+
+;
+
+function C_C1_en (idSuper2_C_1: int; s_1: real; isInner: bool)
+         returns (idSuper2_C: int; s: real)
+
+;
+
+function super2_c__C_C1_IDL_handler_until (super2_c__restart_act: bool;
+                                           idSuper2_C_1: int; s_1: real;
+                                           idSuper2_Super2_1: int)
+         returns (super2_c__restart_in: bool;
+                  super2_c__state_in: super2_c__type; idSuper2_C_out: int;
+                  idSuper2_Super2_out: int; s_out: real)
+
+;
+
+function super2_c__C_C1_IDL_unless (super2_c__restart_in: bool)
+         returns (super2_c__restart_act: bool;
+                  super2_c__state_act: super2_c__type)
+
+;
+
+function super2_c__C_C1__TO__SUPER2_B_1_handler_until (super2_c__restart_act: bool;
+                                                       idSuper2_C_1: int;
+                                                       s_1: real;
+                                                       idSuper2_Super2_1: int)
+         returns (super2_c__restart_in: bool;
+                  super2_c__state_in: super2_c__type; idSuper2_C_out: int;
+                  idSuper2_Super2_out: int; s_out: real)
+
+;
+
+function super2_c__C_C1__TO__SUPER2_B_1_unless (super2_c__restart_in: bool)
+         returns (super2_c__restart_act: bool;
+                  super2_c__state_act: super2_c__type)
+
+;
+
+function super2_c__POINTSuper2_C_handler_until (super2_c__restart_act: bool;
+                                                idSuper2_C_1: int; s_1: real;
+                                                idSuper2_Super2_1: int)
+         returns (super2_c__restart_in: bool;
+                  super2_c__state_in: super2_c__type; idSuper2_C_out: int;
+                  idSuper2_Super2_out: int; s_out: real)
+
+;
+
+function super2_c__POINTSuper2_C_unless (super2_c__restart_in: bool;
+                                         idSuper2_C_1: int; E: bool)
+         returns (super2_c__restart_act: bool;
+                  super2_c__state_act: super2_c__type)
+
+;
+
+function super2_c__POINT__TO__C_C1_1_handler_until (super2_c__restart_act: bool;
+                                                    idSuper2_C_1: int;
+                                                    s_1: real;
+                                                    idSuper2_Super2_1: int)
+         returns (super2_c__restart_in: bool;
+                  super2_c__state_in: super2_c__type; idSuper2_C_out: int;
+                  idSuper2_Super2_out: int; s_out: real)
+
+;
+
+function super2_c__POINT__TO__C_C1_1_unless (super2_c__restart_in: bool)
+         returns (super2_c__restart_act: bool;
+                  super2_c__state_act: super2_c__type)
+
+;
+
+function Super2_A_en (idSuper2_Super2_1: int; s_1: real; isInner: bool)
+         returns (idSuper2_Super2: int; s: real)
+
+;
+
+function Super2_A_ex (idSuper2_Super2_1: int; isInner: bool)
+         returns (idSuper2_Super2: int)
+
+;
+
+function Super2_C_en (idSuper2_C_1: int; idSuper2_Super2_1: int; s_1: real;
+                      isInner: bool)
+         returns (idSuper2_C: int; idSuper2_Super2: int; s: real)
+
+;
+
+function Super2_B_ex (idSuper2_Super2_1: int; isInner: bool)
+         returns (idSuper2_Super2: int)
+
+;
+
+node Super2_C_node (idSuper2_C_1: int; s_1: real; E: bool;
+                    idSuper2_Super2_1: int)
+     returns (idSuper2_C: int; s: real; idSuper2_Super2: int)
+
+;
+
+function super2_super2__POINTSuper2_Super2_handler_until (super2_super2__restart_act: bool;
+                                                          idSuper2_Super2_1: int;
+                                                          s_1: real;
+                                                          idSuper2_C_1: int)
+         returns (super2_super2__restart_in: bool;
+                  super2_super2__state_in: super2_super2__type;
+                  idSuper2_C_out: int; idSuper2_Super2_out: int; s_out: real)
+
+;
+
+function super2_super2__POINTSuper2_Super2_unless (super2_super2__restart_in: bool;
+                                                   idSuper2_Super2_1: int;
+                                                   F: bool; E: bool; G: bool)
+         returns (super2_super2__restart_act: bool;
+                  super2_super2__state_act: super2_super2__type)
+
+;
+
+function super2_super2__POINT__TO__SUPER2_A_1_handler_until (super2_super2__restart_act: bool;
+                                                             idSuper2_Super2_1: int;
+                                                             s_1: real;
+                                                             idSuper2_C_1: int)
+         returns (super2_super2__restart_in: bool;
+                  super2_super2__state_in: super2_super2__type;
+                  idSuper2_C_out: int; idSuper2_Super2_out: int; s_out: real)
+
+;
+
+function super2_super2__POINT__TO__SUPER2_A_1_unless (super2_super2__restart_in: bool)
+         returns (super2_super2__restart_act: bool;
+                  super2_super2__state_act: super2_super2__type)
+
+;
+
+function super2_super2__SUPER2_A_IDL_handler_until (super2_super2__restart_act: bool;
+                                                    idSuper2_Super2_1: int;
+                                                    s_1: real;
+                                                    idSuper2_C_1: int)
+         returns (super2_super2__restart_in: bool;
+                  super2_super2__state_in: super2_super2__type;
+                  idSuper2_C_out: int; idSuper2_Super2_out: int; s_out: real)
+
+;
+
+function super2_super2__SUPER2_A_IDL_unless (super2_super2__restart_in: bool)
+         returns (super2_super2__restart_act: bool;
+                  super2_super2__state_act: super2_super2__type)
+
+;
+
+function super2_super2__SUPER2_A__TO__C_C1_2_handler_until (super2_super2__restart_act: bool;
+                                                            idSuper2_Super2_1: int;
+                                                            s_1: real)
+         returns (super2_super2__restart_in: bool;
+                  super2_super2__state_in: super2_super2__type;
+                  idSuper2_C_out: int; idSuper2_Super2_out: int; s_out: real)
+
+;
+
+function super2_super2__SUPER2_A__TO__C_C1_2_unless (super2_super2__restart_in: bool)
+         returns (super2_super2__restart_act: bool;
+                  super2_super2__state_act: super2_super2__type)
+
+;
+
+function super2_super2__SUPER2_A__TO__SUPER2_C_1_handler_until (super2_super2__restart_act: bool;
+                                                                idSuper2_Super2_1: int;
+                                                                s_1: real;
+                                                                idSuper2_C_1: int)
+         returns (super2_super2__restart_in: bool;
+                  super2_super2__state_in: super2_super2__type;
+                  idSuper2_C_out: int; idSuper2_Super2_out: int; s_out: real)
+
+;
+
+function super2_super2__SUPER2_A__TO__SUPER2_C_1_unless (super2_super2__restart_in: bool)
+         returns (super2_super2__restart_act: bool;
+                  super2_super2__state_act: super2_super2__type)
+
+;
+
+function super2_super2__SUPER2_B_IDL_handler_until (super2_super2__restart_act: bool;
+                                                    idSuper2_Super2_1: int;
+                                                    s_1: real;
+                                                    idSuper2_C_1: int)
+         returns (super2_super2__restart_in: bool;
+                  super2_super2__state_in: super2_super2__type;
+                  idSuper2_C_out: int; idSuper2_Super2_out: int; s_out: real)
+
+;
+
+function super2_super2__SUPER2_B_IDL_unless (super2_super2__restart_in: bool)
+         returns (super2_super2__restart_act: bool;
+                  super2_super2__state_act: super2_super2__type)
+
+;
+
+function super2_super2__SUPER2_B__TO__SUPER2_A_1_handler_until (super2_super2__restart_act: bool;
+                                                                idSuper2_Super2_1: int;
+                                                                s_1: real;
+                                                                idSuper2_C_1: int)
+         returns (super2_super2__restart_in: bool;
+                  super2_super2__state_in: super2_super2__type;
+                  idSuper2_C_out: int; idSuper2_Super2_out: int; s_out: real)
+
+;
+
+function super2_super2__SUPER2_B__TO__SUPER2_A_1_unless (super2_super2__restart_in: bool)
+         returns (super2_super2__restart_act: bool;
+                  super2_super2__state_act: super2_super2__type)
+
+;
+
+node super2_super2__SUPER2_C_IDL_handler_until (super2_super2__restart_act: bool;
+                                                idSuper2_Super2_1: int;
+                                                s_1: real; idSuper2_C_1: int;
+                                                E: bool)
+     returns (super2_super2__restart_in: bool;
+              super2_super2__state_in: super2_super2__type;
+              idSuper2_C_out: int; idSuper2_Super2_out: int; s_out: real)
+
+;
+
+function super2_super2__SUPER2_C_IDL_unless (super2_super2__restart_in: bool)
+         returns (super2_super2__restart_act: bool;
+                  super2_super2__state_act: super2_super2__type)
+
+;
+
+function super2_super2__SUPER2_C__TO__SUPER2_B_1_handler_until (super2_super2__restart_act: bool;
+                                                                idSuper2_Super2_1: int;
+                                                                s_1: real;
+                                                                idSuper2_C_1: int)
+         returns (super2_super2__restart_in: bool;
+                  super2_super2__state_in: super2_super2__type;
+                  idSuper2_C_out: int; idSuper2_Super2_out: int; s_out: real)
+
+;
+
+function super2_super2__SUPER2_C__TO__SUPER2_B_1_unless (super2_super2__restart_in: bool)
+         returns (super2_super2__restart_act: bool;
+                  super2_super2__state_act: super2_super2__type)
+
+;
+
+node Super2_Super2_node (idSuper2_Super2_1: int; s_1: real; F: bool;
+                         idSuper2_C_1: int; E: bool; G: bool)
+     returns (idSuper2_Super2: int; s: real; idSuper2_C: int)
+
+;
+
+node Super2_Super2 (x: int; E: bool; F: bool; G: bool) returns (s: real)
+
+;
+
+node Super2 (x_1_1: int; E_1_1: real; F_1_1: real; G_1_1: real)
+     returns (state_1_1: real)
+
+;
+
+

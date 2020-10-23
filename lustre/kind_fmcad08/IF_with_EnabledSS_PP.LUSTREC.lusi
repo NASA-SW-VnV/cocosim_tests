@@ -1,0 +1,44 @@
+(* Generated Lustre Interface file from IF_with_EnabledSS_PP.LUSTREC.lus *)
+(* by Lustre-C compiler version 1.7-1090-unstable, 2020/9/22, 16:25:50 *)
+(* Feel free to mask some of the definitions by removing them from this file. *)
+
+node ActionSubsystem1_8_013 (In1_1: real; __time_step: real; __nb_step: int)
+     returns (Out1_1: real)
+
+;
+
+node ActionSubsystem2_15_018 (In1_1: real; __time_step: real; __nb_step: int)
+     returns (Out1_1: real)
+
+;
+
+node ActionSubsystem3_22_022 (In1_1: real; __time_step: real; __nb_step: int)
+     returns (Out1_1: real)
+
+;
+
+node ActionSubsystem1_8_013_condExecSS (In1_1: real; _isEnabled: bool;
+                                        __time_step: real; __nb_step: int)
+     returns (Out1_1: real)
+
+;
+
+node ActionSubsystem2_15_018_condExecSS (In1_1: real; _isEnabled: bool;
+                                         __time_step: real; __nb_step: int)
+     returns (Out1_1: real)
+
+;
+
+node ActionSubsystem3_22_022_condExecSS (In1_1: real; _isEnabled: bool;
+                                         __time_step: real; __nb_step: int)
+     returns (Out1_1: real)
+
+;
+
+node IF_with_EnabledSS_PP (In1_1: int; In1_2: int; In1_3: int; In2_1: real;
+                           In3_1: int; In3_2: int; In3_3: int)
+     returns (Out1_1: real; Out2_1: real; Out3_1: real)
+
+;
+
+

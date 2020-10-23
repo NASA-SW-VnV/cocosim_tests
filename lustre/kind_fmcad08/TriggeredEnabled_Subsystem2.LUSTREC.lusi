@@ -1,0 +1,30 @@
+(* Generated Lustre Interface file from TriggeredEnabled_Subsystem2.LUSTREC.lus *)
+(* by Lustre-C compiler version 1.7-1090-unstable, 2020/9/22, 16:31:01 *)
+(* Feel free to mask some of the definitions by removing them from this file. *)
+
+node Enabled_Counter_11_121 (In1_1: real; __time_step: real; __nb_step: int)
+     returns (Out1_1: real; Out2_1: real)
+
+;
+
+node Enabled_Counter_11_121_triggeredSS (In1_1: real; _isEnabled: bool;
+                                         _isTriggered: bool;
+                                         __time_step: real; __nb_step: int)
+     returns (Out1_1: real; Out2_1: real)
+
+;
+
+node Enabled_Counter_11_121_condExecSS (In1_1: real; _isEnabled: bool;
+                                        _isTriggered: bool;
+                                        __time_step: real; __nb_step: int)
+     returns (Out1_1: real; Out2_1: real)
+
+;
+
+node TriggeredEnabled_Subsystem2 (In1_1: real; Enable_1: bool;
+                                  Trigger_1: bool)
+     returns (Out1_1: real; Out2_1: real)
+
+;
+
+
