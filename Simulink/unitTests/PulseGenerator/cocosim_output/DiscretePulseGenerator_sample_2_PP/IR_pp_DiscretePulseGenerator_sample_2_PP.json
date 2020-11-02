@@ -75,11 +75,11 @@
                 "Decimation": "1",
                 "Floating": "off",
                 "Format": "short",
-                "Handle": 2.3697509765625,
+                "Handle": 118.98291015625,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 13.316650390625,
+                    "Inport": 293.526123046875,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -97,7 +97,7 @@
                         565,
                         40
                     ],
-                    "SrcBlock": 3.3759765625,
+                    "SrcBlock": 148.7630615234375,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -176,12 +176,12 @@
                     0,
                     0
                 ],
-                "Handle": 11.4495849609375,
+                "Handle": 285.980712890625,
                 "InitialOutput": "[]",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 14.311767578125,
+                    "Inport": 294.376220703125,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -203,7 +203,7 @@
                         585,
                         80
                     ],
-                    "SrcBlock": 3.3759765625,
+                    "SrcBlock": 148.7630615234375,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -227,13 +227,12 @@
                 "UseBusObject": "off"
             },
             "SignalBuilder": {
+                "ActiveVariant": "",
+                "ActiveVariantBlock": "",
                 "AllowZeroVariantControls": "off",
                 "AttributesFormatString": "",
-                "AutoFrameSizeCalculation": "off",
                 "BlockChoice": "",
                 "BlockType": "SubSystem",
-                "CompiledActiveChoiceBlock": "",
-                "CompiledActiveChoiceControl": "",
                 "CompiledPortComplexSignals": {
                     "Enable": [],
                     "Ifaction": [],
@@ -369,15 +368,15 @@
                             0
                         ],
                         "DisplayOption": "none",
-                        "Handle": 4.3721923828125,
+                        "Handle": 178.978515625,
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 9.4019775390625,
+                            "Inport": 197.8634033203125,
                             "LConn": [],
                             "Outport": [
-                                8.3489990234375,
-                                10.397216796875
+                                194.8375244140625,
+                                282.8155517578125
                             ],
                             "RConn": [],
                             "Reset": [],
@@ -396,12 +395,12 @@
                                     145,
                                     320
                                 ],
-                                "SrcBlock": 5.4295654296875,
+                                "SrcBlock": 179.60986328125,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
                             {
-                                "DstBlock": 6.4324951171875,
+                                "DstBlock": 180.9403076171875,
                                 "DstPort": 0,
                                 "Position": [
                                     165,
@@ -412,7 +411,7 @@
                                 "Type": "1"
                             },
                             {
-                                "DstBlock": 7.407470703125,
+                                "DstBlock": 193.5228271484375,
                                 "DstPort": 0,
                                 "Position": [
                                     165,
@@ -497,14 +496,14 @@
                             0,
                             0
                         ],
-                        "Handle": 5.4295654296875,
+                        "Handle": 179.60986328125,
                         "Interpolate": "on",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [],
                             "LConn": [],
-                            "Outport": 9.4019775390625,
+                            "Outport": 197.8634033203125,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -516,7 +515,7 @@
                         "OutputAfterFinalValue": "Extrapolation",
                         "Path": "DiscretePulseGenerator_sample_2_PP/SignalBuilder/FromWs",
                         "PortConnectivity": {
-                            "DstBlock": 4.3721923828125,
+                            "DstBlock": 178.978515625,
                             "DstPort": 0,
                             "Position": [
                                 120,
@@ -604,12 +603,12 @@
                             0,
                             0
                         ],
-                        "Handle": 6.4324951171875,
+                        "Handle": 180.9403076171875,
                         "InitialOutput": "[]",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 8.3489990234375,
+                            "Inport": 194.8375244140625,
                             "LConn": [],
                             "Outport": [],
                             "RConn": [],
@@ -631,7 +630,7 @@
                                 275,
                                 35
                             ],
-                            "SrcBlock": 4.3721923828125,
+                            "SrcBlock": 178.978515625,
                             "SrcPort": 0,
                             "Type": "1"
                         },
@@ -711,12 +710,12 @@
                             0,
                             0
                         ],
-                        "Handle": 7.407470703125,
+                        "Handle": 193.5228271484375,
                         "InitialOutput": "[]",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 10.397216796875,
+                            "Inport": 282.8155517578125,
                             "LConn": [],
                             "Outport": [],
                             "RConn": [],
@@ -738,7 +737,7 @@
                                 275,
                                 65
                             ],
-                            "SrcBlock": 4.3721923828125,
+                            "SrcBlock": 178.978515625,
                             "SrcPort": 1,
                             "Type": "1"
                         },
@@ -764,21 +763,19 @@
                 },
                 "DataTypeOverride": "UseLocalSettings",
                 "ErrorFcn": "",
-                "ExecutionDomainType": "Deduce",
                 "FunctionInterfaceSpec": "void_void",
                 "FunctionWithSeparateData": "off",
-                "Handle": 3.3759765625,
+                "GeneratePreprocessorConditionals": "off",
+                "Handle": 148.7630615234375,
                 "IsSubsystemVirtual": "off",
-                "LabelModeActiveChoice": "",
-                "Latency": "0",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
                     "Outport": [
-                        12.45263671875,
-                        1876.660888671875
+                        292.610107421875,
+                        171112.00915527344
                     ],
                     "RConn": [],
                     "Reset": [],
@@ -792,15 +789,15 @@
                 "MinMaxOverflowLogging": "UseLocalSettings",
                 "Name": "SignalBuilder",
                 "Origin_path": "DiscretePulseGenerator_sample_2_PP/SignalBuilder",
-                "PartitionName": "",
+                "OverrideUsingVariant": "",
                 "Path": "DiscretePulseGenerator_sample_2_PP/SignalBuilder",
                 "Permissions": "ReadWrite",
                 "PermitHierarchicalResolution": "All",
                 "PortConnectivity": [
                     {
                         "DstBlock": [
-                            11.4495849609375,
-                            2.3697509765625
+                            285.980712890625,
+                            118.98291015625
                         ],
                         "DstPort": [
                             0,
@@ -815,7 +812,7 @@
                         "Type": "1"
                     },
                     {
-                        "DstBlock": 1874.660888671875,
+                        "DstBlock": 171110.00915527344,
                         "DstPort": 0,
                         "Position": [
                             505,
@@ -855,19 +852,14 @@
                 "RTWMemSecFuncExecute": "Inherit from model",
                 "RTWMemSecFuncInitTerm": "Inherit from model",
                 "RTWSystemCode": "Auto",
-                "ReferencedSubsystem": "",
                 "SFBlockType": "NONE",
-                "ScheduleAs": "Sample time",
-                "SetExecutionDomain": "off",
                 "ShowPortLabels": "FromPortIcon",
                 "SystemSampleTime": "-1",
                 "TemplateBlock": "",
                 "TreatAsAtomicUnit": "on",
                 "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                 "Variant": "off",
-                "VariantActivationTime": "update diagram",
                 "VariantControl": "",
-                "VariantControlMode": "expression",
                 "Virtual": "off",
                 "tuvar": "[0:10]"
             },
@@ -927,11 +919,11 @@
                     0,
                     0
                 ],
-                "Handle": 1874.660888671875,
+                "Handle": 171110.00915527344,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 1876.660888671875,
+                    "Inport": 171112.00915527344,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -949,7 +941,7 @@
                         510,
                         90
                     ],
-                    "SrcBlock": 3.3759765625,
+                    "SrcBlock": 148.7630615234375,
                     "SrcPort": 1,
                     "Type": "1"
                 },
@@ -972,7 +964,7 @@
                 ]
             }
         },
-        "Handle": 0.3697509765625,
+        "Handle": 9.9404296875,
         "Name": "DiscretePulseGenerator_sample_2_PP",
         "Origin_path": "DiscretePulseGenerator_sample_2_PP",
         "Path": "DiscretePulseGenerator_sample_2_PP"
@@ -981,8 +973,8 @@
         "Declarations": {
             "Enumerations": []
         },
-        "date": "23-Oct-2020",
-        "file_path": "/Users/hbourbou/Documents/babelfish.arc.nasa.gov/cocosim_github/cocosim_tests/Simulink/unitTests/PulseGenerator/DiscretePulseGenerator_sample_2_PP.slx",
+        "date": "01-Nov-2020",
+        "file_path": "/Users/ktrinh/cocosim/cocosim_github/cocosim_tests/Simulink/unitTests/PulseGenerator/DiscretePulseGenerator_sample_2_PP.slx",
         "sampleTime": 0.2
     }
 }

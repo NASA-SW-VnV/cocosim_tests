@@ -73,15 +73,14 @@
                     0
                 ],
                 "Content": {},
-                "DisallowWideOutput": "off",
-                "FunctionName": "fcgen",
-                "Handle": 3.1778564453125,
+                "FunctionName": "fcncallgen",
+                "Handle": 15.72607421875,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 18.14599609375,
+                    "Outport": 112.3126220703125,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -91,10 +90,10 @@
                 "MaskType": "Function-Call Generator",
                 "Name": "Function-Call\nGenerator",
                 "Origin_path": "FunctionCallSS1_PP/Function-Call\nGenerator",
-                "Parameters": "sample_time,numberOfIterations,DisallowWideOutput",
+                "Parameters": "sample_time,numberOfIterations",
                 "Path": "FunctionCallSS1_PP/Function_minus_CallGenerator",
                 "PortConnectivity": {
-                    "DstBlock": 4.1771240234375,
+                    "DstBlock": 48.1666259765625,
                     "DstPort": 1,
                     "Position": [
                         290,
@@ -249,13 +248,13 @@
                             -1,
                             -1
                         ],
-                        "Handle": 5.1690673828125,
+                        "Handle": 72.59326171875,
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [],
                             "LConn": [],
-                            "Outport": 10.1549072265625,
+                            "Outport": 104.8115234375,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -268,7 +267,7 @@
                         "Path": "FunctionCallSS1_PP/Function_minus_Call_newline_Subsystem/In1",
                         "Port": "1",
                         "PortConnectivity": {
-                            "DstBlock": 7.15380859375,
+                            "DstBlock": 85.95068359375,
                             "DstPort": 0,
                             "Position": [
                                 145,
@@ -354,12 +353,12 @@
                             -1,
                             -1
                         ],
-                        "Handle": 9.1549072265625,
+                        "Handle": 100.478515625,
                         "InitialOutput": "[]",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 13.150634765625,
+                            "Inport": 107.3218994140625,
                             "LConn": [],
                             "Outport": [],
                             "RConn": [],
@@ -381,7 +380,7 @@
                                 355,
                                 110
                             ],
-                            "SrcBlock": 7.15380859375,
+                            "SrcBlock": 85.95068359375,
                             "SrcPort": 0,
                             "Type": "1"
                         },
@@ -477,18 +476,18 @@
                             -1,
                             -1
                         ],
-                        "Handle": 7.15380859375,
+                        "Handle": 85.95068359375,
                         "InputSameDT": "off",
                         "Inputs": "|++",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [
-                                10.1549072265625,
-                                14.1480712890625
+                                104.8115234375,
+                                108.15966796875
                             ],
                             "LConn": [],
-                            "Outport": 11.14990234375,
+                            "Outport": 105.163818359375,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -509,7 +508,7 @@
                                     250,
                                     110
                                 ],
-                                "SrcBlock": 5.1690673828125,
+                                "SrcBlock": 72.59326171875,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
@@ -520,14 +519,14 @@
                                     265,
                                     125
                                 ],
-                                "SrcBlock": 8.158203125,
+                                "SrcBlock": 99.689697265625,
                                 "SrcPort": 0,
                                 "Type": "2"
                             },
                             {
                                 "DstBlock": [
-                                    9.1549072265625,
-                                    8.158203125
+                                    100.478515625,
+                                    99.689697265625
                                 ],
                                 "DstPort": [
                                     0,
@@ -625,15 +624,15 @@
                             -1,
                             -1
                         ],
-                        "Handle": 8.158203125,
+                        "Handle": 99.689697265625,
                         "InitialCondition": "0",
                         "InputProcessing": "Elements as channels (sample based)",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 12.1507568359375,
+                            "Inport": 106.1580810546875,
                             "LConn": [],
-                            "Outport": 14.1480712890625,
+                            "Outport": 108.15966796875,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -650,12 +649,12 @@
                                     325,
                                     150
                                 ],
-                                "SrcBlock": 7.15380859375,
+                                "SrcBlock": 85.95068359375,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
                             {
-                                "DstBlock": 7.15380859375,
+                                "DstBlock": 85.95068359375,
                                 "DstPort": 1,
                                 "Position": [
                                     275,
@@ -740,7 +739,7 @@
                             -1,
                             -1
                         ],
-                        "Handle": 6.169921875,
+                        "Handle": 73.9180908203125,
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
@@ -781,18 +780,18 @@
                     }
                 },
                 "DataTypeOverride": "UseLocalSettings",
-                "Handle": 4.1771240234375,
+                "Handle": 48.1666259765625,
                 "IsSubsystemVirtual": "off",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 16.144775390625,
+                    "Inport": 110.471923828125,
                     "LConn": [],
-                    "Outport": 17.1448974609375,
+                    "Outport": 111.3214111328125,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
-                    "Trigger": 18.14599609375
+                    "Trigger": 112.3126220703125
                 },
                 "Mask": "off",
                 "MaskType": "",
@@ -811,7 +810,7 @@
                             300,
                             165
                         ],
-                        "SrcBlock": 2.175048828125,
+                        "SrcBlock": 12.3489990234375,
                         "SrcPort": 0,
                         "Type": "1"
                     },
@@ -822,12 +821,12 @@
                             355,
                             139
                         ],
-                        "SrcBlock": 3.1778564453125,
+                        "SrcBlock": 15.72607421875,
                         "SrcPort": 0,
                         "Type": "trigger"
                     },
                     {
-                        "DstBlock": 15.14599609375,
+                        "DstBlock": 109.310546875,
                         "DstPort": 0,
                         "Position": [
                             410,
@@ -919,13 +918,13 @@
                     1,
                     0
                 ],
-                "Handle": 2.175048828125,
+                "Handle": 12.3489990234375,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 16.144775390625,
+                    "Outport": 110.471923828125,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -938,7 +937,7 @@
                 "Path": "FunctionCallSS1_PP/In1",
                 "Port": "1",
                 "PortConnectivity": {
-                    "DstBlock": 4.1771240234375,
+                    "DstBlock": 48.1666259765625,
                     "DstPort": 0,
                     "Position": [
                         240,
@@ -1024,12 +1023,12 @@
                     1,
                     0
                 ],
-                "Handle": 15.14599609375,
+                "Handle": 109.310546875,
                 "InitialOutput": "[]",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 17.1448974609375,
+                    "Inport": 111.3214111328125,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -1051,7 +1050,7 @@
                         435,
                         165
                     ],
-                    "SrcBlock": 4.1771240234375,
+                    "SrcBlock": 48.1666259765625,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -1075,7 +1074,7 @@
                 "UseBusObject": "off"
             }
         },
-        "Handle": 0.175048828125,
+        "Handle": 9.284423828125,
         "Name": "FunctionCallSS1_PP",
         "Origin_path": "FunctionCallSS1_PP",
         "Path": "FunctionCallSS1_PP"
@@ -1084,8 +1083,8 @@
         "Declarations": {
             "Enumerations": []
         },
-        "date": "23-Oct-2020",
-        "file_path": "/Users/hbourbou/Documents/babelfish.arc.nasa.gov/cocosim_github/cocosim_tests/Simulink/unitTests/FunctionCallGenerator/FunctionCallSS1_PP.slx",
+        "date": "01-Nov-2020",
+        "file_path": "/Users/ktrinh/cocosim/cocosim_github/cocosim_tests/Simulink/unitTests/FunctionCallGenerator/FunctionCallSS1_PP.slx",
         "sampleTime": 0.2
     }
 }

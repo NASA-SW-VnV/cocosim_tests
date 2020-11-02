@@ -69,13 +69,13 @@
                     0.2,
                     0
                 ],
-                "Handle": 2.2591552734375,
+                "Handle": 48.8447265625,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 5.253173828125,
+                    "Outport": 104.9349365234375,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -88,7 +88,7 @@
                 "Path": "lookup_nD_TestGen23_PP/In1",
                 "Port": "1",
                 "PortConnectivity": {
-                    "DstBlock": 3.26513671875,
+                    "DstBlock": 72.69091796875,
                     "DstPort": 0,
                     "Position": [
                         110,
@@ -174,12 +174,12 @@
                     0.2,
                     0
                 ],
-                "Handle": 4.2613525390625,
+                "Handle": 99.8072509765625,
                 "InitialOutput": "[]",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 6.2542724609375,
+                    "Inport": 105.296142578125,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -201,7 +201,7 @@
                         250,
                         90
                     ],
-                    "SrcBlock": 3.26513671875,
+                    "SrcBlock": 72.69091796875,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -293,7 +293,6 @@
                 "BreakpointsForDimension1FirstPoint": "1",
                 "BreakpointsForDimension1Max": "[]",
                 "BreakpointsForDimension1Min": "[]",
-                "BreakpointsForDimension1Source": "Dialog",
                 "BreakpointsForDimension1Spacing": "1",
                 "BreakpointsForDimension2": "[17.6532217600117;24.2409402742846;52.42306599512;66.8329842287683;94.6750041243692]",
                 "BreakpointsForDimension20": "[1:3]",
@@ -360,7 +359,6 @@
                 "BreakpointsForDimension2FirstPoint": "1",
                 "BreakpointsForDimension2Max": "[]",
                 "BreakpointsForDimension2Min": "[]",
-                "BreakpointsForDimension2Source": "Dialog",
                 "BreakpointsForDimension2Spacing": "1",
                 "BreakpointsForDimension3": "[9.80810188133678;12.3640308065293;49.1078972227451]",
                 "BreakpointsForDimension30": "[1:3]",
@@ -373,7 +371,6 @@
                 "BreakpointsForDimension3FirstPoint": "1",
                 "BreakpointsForDimension3Max": "[]",
                 "BreakpointsForDimension3Min": "[]",
-                "BreakpointsForDimension3Source": "Dialog",
                 "BreakpointsForDimension3Spacing": "1",
                 "BreakpointsForDimension4": "[40.8569941950685;92.745883735397]",
                 "BreakpointsForDimension4DataTypeStr": "int8",
@@ -474,18 +471,18 @@
                 "DiagnosticForOutOfRangeInput": "None",
                 "ExtrapMethod": "Clip",
                 "FractionDataTypeStr": "single",
-                "Handle": 3.26513671875,
+                "Handle": 72.69091796875,
                 "IndexSearchMethod": "Binary search",
                 "InputSameDT": "on",
                 "IntermediateResultsDataTypeStr": "Inherit: Same as output",
                 "InternalRulePriority": "Speed",
-                "InterpMethod": "Linear point-slope",
+                "InterpMethod": "Linear",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 5.253173828125,
+                    "Inport": 104.9349365234375,
                     "LConn": [],
-                    "Outport": 6.2542724609375,
+                    "Outport": 105.296142578125,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -509,12 +506,12 @@
                             160,
                             90
                         ],
-                        "SrcBlock": 2.2591552734375,
+                        "SrcBlock": 48.8447265625,
                         "SrcPort": 0,
                         "Type": "1"
                     },
                     {
-                        "DstBlock": 4.2613525390625,
+                        "DstBlock": 99.8072509765625,
                         "DstPort": 0,
                         "Position": [
                             200,
@@ -551,12 +548,11 @@
                 "TableDataTypeStr": "Inherit: Same as output",
                 "TableMax": "[]",
                 "TableMin": "[]",
-                "TableSource": "Dialog",
                 "UseLastTableValue": "on",
                 "UseOneInputPortForAllInputData": "on"
             }
         },
-        "Handle": 0.2591552734375,
+        "Handle": 9.82666015625,
         "Name": "lookup_nD_TestGen23_PP",
         "Origin_path": "lookup_nD_TestGen23_PP",
         "Path": "lookup_nD_TestGen23_PP"
@@ -565,8 +561,8 @@
         "Declarations": {
             "Enumerations": []
         },
-        "date": "23-Oct-2020",
-        "file_path": "/Users/hbourbou/Documents/babelfish.arc.nasa.gov/cocosim_github/cocosim_tests/Simulink/unitTests/Lookup_nD/lookup_nD_TestGen23_PP.slx",
+        "date": "01-Nov-2020",
+        "file_path": "/Users/ktrinh/cocosim/cocosim_github/cocosim_tests/Simulink/unitTests/Lookup_nD/lookup_nD_TestGen23_PP.slx",
         "sampleTime": 0.2
     }
 }

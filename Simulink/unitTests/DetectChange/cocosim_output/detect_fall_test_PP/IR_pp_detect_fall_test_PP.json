@@ -13,13 +13,12 @@
         ],
         "Content": {
             "DetectFallNegative": {
+                "ActiveVariant": "",
+                "ActiveVariantBlock": "",
                 "AllowZeroVariantControls": "off",
                 "AttributesFormatString": "",
-                "AutoFrameSizeCalculation": "off",
                 "BlockChoice": "",
                 "BlockType": "SubSystem",
-                "CompiledActiveChoiceBlock": "",
-                "CompiledActiveChoiceControl": "",
                 "CompiledPortComplexSignals": {
                     "Enable": [],
                     "Ifaction": [],
@@ -86,15 +85,15 @@
                 ],
                 "Content": {
                     "Annotation": [
-                        30.007568359375,
-                        29.007568359375
+                        32.008544921875,
+                        31.1640625
                     ],
                     "Annotation1": {
-                        "Handle": 30.007568359375,
+                        "Handle": 32.008544921875,
                         "Text": "U(k)"
                     },
                     "Annotation2": {
-                        "Handle": 29.007568359375,
+                        "Handle": 31.1640625,
                         "Text": "Edge"
                     },
                     "DelayInput1": {
@@ -159,15 +158,15 @@
                             0.2,
                             0
                         ],
-                        "Handle": 12.007568359375,
+                        "Handle": 14.004150390625,
                         "InitialCondition": "vinit",
-                        "InputProcessing": "Elements as channels (sample based)",
+                        "InputProcessing": "Inherited",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 27.007568359375,
+                            "Inport": 29.00439453125,
                             "LConn": [],
-                            "Outport": 24.007568359375,
+                            "Outport": 26.0045166015625,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -184,12 +183,12 @@
                                     205,
                                     65
                                 ],
-                                "SrcBlock": 14.007568359375,
+                                "SrcBlock": 16.1641845703125,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
                             {
-                                "DstBlock": 13.007568359375,
+                                "DstBlock": 15.004638671875,
                                 "DstPort": 1,
                                 "Position": [
                                     245,
@@ -293,17 +292,17 @@
                             0.2,
                             0
                         ],
-                        "Handle": 13.007568359375,
+                        "Handle": 15.004638671875,
                         "InputSameDT": "off",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [
-                                28.007568359375,
-                                24.007568359375
+                                30.004638671875,
+                                26.0045166015625
                             ],
                             "LConn": [],
-                            "Outport": 25.007568359375,
+                            "Outport": 27.0040283203125,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -322,7 +321,7 @@
                                     315,
                                     35
                                 ],
-                                "SrcBlock": 14.007568359375,
+                                "SrcBlock": 16.1641845703125,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
@@ -333,12 +332,12 @@
                                     315,
                                     65
                                 ],
-                                "SrcBlock": 12.007568359375,
+                                "SrcBlock": 14.004150390625,
                                 "SrcPort": 0,
                                 "Type": "2"
                             },
                             {
-                                "DstBlock": 22.007568359375,
+                                "DstBlock": 24.0040283203125,
                                 "DstPort": 0,
                                 "Position": [
                                     360,
@@ -371,13 +370,12 @@
                         "ZeroCross": "off"
                     },
                     "Negative": {
+                        "ActiveVariant": "",
+                        "ActiveVariantBlock": "",
                         "AllowZeroVariantControls": "off",
                         "AttributesFormatString": "",
-                        "AutoFrameSizeCalculation": "off",
                         "BlockChoice": "",
                         "BlockType": "SubSystem",
-                        "CompiledActiveChoiceBlock": "",
-                        "CompiledActiveChoiceControl": "",
                         "CompiledPortComplexSignals": {
                             "Enable": [],
                             "Ifaction": [],
@@ -513,17 +511,17 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 16.007568359375,
+                                "Handle": 18.0040283203125,
                                 "InputSameDT": "on",
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [
-                                        20.007568359375,
-                                        19.007568359375
+                                        22.0089111328125,
+                                        21.1640625
                                     ],
                                     "LConn": [],
-                                    "Outport": 21.007568359375,
+                                    "Outport": 23.004638671875,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -542,7 +540,7 @@
                                             140,
                                             35
                                         ],
-                                        "SrcBlock": 15.007568359375,
+                                        "SrcBlock": 17.00830078125,
                                         "SrcPort": 0,
                                         "Type": "1"
                                     },
@@ -553,12 +551,12 @@
                                             140,
                                             70
                                         ],
-                                        "SrcBlock": 17.007568359375,
+                                        "SrcBlock": 19.0037841796875,
                                         "SrcPort": 0,
                                         "Type": "2"
                                     },
                                     {
-                                        "DstBlock": 18.007568359375,
+                                        "DstBlock": 20.0042724609375,
                                         "DstPort": 0,
                                         "Position": [
                                             190,
@@ -647,13 +645,13 @@
                                     null
                                 ],
                                 "FramePeriod": "inf",
-                                "Handle": 17.007568359375,
+                                "Handle": 19.0037841796875,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 19.007568359375,
+                                    "Outport": 21.1640625,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -667,7 +665,7 @@
                                 "OutMin": "[]",
                                 "Path": "detect_fall_test_PP/DetectFallNegative/Negative/Constant",
                                 "PortConnectivity": {
-                                    "DstBlock": 16.007568359375,
+                                    "DstBlock": 18.0040283203125,
                                     "DstPort": 1,
                                     "Position": [
                                         105,
@@ -755,13 +753,13 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 15.007568359375,
+                                "Handle": 17.00830078125,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 20.007568359375,
+                                    "Outport": 22.0089111328125,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -774,7 +772,7 @@
                                 "Path": "detect_fall_test_PP/DetectFallNegative/Negative/u",
                                 "Port": "1",
                                 "PortConnectivity": {
-                                    "DstBlock": 16.007568359375,
+                                    "DstBlock": 18.0040283203125,
                                     "DstPort": 0,
                                     "Position": [
                                         50,
@@ -860,12 +858,12 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 18.007568359375,
+                                "Handle": 20.0042724609375,
                                 "InitialOutput": "[]",
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
-                                    "Inport": 21.007568359375,
+                                    "Inport": 23.004638671875,
                                     "LConn": [],
                                     "Outport": [],
                                     "RConn": [],
@@ -887,7 +885,7 @@
                                         265,
                                         55
                                     ],
-                                    "SrcBlock": 16.007568359375,
+                                    "SrcBlock": 18.0040283203125,
                                     "SrcPort": 0,
                                     "Type": "1"
                                 },
@@ -913,19 +911,17 @@
                         },
                         "DataTypeOverride": "UseLocalSettings",
                         "ErrorFcn": "",
-                        "ExecutionDomainType": "Deduce",
                         "FunctionInterfaceSpec": "void_void",
                         "FunctionWithSeparateData": "off",
-                        "Handle": 14.007568359375,
+                        "GeneratePreprocessorConditionals": "off",
+                        "Handle": 16.1641845703125,
                         "IsSubsystemVirtual": "off",
-                        "LabelModeActiveChoice": "",
-                        "Latency": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 23.007568359375,
+                            "Inport": 25.003662109375,
                             "LConn": [],
-                            "Outport": 26.007568359375,
+                            "Outport": 28.00390625,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -939,7 +935,7 @@
                         "Name": "Negative",
                         "Origin_path": "detect_fall_test_PP/Detect Fall\nNegative/Negative",
                         "OutDataTypeStr": "boolean",
-                        "PartitionName": "",
+                        "OverrideUsingVariant": "",
                         "Path": "detect_fall_test_PP/DetectFallNegative/Negative",
                         "Permissions": "ReadWrite",
                         "PermitHierarchicalResolution": "All",
@@ -951,14 +947,14 @@
                                     80,
                                     65
                                 ],
-                                "SrcBlock": 11.007568359375,
+                                "SrcBlock": 13.0045166015625,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
                             {
                                 "DstBlock": [
-                                    13.007568359375,
-                                    12.007568359375
+                                    15.004638671875,
+                                    14.004150390625
                                 ],
                                 "DstPort": [
                                     0,
@@ -1002,19 +998,14 @@
                         "RTWMemSecFuncExecute": "Inherit from model",
                         "RTWMemSecFuncInitTerm": "Inherit from model",
                         "RTWSystemCode": "Auto",
-                        "ReferencedSubsystem": "",
                         "SFBlockType": "NONE",
-                        "ScheduleAs": "Sample time",
-                        "SetExecutionDomain": "off",
                         "ShowPortLabels": "FromPortIcon",
                         "SystemSampleTime": "-1",
                         "TemplateBlock": "",
                         "TreatAsAtomicUnit": "on",
                         "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                         "Variant": "off",
-                        "VariantActivationTime": "update diagram",
                         "VariantControl": "",
-                        "VariantControlMode": "expression",
                         "Virtual": "off",
                         "ZeroCross": "off",
                         "relop": "<"
@@ -1076,13 +1067,13 @@
                             0.2,
                             0
                         ],
-                        "Handle": 11.007568359375,
+                        "Handle": 13.0045166015625,
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [],
                             "LConn": [],
-                            "Outport": 23.007568359375,
+                            "Outport": 25.003662109375,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -1095,7 +1086,7 @@
                         "Path": "detect_fall_test_PP/DetectFallNegative/U",
                         "Port": "1",
                         "PortConnectivity": {
-                            "DstBlock": 14.007568359375,
+                            "DstBlock": 16.1641845703125,
                             "DstPort": 0,
                             "Position": [
                                 50,
@@ -1181,12 +1172,12 @@
                             0.2,
                             0
                         ],
-                        "Handle": 22.007568359375,
+                        "Handle": 24.0040283203125,
                         "InitialOutput": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 25.007568359375,
+                            "Inport": 27.0040283203125,
                             "LConn": [],
                             "Outport": [],
                             "RConn": [],
@@ -1208,7 +1199,7 @@
                                 465,
                                 50
                             ],
-                            "SrcBlock": 13.007568359375,
+                            "SrcBlock": 15.004638671875,
                             "SrcPort": 0,
                             "Type": "1"
                         },
@@ -1234,20 +1225,18 @@
                 },
                 "DataTypeOverride": "UseLocalSettings",
                 "ErrorFcn": "",
-                "ExecutionDomainType": "Deduce",
                 "FunctionInterfaceSpec": "void_void",
                 "FunctionWithSeparateData": "off",
-                "Handle": 10.007568359375,
-                "InputProcessing": "Elements as channels (sample based)",
+                "GeneratePreprocessorConditionals": "off",
+                "Handle": 12.004150390625,
+                "InputProcessing": "Inherited",
                 "IsSubsystemVirtual": "off",
-                "LabelModeActiveChoice": "",
-                "Latency": "0",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 258.007568359375,
+                    "Inport": 258.003173828125,
                     "LConn": [],
-                    "Outport": 257.007568359375,
+                    "Outport": 257.0029296875,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -1261,7 +1250,7 @@
                 "Name": "Detect Fall\nNegative",
                 "Origin_path": "detect_fall_test_PP/Detect Fall\nNegative",
                 "OutDataTypeStr": "boolean",
-                "PartitionName": "",
+                "OverrideUsingVariant": "",
                 "Path": "detect_fall_test_PP/DetectFallNegative",
                 "Permissions": "ReadWrite",
                 "PermitHierarchicalResolution": "All",
@@ -1273,12 +1262,12 @@
                             85,
                             35
                         ],
-                        "SrcBlock": 2.007568359375,
+                        "SrcBlock": 4.2366943359375,
                         "SrcPort": 0,
                         "Type": "1"
                     },
                     {
-                        "DstBlock": 249.007568359375,
+                        "DstBlock": 249.0030517578125,
                         "DstPort": 0,
                         "Position": [
                             155,
@@ -1318,30 +1307,24 @@
                 "RTWMemSecFuncExecute": "Inherit from model",
                 "RTWMemSecFuncInitTerm": "Inherit from model",
                 "RTWSystemCode": "Auto",
-                "ReferencedSubsystem": "",
                 "SFBlockType": "NONE",
-                "ScheduleAs": "Sample time",
-                "SetExecutionDomain": "off",
                 "ShowPortLabels": "FromPortIcon",
                 "SystemSampleTime": "-1",
                 "TemplateBlock": "",
                 "TreatAsAtomicUnit": "on",
                 "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                 "Variant": "off",
-                "VariantActivationTime": "update diagram",
                 "VariantControl": "",
-                "VariantControlMode": "expression",
                 "Virtual": "off",
                 "vinit": "0"
             },
             "DetectFallNegative1": {
+                "ActiveVariant": "",
+                "ActiveVariantBlock": "",
                 "AllowZeroVariantControls": "off",
                 "AttributesFormatString": "",
-                "AutoFrameSizeCalculation": "off",
                 "BlockChoice": "",
                 "BlockType": "SubSystem",
-                "CompiledActiveChoiceBlock": "",
-                "CompiledActiveChoiceControl": "",
                 "CompiledPortComplexSignals": {
                     "Enable": [],
                     "Ifaction": [],
@@ -1408,15 +1391,15 @@
                 ],
                 "Content": {
                     "Annotation": [
-                        115.007568359375,
-                        114.007568359375
+                        115.003662109375,
+                        114.0040283203125
                     ],
                     "Annotation1": {
-                        "Handle": 115.007568359375,
+                        "Handle": 115.003662109375,
                         "Text": "U(k)"
                     },
                     "Annotation2": {
-                        "Handle": 114.007568359375,
+                        "Handle": 114.0040283203125,
                         "Text": "Edge"
                     },
                     "DelayInput1": {
@@ -1481,15 +1464,15 @@
                             0.2,
                             0
                         ],
-                        "Handle": 33.007568359375,
+                        "Handle": 35.0045166015625,
                         "InitialCondition": "vinit",
-                        "InputProcessing": "Elements as channels (sample based)",
+                        "InputProcessing": "Inherited",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 112.007568359375,
+                            "Inport": 112.005126953125,
                             "LConn": [],
-                            "Outport": 109.007568359375,
+                            "Outport": 109.0029296875,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -1506,12 +1489,12 @@
                                     205,
                                     65
                                 ],
-                                "SrcBlock": 35.007568359375,
+                                "SrcBlock": 37.0081787109375,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
                             {
-                                "DstBlock": 34.007568359375,
+                                "DstBlock": 36.16357421875,
                                 "DstPort": 1,
                                 "Position": [
                                     245,
@@ -1615,17 +1598,17 @@
                             0.2,
                             0
                         ],
-                        "Handle": 34.007568359375,
+                        "Handle": 36.16357421875,
                         "InputSameDT": "off",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [
-                                113.007568359375,
-                                109.007568359375
+                                113.004150390625,
+                                109.0029296875
                             ],
                             "LConn": [],
-                            "Outport": 110.007568359375,
+                            "Outport": 110.00341796875,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -1644,7 +1627,7 @@
                                     315,
                                     35
                                 ],
-                                "SrcBlock": 35.007568359375,
+                                "SrcBlock": 37.0081787109375,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
@@ -1655,12 +1638,12 @@
                                     315,
                                     65
                                 ],
-                                "SrcBlock": 33.007568359375,
+                                "SrcBlock": 35.0045166015625,
                                 "SrcPort": 0,
                                 "Type": "2"
                             },
                             {
-                                "DstBlock": 107.007568359375,
+                                "DstBlock": 107.00390625,
                                 "DstPort": 0,
                                 "Position": [
                                     360,
@@ -1693,13 +1676,12 @@
                         "ZeroCross": "off"
                     },
                     "Negative": {
+                        "ActiveVariant": "",
+                        "ActiveVariantBlock": "",
                         "AllowZeroVariantControls": "off",
                         "AttributesFormatString": "",
-                        "AutoFrameSizeCalculation": "off",
                         "BlockChoice": "",
                         "BlockType": "SubSystem",
-                        "CompiledActiveChoiceBlock": "",
-                        "CompiledActiveChoiceControl": "",
                         "CompiledPortComplexSignals": {
                             "Enable": [],
                             "Ifaction": [],
@@ -1835,17 +1817,17 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 37.007568359375,
+                                "Handle": 39.0040283203125,
                                 "InputSameDT": "on",
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [
-                                        41.007568359375,
-                                        40.007568359375
+                                        43.0047607421875,
+                                        42.008544921875
                                     ],
                                     "LConn": [],
-                                    "Outport": 106.008544921875,
+                                    "Outport": 106.00439453125,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -1864,7 +1846,7 @@
                                             140,
                                             35
                                         ],
-                                        "SrcBlock": 36.007568359375,
+                                        "SrcBlock": 38.0042724609375,
                                         "SrcPort": 0,
                                         "Type": "1"
                                     },
@@ -1875,12 +1857,12 @@
                                             140,
                                             70
                                         ],
-                                        "SrcBlock": 38.007568359375,
+                                        "SrcBlock": 40.0035400390625,
                                         "SrcPort": 0,
                                         "Type": "2"
                                     },
                                     {
-                                        "DstBlock": 39.007568359375,
+                                        "DstBlock": 41.1646728515625,
                                         "DstPort": 0,
                                         "Position": [
                                             190,
@@ -1969,13 +1951,13 @@
                                     null
                                 ],
                                 "FramePeriod": "inf",
-                                "Handle": 38.007568359375,
+                                "Handle": 40.0035400390625,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 40.007568359375,
+                                    "Outport": 42.008544921875,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -1989,7 +1971,7 @@
                                 "OutMin": "[]",
                                 "Path": "detect_fall_test_PP/DetectFallNegative1/Negative/Constant",
                                 "PortConnectivity": {
-                                    "DstBlock": 37.007568359375,
+                                    "DstBlock": 39.0040283203125,
                                     "DstPort": 1,
                                     "Position": [
                                         105,
@@ -2077,13 +2059,13 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 36.007568359375,
+                                "Handle": 38.0042724609375,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 41.007568359375,
+                                    "Outport": 43.0047607421875,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -2096,7 +2078,7 @@
                                 "Path": "detect_fall_test_PP/DetectFallNegative1/Negative/u",
                                 "Port": "1",
                                 "PortConnectivity": {
-                                    "DstBlock": 37.007568359375,
+                                    "DstBlock": 39.0040283203125,
                                     "DstPort": 0,
                                     "Position": [
                                         50,
@@ -2182,12 +2164,12 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 39.007568359375,
+                                "Handle": 41.1646728515625,
                                 "InitialOutput": "[]",
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
-                                    "Inport": 106.008544921875,
+                                    "Inport": 106.00439453125,
                                     "LConn": [],
                                     "Outport": [],
                                     "RConn": [],
@@ -2209,7 +2191,7 @@
                                         265,
                                         55
                                     ],
-                                    "SrcBlock": 37.007568359375,
+                                    "SrcBlock": 39.0040283203125,
                                     "SrcPort": 0,
                                     "Type": "1"
                                 },
@@ -2235,19 +2217,17 @@
                         },
                         "DataTypeOverride": "UseLocalSettings",
                         "ErrorFcn": "",
-                        "ExecutionDomainType": "Deduce",
                         "FunctionInterfaceSpec": "void_void",
                         "FunctionWithSeparateData": "off",
-                        "Handle": 35.007568359375,
+                        "GeneratePreprocessorConditionals": "off",
+                        "Handle": 37.0081787109375,
                         "IsSubsystemVirtual": "off",
-                        "LabelModeActiveChoice": "",
-                        "Latency": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 108.007568359375,
+                            "Inport": 108.0029296875,
                             "LConn": [],
-                            "Outport": 111.007568359375,
+                            "Outport": 111.0035400390625,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -2261,7 +2241,7 @@
                         "Name": "Negative",
                         "Origin_path": "detect_fall_test_PP/Detect Fall\nNegative1/Negative",
                         "OutDataTypeStr": "boolean",
-                        "PartitionName": "",
+                        "OverrideUsingVariant": "",
                         "Path": "detect_fall_test_PP/DetectFallNegative1/Negative",
                         "Permissions": "ReadWrite",
                         "PermitHierarchicalResolution": "All",
@@ -2273,14 +2253,14 @@
                                     80,
                                     65
                                 ],
-                                "SrcBlock": 32.007568359375,
+                                "SrcBlock": 34.005126953125,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
                             {
                                 "DstBlock": [
-                                    34.007568359375,
-                                    33.007568359375
+                                    36.16357421875,
+                                    35.0045166015625
                                 ],
                                 "DstPort": [
                                     0,
@@ -2324,19 +2304,14 @@
                         "RTWMemSecFuncExecute": "Inherit from model",
                         "RTWMemSecFuncInitTerm": "Inherit from model",
                         "RTWSystemCode": "Auto",
-                        "ReferencedSubsystem": "",
                         "SFBlockType": "NONE",
-                        "ScheduleAs": "Sample time",
-                        "SetExecutionDomain": "off",
                         "ShowPortLabels": "FromPortIcon",
                         "SystemSampleTime": "-1",
                         "TemplateBlock": "",
                         "TreatAsAtomicUnit": "on",
                         "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                         "Variant": "off",
-                        "VariantActivationTime": "update diagram",
                         "VariantControl": "",
-                        "VariantControlMode": "expression",
                         "Virtual": "off",
                         "ZeroCross": "off",
                         "relop": "<"
@@ -2398,13 +2373,13 @@
                             0.2,
                             0
                         ],
-                        "Handle": 32.007568359375,
+                        "Handle": 34.005126953125,
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [],
                             "LConn": [],
-                            "Outport": 108.007568359375,
+                            "Outport": 108.0029296875,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -2417,7 +2392,7 @@
                         "Path": "detect_fall_test_PP/DetectFallNegative1/U",
                         "Port": "1",
                         "PortConnectivity": {
-                            "DstBlock": 35.007568359375,
+                            "DstBlock": 37.0081787109375,
                             "DstPort": 0,
                             "Position": [
                                 50,
@@ -2503,12 +2478,12 @@
                             0.2,
                             0
                         ],
-                        "Handle": 107.007568359375,
+                        "Handle": 107.00390625,
                         "InitialOutput": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 110.007568359375,
+                            "Inport": 110.00341796875,
                             "LConn": [],
                             "Outport": [],
                             "RConn": [],
@@ -2530,7 +2505,7 @@
                                 465,
                                 50
                             ],
-                            "SrcBlock": 34.007568359375,
+                            "SrcBlock": 36.16357421875,
                             "SrcPort": 0,
                             "Type": "1"
                         },
@@ -2556,20 +2531,18 @@
                 },
                 "DataTypeOverride": "UseLocalSettings",
                 "ErrorFcn": "",
-                "ExecutionDomainType": "Deduce",
                 "FunctionInterfaceSpec": "void_void",
                 "FunctionWithSeparateData": "off",
-                "Handle": 31.007568359375,
-                "InputProcessing": "Elements as channels (sample based)",
+                "GeneratePreprocessorConditionals": "off",
+                "Handle": 33.0042724609375,
+                "InputProcessing": "Inherited",
                 "IsSubsystemVirtual": "off",
-                "LabelModeActiveChoice": "",
-                "Latency": "0",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 260.007568359375,
+                    "Inport": 260.00390625,
                     "LConn": [],
-                    "Outport": 259.007568359375,
+                    "Outport": 259.0030517578125,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -2583,7 +2556,7 @@
                 "Name": "Detect Fall\nNegative1",
                 "Origin_path": "detect_fall_test_PP/Detect Fall\nNegative1",
                 "OutDataTypeStr": "boolean",
-                "PartitionName": "",
+                "OverrideUsingVariant": "",
                 "Path": "detect_fall_test_PP/DetectFallNegative1",
                 "Permissions": "ReadWrite",
                 "PermitHierarchicalResolution": "All",
@@ -2595,12 +2568,12 @@
                             85,
                             130
                         ],
-                        "SrcBlock": 3.007568359375,
+                        "SrcBlock": 5.003173828125,
                         "SrcPort": 0,
                         "Type": "1"
                     },
                     {
-                        "DstBlock": 250.007568359375,
+                        "DstBlock": 250.1627197265625,
                         "DstPort": 0,
                         "Position": [
                             155,
@@ -2640,30 +2613,24 @@
                 "RTWMemSecFuncExecute": "Inherit from model",
                 "RTWMemSecFuncInitTerm": "Inherit from model",
                 "RTWSystemCode": "Auto",
-                "ReferencedSubsystem": "",
                 "SFBlockType": "NONE",
-                "ScheduleAs": "Sample time",
-                "SetExecutionDomain": "off",
                 "ShowPortLabels": "FromPortIcon",
                 "SystemSampleTime": "-1",
                 "TemplateBlock": "",
                 "TreatAsAtomicUnit": "on",
                 "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                 "Variant": "off",
-                "VariantActivationTime": "update diagram",
                 "VariantControl": "",
-                "VariantControlMode": "expression",
                 "Virtual": "off",
                 "vinit": "0"
             },
             "DetectFallNegative2": {
+                "ActiveVariant": "",
+                "ActiveVariantBlock": "",
                 "AllowZeroVariantControls": "off",
                 "AttributesFormatString": "",
-                "AutoFrameSizeCalculation": "off",
                 "BlockChoice": "",
                 "BlockType": "SubSystem",
-                "CompiledActiveChoiceBlock": "",
-                "CompiledActiveChoiceControl": "",
                 "CompiledPortComplexSignals": {
                     "Enable": [],
                     "Ifaction": [],
@@ -2732,15 +2699,15 @@
                 ],
                 "Content": {
                     "Annotation": [
-                        143.007568359375,
-                        142.007568359375
+                        143.0074462890625,
+                        142.1644287109375
                     ],
                     "Annotation1": {
-                        "Handle": 143.007568359375,
+                        "Handle": 143.0074462890625,
                         "Text": "U(k)"
                     },
                     "Annotation2": {
-                        "Handle": 142.007568359375,
+                        "Handle": 142.1644287109375,
                         "Text": "Edge"
                     },
                     "DelayInput1": {
@@ -2807,15 +2774,15 @@
                             0.2,
                             0
                         ],
-                        "Handle": 118.007568359375,
+                        "Handle": 118.0037841796875,
                         "InitialCondition": "vinit",
-                        "InputProcessing": "Elements as channels (sample based)",
+                        "InputProcessing": "Inherited",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 140.007568359375,
+                            "Inport": 140.0042724609375,
                             "LConn": [],
-                            "Outport": 137.007568359375,
+                            "Outport": 137.0037841796875,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -2832,12 +2799,12 @@
                                     205,
                                     65
                                 ],
-                                "SrcBlock": 127.0076904296875,
+                                "SrcBlock": 127.0054931640625,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
                             {
-                                "DstBlock": 119.007568359375,
+                                "DstBlock": 119.00390625,
                                 "DstPort": 1,
                                 "Position": [
                                     245,
@@ -2944,17 +2911,17 @@
                             0.2,
                             0
                         ],
-                        "Handle": 119.007568359375,
+                        "Handle": 119.00390625,
                         "InputSameDT": "off",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [
-                                141.007568359375,
-                                137.007568359375
+                                141.0042724609375,
+                                137.0037841796875
                             ],
                             "LConn": [],
-                            "Outport": 138.007568359375,
+                            "Outport": 138.00341796875,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -2973,7 +2940,7 @@
                                     315,
                                     35
                                 ],
-                                "SrcBlock": 127.0076904296875,
+                                "SrcBlock": 127.0054931640625,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
@@ -2984,12 +2951,12 @@
                                     315,
                                     65
                                 ],
-                                "SrcBlock": 118.007568359375,
+                                "SrcBlock": 118.0037841796875,
                                 "SrcPort": 0,
                                 "Type": "2"
                             },
                             {
-                                "DstBlock": 135.007568359375,
+                                "DstBlock": 135.004638671875,
                                 "DstPort": 0,
                                 "Position": [
                                     360,
@@ -3022,13 +2989,12 @@
                         "ZeroCross": "off"
                     },
                     "Negative": {
+                        "ActiveVariant": "",
+                        "ActiveVariantBlock": "",
                         "AllowZeroVariantControls": "off",
                         "AttributesFormatString": "",
-                        "AutoFrameSizeCalculation": "off",
                         "BlockChoice": "",
                         "BlockType": "SubSystem",
-                        "CompiledActiveChoiceBlock": "",
-                        "CompiledActiveChoiceControl": "",
                         "CompiledPortComplexSignals": {
                             "Enable": [],
                             "Ifaction": [],
@@ -3168,17 +3134,17 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 129.007568359375,
+                                "Handle": 129.0037841796875,
                                 "InputSameDT": "on",
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [
-                                        133.007568359375,
-                                        132.007568359375
+                                        133.0057373046875,
+                                        132.00390625
                                     ],
                                     "LConn": [],
-                                    "Outport": 134.007568359375,
+                                    "Outport": 134.0054931640625,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -3197,7 +3163,7 @@
                                             140,
                                             35
                                         ],
-                                        "SrcBlock": 128.007568359375,
+                                        "SrcBlock": 128.004150390625,
                                         "SrcPort": 0,
                                         "Type": "1"
                                     },
@@ -3208,12 +3174,12 @@
                                             140,
                                             70
                                         ],
-                                        "SrcBlock": 130.007568359375,
+                                        "SrcBlock": 130.0032958984375,
                                         "SrcPort": 0,
                                         "Type": "2"
                                     },
                                     {
-                                        "DstBlock": 131.007568359375,
+                                        "DstBlock": 131.00341796875,
                                         "DstPort": 0,
                                         "Position": [
                                             190,
@@ -3302,13 +3268,13 @@
                                     null
                                 ],
                                 "FramePeriod": "inf",
-                                "Handle": 130.007568359375,
+                                "Handle": 130.0032958984375,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 132.007568359375,
+                                    "Outport": 132.00390625,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -3322,7 +3288,7 @@
                                 "OutMin": "[]",
                                 "Path": "detect_fall_test_PP/DetectFallNegative2/Negative/Constant",
                                 "PortConnectivity": {
-                                    "DstBlock": 129.007568359375,
+                                    "DstBlock": 129.0037841796875,
                                     "DstPort": 1,
                                     "Position": [
                                         105,
@@ -3411,13 +3377,13 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 128.007568359375,
+                                "Handle": 128.004150390625,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 133.007568359375,
+                                    "Outport": 133.0057373046875,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -3430,7 +3396,7 @@
                                 "Path": "detect_fall_test_PP/DetectFallNegative2/Negative/u",
                                 "Port": "1",
                                 "PortConnectivity": {
-                                    "DstBlock": 129.007568359375,
+                                    "DstBlock": 129.0037841796875,
                                     "DstPort": 0,
                                     "Position": [
                                         50,
@@ -3517,12 +3483,12 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 131.007568359375,
+                                "Handle": 131.00341796875,
                                 "InitialOutput": "[]",
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
-                                    "Inport": 134.007568359375,
+                                    "Inport": 134.0054931640625,
                                     "LConn": [],
                                     "Outport": [],
                                     "RConn": [],
@@ -3544,7 +3510,7 @@
                                         265,
                                         55
                                     ],
-                                    "SrcBlock": 129.007568359375,
+                                    "SrcBlock": 129.0037841796875,
                                     "SrcPort": 0,
                                     "Type": "1"
                                 },
@@ -3570,19 +3536,17 @@
                         },
                         "DataTypeOverride": "UseLocalSettings",
                         "ErrorFcn": "",
-                        "ExecutionDomainType": "Deduce",
                         "FunctionInterfaceSpec": "void_void",
                         "FunctionWithSeparateData": "off",
-                        "Handle": 127.0076904296875,
+                        "GeneratePreprocessorConditionals": "off",
+                        "Handle": 127.0054931640625,
                         "IsSubsystemVirtual": "off",
-                        "LabelModeActiveChoice": "",
-                        "Latency": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 136.007568359375,
+                            "Inport": 136.003173828125,
                             "LConn": [],
-                            "Outport": 139.007568359375,
+                            "Outport": 139.0040283203125,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -3596,7 +3560,7 @@
                         "Name": "Negative",
                         "Origin_path": "detect_fall_test_PP/Detect Fall\nNegative2/Negative",
                         "OutDataTypeStr": "boolean",
-                        "PartitionName": "",
+                        "OverrideUsingVariant": "",
                         "Path": "detect_fall_test_PP/DetectFallNegative2/Negative",
                         "Permissions": "ReadWrite",
                         "PermitHierarchicalResolution": "All",
@@ -3608,14 +3572,14 @@
                                     80,
                                     65
                                 ],
-                                "SrcBlock": 117.007568359375,
+                                "SrcBlock": 117.0035400390625,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
                             {
                                 "DstBlock": [
-                                    119.007568359375,
-                                    118.007568359375
+                                    119.00390625,
+                                    118.0037841796875
                                 ],
                                 "DstPort": [
                                     0,
@@ -3659,19 +3623,14 @@
                         "RTWMemSecFuncExecute": "Inherit from model",
                         "RTWMemSecFuncInitTerm": "Inherit from model",
                         "RTWSystemCode": "Auto",
-                        "ReferencedSubsystem": "",
                         "SFBlockType": "NONE",
-                        "ScheduleAs": "Sample time",
-                        "SetExecutionDomain": "off",
                         "ShowPortLabels": "FromPortIcon",
                         "SystemSampleTime": "-1",
                         "TemplateBlock": "",
                         "TreatAsAtomicUnit": "on",
                         "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                         "Variant": "off",
-                        "VariantActivationTime": "update diagram",
                         "VariantControl": "",
-                        "VariantControlMode": "expression",
                         "Virtual": "off",
                         "ZeroCross": "off",
                         "relop": "<"
@@ -3734,13 +3693,13 @@
                             0.2,
                             0
                         ],
-                        "Handle": 117.007568359375,
+                        "Handle": 117.0035400390625,
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [],
                             "LConn": [],
-                            "Outport": 136.007568359375,
+                            "Outport": 136.003173828125,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -3753,7 +3712,7 @@
                         "Path": "detect_fall_test_PP/DetectFallNegative2/U",
                         "Port": "1",
                         "PortConnectivity": {
-                            "DstBlock": 127.0076904296875,
+                            "DstBlock": 127.0054931640625,
                             "DstPort": 0,
                             "Position": [
                                 50,
@@ -3840,12 +3799,12 @@
                             0.2,
                             0
                         ],
-                        "Handle": 135.007568359375,
+                        "Handle": 135.004638671875,
                         "InitialOutput": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 138.007568359375,
+                            "Inport": 138.00341796875,
                             "LConn": [],
                             "Outport": [],
                             "RConn": [],
@@ -3867,7 +3826,7 @@
                                 465,
                                 50
                             ],
-                            "SrcBlock": 119.007568359375,
+                            "SrcBlock": 119.00390625,
                             "SrcPort": 0,
                             "Type": "1"
                         },
@@ -3893,20 +3852,18 @@
                 },
                 "DataTypeOverride": "UseLocalSettings",
                 "ErrorFcn": "",
-                "ExecutionDomainType": "Deduce",
                 "FunctionInterfaceSpec": "void_void",
                 "FunctionWithSeparateData": "off",
-                "Handle": 116.007568359375,
-                "InputProcessing": "Elements as channels (sample based)",
+                "GeneratePreprocessorConditionals": "off",
+                "Handle": 116.0032958984375,
+                "InputProcessing": "Inherited",
                 "IsSubsystemVirtual": "off",
-                "LabelModeActiveChoice": "",
-                "Latency": "0",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 262.007568359375,
+                    "Inport": 262.0037841796875,
                     "LConn": [],
-                    "Outport": 261.007568359375,
+                    "Outport": 261.0035400390625,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -3920,7 +3877,7 @@
                 "Name": "Detect Fall\nNegative2",
                 "Origin_path": "detect_fall_test_PP/Detect Fall\nNegative2",
                 "OutDataTypeStr": "boolean",
-                "PartitionName": "",
+                "OverrideUsingVariant": "",
                 "Path": "detect_fall_test_PP/DetectFallNegative2",
                 "Permissions": "ReadWrite",
                 "PermitHierarchicalResolution": "All",
@@ -3932,7 +3889,7 @@
                             85,
                             220
                         ],
-                        "SrcBlock": 4.007568359375,
+                        "SrcBlock": 6.003173828125,
                         "SrcPort": 0,
                         "Type": "1"
                     },
@@ -3977,30 +3934,24 @@
                 "RTWMemSecFuncExecute": "Inherit from model",
                 "RTWMemSecFuncInitTerm": "Inherit from model",
                 "RTWSystemCode": "Auto",
-                "ReferencedSubsystem": "",
                 "SFBlockType": "NONE",
-                "ScheduleAs": "Sample time",
-                "SetExecutionDomain": "off",
                 "ShowPortLabels": "FromPortIcon",
                 "SystemSampleTime": "-1",
                 "TemplateBlock": "",
                 "TreatAsAtomicUnit": "on",
                 "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                 "Variant": "off",
-                "VariantActivationTime": "update diagram",
                 "VariantControl": "",
-                "VariantControlMode": "expression",
                 "Virtual": "off",
                 "vinit": "0"
             },
             "DetectFallNegative3": {
+                "ActiveVariant": "",
+                "ActiveVariantBlock": "",
                 "AllowZeroVariantControls": "off",
                 "AttributesFormatString": "",
-                "AutoFrameSizeCalculation": "off",
                 "BlockChoice": "",
                 "BlockType": "SubSystem",
-                "CompiledActiveChoiceBlock": "",
-                "CompiledActiveChoiceControl": "",
                 "CompiledPortComplexSignals": {
                     "Enable": [],
                     "Ifaction": [],
@@ -4067,15 +4018,15 @@
                 ],
                 "Content": {
                     "Annotation": [
-                        164.007568359375,
-                        163.007568359375
+                        164.0028076171875,
+                        163.0032958984375
                     ],
                     "Annotation1": {
-                        "Handle": 164.007568359375,
+                        "Handle": 164.0028076171875,
                         "Text": "U(k)"
                     },
                     "Annotation2": {
-                        "Handle": 163.007568359375,
+                        "Handle": 163.0032958984375,
                         "Text": "Edge"
                     },
                     "DelayInput1": {
@@ -4140,15 +4091,15 @@
                             0.2,
                             0
                         ],
-                        "Handle": 146.007568359375,
+                        "Handle": 146.0030517578125,
                         "InitialCondition": "vinit",
-                        "InputProcessing": "Elements as channels (sample based)",
+                        "InputProcessing": "Inherited",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 161.007568359375,
+                            "Inport": 161.0028076171875,
                             "LConn": [],
-                            "Outport": 158.007568359375,
+                            "Outport": 158.0029296875,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -4165,12 +4116,12 @@
                                     205,
                                     65
                                 ],
-                                "SrcBlock": 148.007568359375,
+                                "SrcBlock": 148.0035400390625,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
                             {
-                                "DstBlock": 147.0076904296875,
+                                "DstBlock": 147.0037841796875,
                                 "DstPort": 1,
                                 "Position": [
                                     245,
@@ -4274,17 +4225,17 @@
                             0.2,
                             0
                         ],
-                        "Handle": 147.0076904296875,
+                        "Handle": 147.0037841796875,
                         "InputSameDT": "off",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [
-                                162.007568359375,
-                                158.007568359375
+                                162.0037841796875,
+                                158.0029296875
                             ],
                             "LConn": [],
-                            "Outport": 159.007568359375,
+                            "Outport": 159.0029296875,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -4303,7 +4254,7 @@
                                     315,
                                     35
                                 ],
-                                "SrcBlock": 148.007568359375,
+                                "SrcBlock": 148.0035400390625,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
@@ -4314,12 +4265,12 @@
                                     315,
                                     65
                                 ],
-                                "SrcBlock": 146.007568359375,
+                                "SrcBlock": 146.0030517578125,
                                 "SrcPort": 0,
                                 "Type": "2"
                             },
                             {
-                                "DstBlock": 156.007568359375,
+                                "DstBlock": 156.00390625,
                                 "DstPort": 0,
                                 "Position": [
                                     360,
@@ -4352,13 +4303,12 @@
                         "ZeroCross": "off"
                     },
                     "Negative": {
+                        "ActiveVariant": "",
+                        "ActiveVariantBlock": "",
                         "AllowZeroVariantControls": "off",
                         "AttributesFormatString": "",
-                        "AutoFrameSizeCalculation": "off",
                         "BlockChoice": "",
                         "BlockType": "SubSystem",
-                        "CompiledActiveChoiceBlock": "",
-                        "CompiledActiveChoiceControl": "",
                         "CompiledPortComplexSignals": {
                             "Enable": [],
                             "Ifaction": [],
@@ -4494,17 +4444,17 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 150.007568359375,
+                                "Handle": 150.0023193359375,
                                 "InputSameDT": "on",
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [
-                                        154.007568359375,
-                                        153.007568359375
+                                        154.00390625,
+                                        153.003662109375
                                     ],
                                     "LConn": [],
-                                    "Outport": 155.007568359375,
+                                    "Outport": 155.0047607421875,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -4523,7 +4473,7 @@
                                             140,
                                             35
                                         ],
-                                        "SrcBlock": 149.007568359375,
+                                        "SrcBlock": 149.0030517578125,
                                         "SrcPort": 0,
                                         "Type": "1"
                                     },
@@ -4534,12 +4484,12 @@
                                             140,
                                             70
                                         ],
-                                        "SrcBlock": 151.007568359375,
+                                        "SrcBlock": 151.002197265625,
                                         "SrcPort": 0,
                                         "Type": "2"
                                     },
                                     {
-                                        "DstBlock": 152.007568359375,
+                                        "DstBlock": 152.0032958984375,
                                         "DstPort": 0,
                                         "Position": [
                                             190,
@@ -4628,13 +4578,13 @@
                                     null
                                 ],
                                 "FramePeriod": "inf",
-                                "Handle": 151.007568359375,
+                                "Handle": 151.002197265625,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 153.007568359375,
+                                    "Outport": 153.003662109375,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -4648,7 +4598,7 @@
                                 "OutMin": "[]",
                                 "Path": "detect_fall_test_PP/DetectFallNegative3/Negative/Constant",
                                 "PortConnectivity": {
-                                    "DstBlock": 150.007568359375,
+                                    "DstBlock": 150.0023193359375,
                                     "DstPort": 1,
                                     "Position": [
                                         105,
@@ -4736,13 +4686,13 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 149.007568359375,
+                                "Handle": 149.0030517578125,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 154.007568359375,
+                                    "Outport": 154.00390625,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -4755,7 +4705,7 @@
                                 "Path": "detect_fall_test_PP/DetectFallNegative3/Negative/u",
                                 "Port": "1",
                                 "PortConnectivity": {
-                                    "DstBlock": 150.007568359375,
+                                    "DstBlock": 150.0023193359375,
                                     "DstPort": 0,
                                     "Position": [
                                         50,
@@ -4841,12 +4791,12 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 152.007568359375,
+                                "Handle": 152.0032958984375,
                                 "InitialOutput": "[]",
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
-                                    "Inport": 155.007568359375,
+                                    "Inport": 155.0047607421875,
                                     "LConn": [],
                                     "Outport": [],
                                     "RConn": [],
@@ -4868,7 +4818,7 @@
                                         265,
                                         55
                                     ],
-                                    "SrcBlock": 150.007568359375,
+                                    "SrcBlock": 150.0023193359375,
                                     "SrcPort": 0,
                                     "Type": "1"
                                 },
@@ -4894,19 +4844,17 @@
                         },
                         "DataTypeOverride": "UseLocalSettings",
                         "ErrorFcn": "",
-                        "ExecutionDomainType": "Deduce",
                         "FunctionInterfaceSpec": "void_void",
                         "FunctionWithSeparateData": "off",
-                        "Handle": 148.007568359375,
+                        "GeneratePreprocessorConditionals": "off",
+                        "Handle": 148.0035400390625,
                         "IsSubsystemVirtual": "off",
-                        "LabelModeActiveChoice": "",
-                        "Latency": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 157.007568359375,
+                            "Inport": 157.0025634765625,
                             "LConn": [],
-                            "Outport": 160.007568359375,
+                            "Outport": 160.0032958984375,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -4920,7 +4868,7 @@
                         "Name": "Negative",
                         "Origin_path": "detect_fall_test_PP/Detect Fall\nNegative3/Negative",
                         "OutDataTypeStr": "boolean",
-                        "PartitionName": "",
+                        "OverrideUsingVariant": "",
                         "Path": "detect_fall_test_PP/DetectFallNegative3/Negative",
                         "Permissions": "ReadWrite",
                         "PermitHierarchicalResolution": "All",
@@ -4932,14 +4880,14 @@
                                     80,
                                     65
                                 ],
-                                "SrcBlock": 145.007568359375,
+                                "SrcBlock": 145.0032958984375,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
                             {
                                 "DstBlock": [
-                                    147.0076904296875,
-                                    146.007568359375
+                                    147.0037841796875,
+                                    146.0030517578125
                                 ],
                                 "DstPort": [
                                     0,
@@ -4983,19 +4931,14 @@
                         "RTWMemSecFuncExecute": "Inherit from model",
                         "RTWMemSecFuncInitTerm": "Inherit from model",
                         "RTWSystemCode": "Auto",
-                        "ReferencedSubsystem": "",
                         "SFBlockType": "NONE",
-                        "ScheduleAs": "Sample time",
-                        "SetExecutionDomain": "off",
                         "ShowPortLabels": "FromPortIcon",
                         "SystemSampleTime": "-1",
                         "TemplateBlock": "",
                         "TreatAsAtomicUnit": "on",
                         "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                         "Variant": "off",
-                        "VariantActivationTime": "update diagram",
                         "VariantControl": "",
-                        "VariantControlMode": "expression",
                         "Virtual": "off",
                         "ZeroCross": "off",
                         "relop": "<"
@@ -5057,13 +5000,13 @@
                             0.2,
                             0
                         ],
-                        "Handle": 145.007568359375,
+                        "Handle": 145.0032958984375,
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [],
                             "LConn": [],
-                            "Outport": 157.007568359375,
+                            "Outport": 157.0025634765625,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -5076,7 +5019,7 @@
                         "Path": "detect_fall_test_PP/DetectFallNegative3/U",
                         "Port": "1",
                         "PortConnectivity": {
-                            "DstBlock": 148.007568359375,
+                            "DstBlock": 148.0035400390625,
                             "DstPort": 0,
                             "Position": [
                                 50,
@@ -5162,12 +5105,12 @@
                             0.2,
                             0
                         ],
-                        "Handle": 156.007568359375,
+                        "Handle": 156.00390625,
                         "InitialOutput": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 159.007568359375,
+                            "Inport": 159.0029296875,
                             "LConn": [],
                             "Outport": [],
                             "RConn": [],
@@ -5189,7 +5132,7 @@
                                 465,
                                 50
                             ],
-                            "SrcBlock": 147.0076904296875,
+                            "SrcBlock": 147.0037841796875,
                             "SrcPort": 0,
                             "Type": "1"
                         },
@@ -5215,20 +5158,18 @@
                 },
                 "DataTypeOverride": "UseLocalSettings",
                 "ErrorFcn": "",
-                "ExecutionDomainType": "Deduce",
                 "FunctionInterfaceSpec": "void_void",
                 "FunctionWithSeparateData": "off",
-                "Handle": 144.007568359375,
-                "InputProcessing": "Elements as channels (sample based)",
+                "GeneratePreprocessorConditionals": "off",
+                "Handle": 144.0030517578125,
+                "InputProcessing": "Inherited",
                 "IsSubsystemVirtual": "off",
-                "LabelModeActiveChoice": "",
-                "Latency": "0",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 270.007568359375,
+                    "Inport": 270.0029296875,
                     "LConn": [],
-                    "Outport": 269.007568359375,
+                    "Outport": 269.0028076171875,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -5242,7 +5183,7 @@
                 "Name": "Detect Fall\nNegative3",
                 "Origin_path": "detect_fall_test_PP/Detect Fall\nNegative3",
                 "OutDataTypeStr": "boolean",
-                "PartitionName": "",
+                "OverrideUsingVariant": "",
                 "Path": "detect_fall_test_PP/DetectFallNegative3",
                 "Permissions": "ReadWrite",
                 "PermitHierarchicalResolution": "All",
@@ -5254,12 +5195,12 @@
                             85,
                             310
                         ],
-                        "SrcBlock": 8.007568359375,
+                        "SrcBlock": 10.0040283203125,
                         "SrcPort": 0,
                         "Type": "1"
                     },
                     {
-                        "DstBlock": 255.007568359375,
+                        "DstBlock": 255.0042724609375,
                         "DstPort": 0,
                         "Position": [
                             155,
@@ -5299,30 +5240,24 @@
                 "RTWMemSecFuncExecute": "Inherit from model",
                 "RTWMemSecFuncInitTerm": "Inherit from model",
                 "RTWSystemCode": "Auto",
-                "ReferencedSubsystem": "",
                 "SFBlockType": "NONE",
-                "ScheduleAs": "Sample time",
-                "SetExecutionDomain": "off",
                 "ShowPortLabels": "FromPortIcon",
                 "SystemSampleTime": "-1",
                 "TemplateBlock": "",
                 "TreatAsAtomicUnit": "on",
                 "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                 "Variant": "off",
-                "VariantActivationTime": "update diagram",
                 "VariantControl": "",
-                "VariantControlMode": "expression",
                 "Virtual": "off",
                 "vinit": "0"
             },
             "DetectFallNonpositive": {
+                "ActiveVariant": "",
+                "ActiveVariantBlock": "",
                 "AllowZeroVariantControls": "off",
                 "AttributesFormatString": "",
-                "AutoFrameSizeCalculation": "off",
                 "BlockChoice": "",
                 "BlockType": "SubSystem",
-                "CompiledActiveChoiceBlock": "",
-                "CompiledActiveChoiceControl": "",
                 "CompiledPortComplexSignals": {
                     "Enable": [],
                     "Ifaction": [],
@@ -5389,15 +5324,15 @@
                 ],
                 "Content": {
                     "Annotation": [
-                        185.007568359375,
-                        184.007568359375
+                        185.00341796875,
+                        184.003662109375
                     ],
                     "Annotation1": {
-                        "Handle": 185.007568359375,
+                        "Handle": 185.00341796875,
                         "Text": "U(k)"
                     },
                     "Annotation2": {
-                        "Handle": 184.007568359375,
+                        "Handle": 184.003662109375,
                         "Text": "Edge"
                     },
                     "DelayInput1": {
@@ -5462,15 +5397,15 @@
                             0.2,
                             0
                         ],
-                        "Handle": 167.0076904296875,
+                        "Handle": 167.0048828125,
                         "InitialCondition": "vinit",
-                        "InputProcessing": "Elements as channels (sample based)",
+                        "InputProcessing": "Inherited",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 180.007568359375,
+                            "Inport": 180.0032958984375,
                             "LConn": [],
-                            "Outport": 182.007568359375,
+                            "Outport": 182.0035400390625,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -5487,12 +5422,12 @@
                                     205,
                                     65
                                 ],
-                                "SrcBlock": 169.007568359375,
+                                "SrcBlock": 169.0035400390625,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
                             {
-                                "DstBlock": 168.007568359375,
+                                "DstBlock": 168.0030517578125,
                                 "DstPort": 1,
                                 "Position": [
                                     245,
@@ -5596,17 +5531,17 @@
                             0.2,
                             0
                         ],
-                        "Handle": 168.007568359375,
+                        "Handle": 168.0030517578125,
                         "InputSameDT": "off",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [
-                                179.007568359375,
-                                182.007568359375
+                                179.00341796875,
+                                182.0035400390625
                             ],
                             "LConn": [],
-                            "Outport": 181.007568359375,
+                            "Outport": 181.0035400390625,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -5625,7 +5560,7 @@
                                     315,
                                     35
                                 ],
-                                "SrcBlock": 169.007568359375,
+                                "SrcBlock": 169.0035400390625,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
@@ -5636,12 +5571,12 @@
                                     315,
                                     65
                                 ],
-                                "SrcBlock": 167.0076904296875,
+                                "SrcBlock": 167.0048828125,
                                 "SrcPort": 0,
                                 "Type": "2"
                             },
                             {
-                                "DstBlock": 177.007568359375,
+                                "DstBlock": 177.0037841796875,
                                 "DstPort": 0,
                                 "Position": [
                                     360,
@@ -5674,13 +5609,12 @@
                         "ZeroCross": "off"
                     },
                     "Nonpositive": {
+                        "ActiveVariant": "",
+                        "ActiveVariantBlock": "",
                         "AllowZeroVariantControls": "off",
                         "AttributesFormatString": "",
-                        "AutoFrameSizeCalculation": "off",
                         "BlockChoice": "",
                         "BlockType": "SubSystem",
-                        "CompiledActiveChoiceBlock": "",
-                        "CompiledActiveChoiceControl": "",
                         "CompiledPortComplexSignals": {
                             "Enable": [],
                             "Ifaction": [],
@@ -5816,17 +5750,17 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 171.007568359375,
+                                "Handle": 171.0025634765625,
                                 "InputSameDT": "on",
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [
-                                        175.007568359375,
-                                        174.007568359375
+                                        175.004150390625,
+                                        174.0035400390625
                                     ],
                                     "LConn": [],
-                                    "Outport": 176.007568359375,
+                                    "Outport": 176.0042724609375,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -5845,7 +5779,7 @@
                                             140,
                                             35
                                         ],
-                                        "SrcBlock": 170.007568359375,
+                                        "SrcBlock": 170.0028076171875,
                                         "SrcPort": 0,
                                         "Type": "1"
                                     },
@@ -5856,12 +5790,12 @@
                                             140,
                                             70
                                         ],
-                                        "SrcBlock": 172.007568359375,
+                                        "SrcBlock": 172.003173828125,
                                         "SrcPort": 0,
                                         "Type": "2"
                                     },
                                     {
-                                        "DstBlock": 173.007568359375,
+                                        "DstBlock": 173.0028076171875,
                                         "DstPort": 0,
                                         "Position": [
                                             190,
@@ -5950,13 +5884,13 @@
                                     null
                                 ],
                                 "FramePeriod": "inf",
-                                "Handle": 172.007568359375,
+                                "Handle": 172.003173828125,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 174.007568359375,
+                                    "Outport": 174.0035400390625,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -5970,7 +5904,7 @@
                                 "OutMin": "[]",
                                 "Path": "detect_fall_test_PP/DetectFallNonpositive/Nonpositive/Constant",
                                 "PortConnectivity": {
-                                    "DstBlock": 171.007568359375,
+                                    "DstBlock": 171.0025634765625,
                                     "DstPort": 1,
                                     "Position": [
                                         105,
@@ -6058,13 +5992,13 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 170.007568359375,
+                                "Handle": 170.0028076171875,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 175.007568359375,
+                                    "Outport": 175.004150390625,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -6077,7 +6011,7 @@
                                 "Path": "detect_fall_test_PP/DetectFallNonpositive/Nonpositive/u",
                                 "Port": "1",
                                 "PortConnectivity": {
-                                    "DstBlock": 171.007568359375,
+                                    "DstBlock": 171.0025634765625,
                                     "DstPort": 0,
                                     "Position": [
                                         50,
@@ -6163,12 +6097,12 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 173.007568359375,
+                                "Handle": 173.0028076171875,
                                 "InitialOutput": "[]",
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
-                                    "Inport": 176.007568359375,
+                                    "Inport": 176.0042724609375,
                                     "LConn": [],
                                     "Outport": [],
                                     "RConn": [],
@@ -6190,7 +6124,7 @@
                                         265,
                                         55
                                     ],
-                                    "SrcBlock": 171.007568359375,
+                                    "SrcBlock": 171.0025634765625,
                                     "SrcPort": 0,
                                     "Type": "1"
                                 },
@@ -6216,19 +6150,17 @@
                         },
                         "DataTypeOverride": "UseLocalSettings",
                         "ErrorFcn": "",
-                        "ExecutionDomainType": "Deduce",
                         "FunctionInterfaceSpec": "void_void",
                         "FunctionWithSeparateData": "off",
-                        "Handle": 169.007568359375,
+                        "GeneratePreprocessorConditionals": "off",
+                        "Handle": 169.0035400390625,
                         "IsSubsystemVirtual": "off",
-                        "LabelModeActiveChoice": "",
-                        "Latency": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 183.007568359375,
+                            "Inport": 183.0040283203125,
                             "LConn": [],
-                            "Outport": 178.007568359375,
+                            "Outport": 178.0037841796875,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -6242,7 +6174,7 @@
                         "Name": "Nonpositive",
                         "Origin_path": "detect_fall_test_PP/Detect Fall\nNonpositive/Nonpositive",
                         "OutDataTypeStr": "boolean",
-                        "PartitionName": "",
+                        "OverrideUsingVariant": "",
                         "Path": "detect_fall_test_PP/DetectFallNonpositive/Nonpositive",
                         "Permissions": "ReadWrite",
                         "PermitHierarchicalResolution": "All",
@@ -6254,14 +6186,14 @@
                                     80,
                                     65
                                 ],
-                                "SrcBlock": 166.007568359375,
+                                "SrcBlock": 166.0029296875,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
                             {
                                 "DstBlock": [
-                                    167.0076904296875,
-                                    168.007568359375
+                                    167.0048828125,
+                                    168.0030517578125
                                 ],
                                 "DstPort": [
                                     0,
@@ -6305,19 +6237,14 @@
                         "RTWMemSecFuncExecute": "Inherit from model",
                         "RTWMemSecFuncInitTerm": "Inherit from model",
                         "RTWSystemCode": "Auto",
-                        "ReferencedSubsystem": "",
                         "SFBlockType": "NONE",
-                        "ScheduleAs": "Sample time",
-                        "SetExecutionDomain": "off",
                         "ShowPortLabels": "FromPortIcon",
                         "SystemSampleTime": "-1",
                         "TemplateBlock": "",
                         "TreatAsAtomicUnit": "on",
                         "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                         "Variant": "off",
-                        "VariantActivationTime": "update diagram",
                         "VariantControl": "",
-                        "VariantControlMode": "expression",
                         "Virtual": "off",
                         "ZeroCross": "off",
                         "relop": "<="
@@ -6379,13 +6306,13 @@
                             0.2,
                             0
                         ],
-                        "Handle": 166.007568359375,
+                        "Handle": 166.0029296875,
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [],
                             "LConn": [],
-                            "Outport": 183.007568359375,
+                            "Outport": 183.0040283203125,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -6398,7 +6325,7 @@
                         "Path": "detect_fall_test_PP/DetectFallNonpositive/U",
                         "Port": "1",
                         "PortConnectivity": {
-                            "DstBlock": 169.007568359375,
+                            "DstBlock": 169.0035400390625,
                             "DstPort": 0,
                             "Position": [
                                 50,
@@ -6484,12 +6411,12 @@
                             0.2,
                             0
                         ],
-                        "Handle": 177.007568359375,
+                        "Handle": 177.0037841796875,
                         "InitialOutput": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 181.007568359375,
+                            "Inport": 181.0035400390625,
                             "LConn": [],
                             "Outport": [],
                             "RConn": [],
@@ -6511,7 +6438,7 @@
                                 465,
                                 50
                             ],
-                            "SrcBlock": 168.007568359375,
+                            "SrcBlock": 168.0030517578125,
                             "SrcPort": 0,
                             "Type": "1"
                         },
@@ -6537,20 +6464,18 @@
                 },
                 "DataTypeOverride": "UseLocalSettings",
                 "ErrorFcn": "",
-                "ExecutionDomainType": "Deduce",
                 "FunctionInterfaceSpec": "void_void",
                 "FunctionWithSeparateData": "off",
-                "Handle": 165.007568359375,
-                "InputProcessing": "Elements as channels (sample based)",
+                "GeneratePreprocessorConditionals": "off",
+                "Handle": 165.003173828125,
+                "InputProcessing": "Inherited",
                 "IsSubsystemVirtual": "off",
-                "LabelModeActiveChoice": "",
-                "Latency": "0",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 263.007568359375,
+                    "Inport": 263.004150390625,
                     "LConn": [],
-                    "Outport": 266.007568359375,
+                    "Outport": 266.003662109375,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -6564,7 +6489,7 @@
                 "Name": "Detect Fall\nNonpositive",
                 "Origin_path": "detect_fall_test_PP/Detect Fall\nNonpositive",
                 "OutDataTypeStr": "boolean",
-                "PartitionName": "",
+                "OverrideUsingVariant": "",
                 "Path": "detect_fall_test_PP/DetectFallNonpositive",
                 "Permissions": "ReadWrite",
                 "PermitHierarchicalResolution": "All",
@@ -6576,12 +6501,12 @@
                             335,
                             40
                         ],
-                        "SrcBlock": 5.007568359375,
+                        "SrcBlock": 7.003173828125,
                         "SrcPort": 0,
                         "Type": "1"
                     },
                     {
-                        "DstBlock": 252.007568359375,
+                        "DstBlock": 252.0030517578125,
                         "DstPort": 0,
                         "Position": [
                             405,
@@ -6621,30 +6546,24 @@
                 "RTWMemSecFuncExecute": "Inherit from model",
                 "RTWMemSecFuncInitTerm": "Inherit from model",
                 "RTWSystemCode": "Auto",
-                "ReferencedSubsystem": "",
                 "SFBlockType": "NONE",
-                "ScheduleAs": "Sample time",
-                "SetExecutionDomain": "off",
                 "ShowPortLabels": "FromPortIcon",
                 "SystemSampleTime": "-1",
                 "TemplateBlock": "",
                 "TreatAsAtomicUnit": "on",
                 "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                 "Variant": "off",
-                "VariantActivationTime": "update diagram",
                 "VariantControl": "",
-                "VariantControlMode": "expression",
                 "Virtual": "off",
                 "vinit": "0"
             },
             "DetectFallNonpositive1": {
+                "ActiveVariant": "",
+                "ActiveVariantBlock": "",
                 "AllowZeroVariantControls": "off",
                 "AttributesFormatString": "",
-                "AutoFrameSizeCalculation": "off",
                 "BlockChoice": "",
                 "BlockType": "SubSystem",
-                "CompiledActiveChoiceBlock": "",
-                "CompiledActiveChoiceControl": "",
                 "CompiledPortComplexSignals": {
                     "Enable": [],
                     "Ifaction": [],
@@ -6711,15 +6630,15 @@
                 ],
                 "Content": {
                     "Annotation": [
-                        206.007568359375,
-                        205.007568359375
+                        206.0028076171875,
+                        205.0030517578125
                     ],
                     "Annotation1": {
-                        "Handle": 206.007568359375,
+                        "Handle": 206.0028076171875,
                         "Text": "U(k)"
                     },
                     "Annotation2": {
-                        "Handle": 205.007568359375,
+                        "Handle": 205.0030517578125,
                         "Text": "Edge"
                     },
                     "DelayInput1": {
@@ -6784,15 +6703,15 @@
                             0.2,
                             0
                         ],
-                        "Handle": 188.007568359375,
+                        "Handle": 188.0042724609375,
                         "InitialCondition": "vinit",
-                        "InputProcessing": "Elements as channels (sample based)",
+                        "InputProcessing": "Inherited",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 201.007568359375,
+                            "Inport": 201.0030517578125,
                             "LConn": [],
-                            "Outport": 203.007568359375,
+                            "Outport": 203.0035400390625,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -6809,12 +6728,12 @@
                                     205,
                                     65
                                 ],
-                                "SrcBlock": 190.007568359375,
+                                "SrcBlock": 190.0040283203125,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
                             {
-                                "DstBlock": 189.007568359375,
+                                "DstBlock": 189.0045166015625,
                                 "DstPort": 1,
                                 "Position": [
                                     245,
@@ -6918,17 +6837,17 @@
                             0.2,
                             0
                         ],
-                        "Handle": 189.007568359375,
+                        "Handle": 189.0045166015625,
                         "InputSameDT": "off",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [
-                                200.007568359375,
-                                203.007568359375
+                                200.003662109375,
+                                203.0035400390625
                             ],
                             "LConn": [],
-                            "Outport": 202.007568359375,
+                            "Outport": 202.00341796875,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -6947,7 +6866,7 @@
                                     315,
                                     35
                                 ],
-                                "SrcBlock": 190.007568359375,
+                                "SrcBlock": 190.0040283203125,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
@@ -6958,12 +6877,12 @@
                                     315,
                                     65
                                 ],
-                                "SrcBlock": 188.007568359375,
+                                "SrcBlock": 188.0042724609375,
                                 "SrcPort": 0,
                                 "Type": "2"
                             },
                             {
-                                "DstBlock": 198.007568359375,
+                                "DstBlock": 198.003173828125,
                                 "DstPort": 0,
                                 "Position": [
                                     360,
@@ -6996,13 +6915,12 @@
                         "ZeroCross": "off"
                     },
                     "Nonpositive": {
+                        "ActiveVariant": "",
+                        "ActiveVariantBlock": "",
                         "AllowZeroVariantControls": "off",
                         "AttributesFormatString": "",
-                        "AutoFrameSizeCalculation": "off",
                         "BlockChoice": "",
                         "BlockType": "SubSystem",
-                        "CompiledActiveChoiceBlock": "",
-                        "CompiledActiveChoiceControl": "",
                         "CompiledPortComplexSignals": {
                             "Enable": [],
                             "Ifaction": [],
@@ -7138,17 +7056,17 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 192.007568359375,
+                                "Handle": 192.0029296875,
                                 "InputSameDT": "on",
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [
-                                        196.007568359375,
-                                        195.007568359375
+                                        196.0037841796875,
+                                        195.0035400390625
                                     ],
                                     "LConn": [],
-                                    "Outport": 197.007568359375,
+                                    "Outport": 197.004150390625,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -7167,7 +7085,7 @@
                                             140,
                                             35
                                         ],
-                                        "SrcBlock": 191.007568359375,
+                                        "SrcBlock": 191.0035400390625,
                                         "SrcPort": 0,
                                         "Type": "1"
                                     },
@@ -7178,12 +7096,12 @@
                                             140,
                                             70
                                         ],
-                                        "SrcBlock": 193.007568359375,
+                                        "SrcBlock": 193.0030517578125,
                                         "SrcPort": 0,
                                         "Type": "2"
                                     },
                                     {
-                                        "DstBlock": 194.007568359375,
+                                        "DstBlock": 194.00341796875,
                                         "DstPort": 0,
                                         "Position": [
                                             190,
@@ -7272,13 +7190,13 @@
                                     null
                                 ],
                                 "FramePeriod": "inf",
-                                "Handle": 193.007568359375,
+                                "Handle": 193.0030517578125,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 195.007568359375,
+                                    "Outport": 195.0035400390625,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -7292,7 +7210,7 @@
                                 "OutMin": "[]",
                                 "Path": "detect_fall_test_PP/DetectFallNonpositive1/Nonpositive/Constant",
                                 "PortConnectivity": {
-                                    "DstBlock": 192.007568359375,
+                                    "DstBlock": 192.0029296875,
                                     "DstPort": 1,
                                     "Position": [
                                         105,
@@ -7380,13 +7298,13 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 191.007568359375,
+                                "Handle": 191.0035400390625,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 196.007568359375,
+                                    "Outport": 196.0037841796875,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -7399,7 +7317,7 @@
                                 "Path": "detect_fall_test_PP/DetectFallNonpositive1/Nonpositive/u",
                                 "Port": "1",
                                 "PortConnectivity": {
-                                    "DstBlock": 192.007568359375,
+                                    "DstBlock": 192.0029296875,
                                     "DstPort": 0,
                                     "Position": [
                                         50,
@@ -7485,12 +7403,12 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 194.007568359375,
+                                "Handle": 194.00341796875,
                                 "InitialOutput": "[]",
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
-                                    "Inport": 197.007568359375,
+                                    "Inport": 197.004150390625,
                                     "LConn": [],
                                     "Outport": [],
                                     "RConn": [],
@@ -7512,7 +7430,7 @@
                                         265,
                                         55
                                     ],
-                                    "SrcBlock": 192.007568359375,
+                                    "SrcBlock": 192.0029296875,
                                     "SrcPort": 0,
                                     "Type": "1"
                                 },
@@ -7538,19 +7456,17 @@
                         },
                         "DataTypeOverride": "UseLocalSettings",
                         "ErrorFcn": "",
-                        "ExecutionDomainType": "Deduce",
                         "FunctionInterfaceSpec": "void_void",
                         "FunctionWithSeparateData": "off",
-                        "Handle": 190.007568359375,
+                        "GeneratePreprocessorConditionals": "off",
+                        "Handle": 190.0040283203125,
                         "IsSubsystemVirtual": "off",
-                        "LabelModeActiveChoice": "",
-                        "Latency": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 204.007568359375,
+                            "Inport": 204.00341796875,
                             "LConn": [],
-                            "Outport": 199.007568359375,
+                            "Outport": 199.00341796875,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -7564,7 +7480,7 @@
                         "Name": "Nonpositive",
                         "Origin_path": "detect_fall_test_PP/Detect Fall\nNonpositive1/Nonpositive",
                         "OutDataTypeStr": "boolean",
-                        "PartitionName": "",
+                        "OverrideUsingVariant": "",
                         "Path": "detect_fall_test_PP/DetectFallNonpositive1/Nonpositive",
                         "Permissions": "ReadWrite",
                         "PermitHierarchicalResolution": "All",
@@ -7576,14 +7492,14 @@
                                     80,
                                     65
                                 ],
-                                "SrcBlock": 187.0076904296875,
+                                "SrcBlock": 187.0042724609375,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
                             {
                                 "DstBlock": [
-                                    188.007568359375,
-                                    189.007568359375
+                                    188.0042724609375,
+                                    189.0045166015625
                                 ],
                                 "DstPort": [
                                     0,
@@ -7627,19 +7543,14 @@
                         "RTWMemSecFuncExecute": "Inherit from model",
                         "RTWMemSecFuncInitTerm": "Inherit from model",
                         "RTWSystemCode": "Auto",
-                        "ReferencedSubsystem": "",
                         "SFBlockType": "NONE",
-                        "ScheduleAs": "Sample time",
-                        "SetExecutionDomain": "off",
                         "ShowPortLabels": "FromPortIcon",
                         "SystemSampleTime": "-1",
                         "TemplateBlock": "",
                         "TreatAsAtomicUnit": "on",
                         "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                         "Variant": "off",
-                        "VariantActivationTime": "update diagram",
                         "VariantControl": "",
-                        "VariantControlMode": "expression",
                         "Virtual": "off",
                         "ZeroCross": "off",
                         "relop": "<="
@@ -7701,13 +7612,13 @@
                             0.2,
                             0
                         ],
-                        "Handle": 187.0076904296875,
+                        "Handle": 187.0042724609375,
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [],
                             "LConn": [],
-                            "Outport": 204.007568359375,
+                            "Outport": 204.00341796875,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -7720,7 +7631,7 @@
                         "Path": "detect_fall_test_PP/DetectFallNonpositive1/U",
                         "Port": "1",
                         "PortConnectivity": {
-                            "DstBlock": 190.007568359375,
+                            "DstBlock": 190.0040283203125,
                             "DstPort": 0,
                             "Position": [
                                 50,
@@ -7806,12 +7717,12 @@
                             0.2,
                             0
                         ],
-                        "Handle": 198.007568359375,
+                        "Handle": 198.003173828125,
                         "InitialOutput": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 202.007568359375,
+                            "Inport": 202.00341796875,
                             "LConn": [],
                             "Outport": [],
                             "RConn": [],
@@ -7833,7 +7744,7 @@
                                 465,
                                 50
                             ],
-                            "SrcBlock": 189.007568359375,
+                            "SrcBlock": 189.0045166015625,
                             "SrcPort": 0,
                             "Type": "1"
                         },
@@ -7859,20 +7770,18 @@
                 },
                 "DataTypeOverride": "UseLocalSettings",
                 "ErrorFcn": "",
-                "ExecutionDomainType": "Deduce",
                 "FunctionInterfaceSpec": "void_void",
                 "FunctionWithSeparateData": "off",
-                "Handle": 186.007568359375,
-                "InputProcessing": "Elements as channels (sample based)",
+                "GeneratePreprocessorConditionals": "off",
+                "Handle": 186.0040283203125,
+                "InputProcessing": "Inherited",
                 "IsSubsystemVirtual": "off",
-                "LabelModeActiveChoice": "",
-                "Latency": "0",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 264.007568359375,
+                    "Inport": 264.00390625,
                     "LConn": [],
-                    "Outport": 267.0076904296875,
+                    "Outport": 267.00390625,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -7886,7 +7795,7 @@
                 "Name": "Detect Fall\nNonpositive1",
                 "Origin_path": "detect_fall_test_PP/Detect Fall\nNonpositive1",
                 "OutDataTypeStr": "boolean",
-                "PartitionName": "",
+                "OverrideUsingVariant": "",
                 "Path": "detect_fall_test_PP/DetectFallNonpositive1",
                 "Permissions": "ReadWrite",
                 "PermitHierarchicalResolution": "All",
@@ -7898,12 +7807,12 @@
                             335,
                             130
                         ],
-                        "SrcBlock": 6.007568359375,
+                        "SrcBlock": 8.0035400390625,
                         "SrcPort": 0,
                         "Type": "1"
                     },
                     {
-                        "DstBlock": 253.007568359375,
+                        "DstBlock": 253.0035400390625,
                         "DstPort": 0,
                         "Position": [
                             405,
@@ -7943,30 +7852,24 @@
                 "RTWMemSecFuncExecute": "Inherit from model",
                 "RTWMemSecFuncInitTerm": "Inherit from model",
                 "RTWSystemCode": "Auto",
-                "ReferencedSubsystem": "",
                 "SFBlockType": "NONE",
-                "ScheduleAs": "Sample time",
-                "SetExecutionDomain": "off",
                 "ShowPortLabels": "FromPortIcon",
                 "SystemSampleTime": "-1",
                 "TemplateBlock": "",
                 "TreatAsAtomicUnit": "on",
                 "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                 "Variant": "off",
-                "VariantActivationTime": "update diagram",
                 "VariantControl": "",
-                "VariantControlMode": "expression",
                 "Virtual": "off",
                 "vinit": "0"
             },
             "DetectFallNonpositive2": {
+                "ActiveVariant": "",
+                "ActiveVariantBlock": "",
                 "AllowZeroVariantControls": "off",
                 "AttributesFormatString": "",
-                "AutoFrameSizeCalculation": "off",
                 "BlockChoice": "",
                 "BlockType": "SubSystem",
-                "CompiledActiveChoiceBlock": "",
-                "CompiledActiveChoiceControl": "",
                 "CompiledPortComplexSignals": {
                     "Enable": [],
                     "Ifaction": [],
@@ -8035,15 +7938,15 @@
                 ],
                 "Content": {
                     "Annotation": [
-                        227.0076904296875,
-                        226.007568359375
+                        227.00390625,
+                        226.0037841796875
                     ],
                     "Annotation1": {
-                        "Handle": 227.0076904296875,
+                        "Handle": 227.00390625,
                         "Text": "U(k)"
                     },
                     "Annotation2": {
-                        "Handle": 226.007568359375,
+                        "Handle": 226.0037841796875,
                         "Text": "Edge"
                     },
                     "DelayInput1": {
@@ -8110,15 +8013,15 @@
                             0.2,
                             0
                         ],
-                        "Handle": 209.007568359375,
+                        "Handle": 209.0029296875,
                         "InitialCondition": "vinit",
-                        "InputProcessing": "Elements as channels (sample based)",
+                        "InputProcessing": "Inherited",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 222.007568359375,
+                            "Inport": 222.0040283203125,
                             "LConn": [],
-                            "Outport": 224.007568359375,
+                            "Outport": 224.0035400390625,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -8135,12 +8038,12 @@
                                     205,
                                     65
                                 ],
-                                "SrcBlock": 211.007568359375,
+                                "SrcBlock": 211.00341796875,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
                             {
-                                "DstBlock": 210.007568359375,
+                                "DstBlock": 210.0029296875,
                                 "DstPort": 1,
                                 "Position": [
                                     245,
@@ -8247,17 +8150,17 @@
                             0.2,
                             0
                         ],
-                        "Handle": 210.007568359375,
+                        "Handle": 210.0029296875,
                         "InputSameDT": "off",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [
-                                221.007568359375,
-                                224.007568359375
+                                221.003173828125,
+                                224.0035400390625
                             ],
                             "LConn": [],
-                            "Outport": 223.007568359375,
+                            "Outport": 223.0035400390625,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -8276,7 +8179,7 @@
                                     315,
                                     35
                                 ],
-                                "SrcBlock": 211.007568359375,
+                                "SrcBlock": 211.00341796875,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
@@ -8287,12 +8190,12 @@
                                     315,
                                     65
                                 ],
-                                "SrcBlock": 209.007568359375,
+                                "SrcBlock": 209.0029296875,
                                 "SrcPort": 0,
                                 "Type": "2"
                             },
                             {
-                                "DstBlock": 219.007568359375,
+                                "DstBlock": 219.003173828125,
                                 "DstPort": 0,
                                 "Position": [
                                     360,
@@ -8325,13 +8228,12 @@
                         "ZeroCross": "off"
                     },
                     "Nonpositive": {
+                        "ActiveVariant": "",
+                        "ActiveVariantBlock": "",
                         "AllowZeroVariantControls": "off",
                         "AttributesFormatString": "",
-                        "AutoFrameSizeCalculation": "off",
                         "BlockChoice": "",
                         "BlockType": "SubSystem",
-                        "CompiledActiveChoiceBlock": "",
-                        "CompiledActiveChoiceControl": "",
                         "CompiledPortComplexSignals": {
                             "Enable": [],
                             "Ifaction": [],
@@ -8471,17 +8373,17 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 213.007568359375,
+                                "Handle": 213.0028076171875,
                                 "InputSameDT": "on",
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [
-                                        217.007568359375,
-                                        216.007568359375
+                                        217.0025634765625,
+                                        216.00244140625
                                     ],
                                     "LConn": [],
-                                    "Outport": 218.007568359375,
+                                    "Outport": 218.0030517578125,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -8500,7 +8402,7 @@
                                             140,
                                             35
                                         ],
-                                        "SrcBlock": 212.007568359375,
+                                        "SrcBlock": 212.0025634765625,
                                         "SrcPort": 0,
                                         "Type": "1"
                                     },
@@ -8511,12 +8413,12 @@
                                             140,
                                             70
                                         ],
-                                        "SrcBlock": 214.007568359375,
+                                        "SrcBlock": 214.003173828125,
                                         "SrcPort": 0,
                                         "Type": "2"
                                     },
                                     {
-                                        "DstBlock": 215.007568359375,
+                                        "DstBlock": 215.003173828125,
                                         "DstPort": 0,
                                         "Position": [
                                             190,
@@ -8605,13 +8507,13 @@
                                     null
                                 ],
                                 "FramePeriod": "inf",
-                                "Handle": 214.007568359375,
+                                "Handle": 214.003173828125,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 216.007568359375,
+                                    "Outport": 216.00244140625,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -8625,7 +8527,7 @@
                                 "OutMin": "[]",
                                 "Path": "detect_fall_test_PP/DetectFallNonpositive2/Nonpositive/Constant",
                                 "PortConnectivity": {
-                                    "DstBlock": 213.007568359375,
+                                    "DstBlock": 213.0028076171875,
                                     "DstPort": 1,
                                     "Position": [
                                         105,
@@ -8714,13 +8616,13 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 212.007568359375,
+                                "Handle": 212.0025634765625,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 217.007568359375,
+                                    "Outport": 217.0025634765625,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -8733,7 +8635,7 @@
                                 "Path": "detect_fall_test_PP/DetectFallNonpositive2/Nonpositive/u",
                                 "Port": "1",
                                 "PortConnectivity": {
-                                    "DstBlock": 213.007568359375,
+                                    "DstBlock": 213.0028076171875,
                                     "DstPort": 0,
                                     "Position": [
                                         50,
@@ -8820,12 +8722,12 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 215.007568359375,
+                                "Handle": 215.003173828125,
                                 "InitialOutput": "[]",
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
-                                    "Inport": 218.007568359375,
+                                    "Inport": 218.0030517578125,
                                     "LConn": [],
                                     "Outport": [],
                                     "RConn": [],
@@ -8847,7 +8749,7 @@
                                         265,
                                         55
                                     ],
-                                    "SrcBlock": 213.007568359375,
+                                    "SrcBlock": 213.0028076171875,
                                     "SrcPort": 0,
                                     "Type": "1"
                                 },
@@ -8873,19 +8775,17 @@
                         },
                         "DataTypeOverride": "UseLocalSettings",
                         "ErrorFcn": "",
-                        "ExecutionDomainType": "Deduce",
                         "FunctionInterfaceSpec": "void_void",
                         "FunctionWithSeparateData": "off",
-                        "Handle": 211.007568359375,
+                        "GeneratePreprocessorConditionals": "off",
+                        "Handle": 211.00341796875,
                         "IsSubsystemVirtual": "off",
-                        "LabelModeActiveChoice": "",
-                        "Latency": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 225.007568359375,
+                            "Inport": 225.0035400390625,
                             "LConn": [],
-                            "Outport": 220.007568359375,
+                            "Outport": 220.0029296875,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -8899,7 +8799,7 @@
                         "Name": "Nonpositive",
                         "Origin_path": "detect_fall_test_PP/Detect Fall\nNonpositive2/Nonpositive",
                         "OutDataTypeStr": "boolean",
-                        "PartitionName": "",
+                        "OverrideUsingVariant": "",
                         "Path": "detect_fall_test_PP/DetectFallNonpositive2/Nonpositive",
                         "Permissions": "ReadWrite",
                         "PermitHierarchicalResolution": "All",
@@ -8911,14 +8811,14 @@
                                     80,
                                     65
                                 ],
-                                "SrcBlock": 208.007568359375,
+                                "SrcBlock": 208.002685546875,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
                             {
                                 "DstBlock": [
-                                    209.007568359375,
-                                    210.007568359375
+                                    209.0029296875,
+                                    210.0029296875
                                 ],
                                 "DstPort": [
                                     0,
@@ -8962,19 +8862,14 @@
                         "RTWMemSecFuncExecute": "Inherit from model",
                         "RTWMemSecFuncInitTerm": "Inherit from model",
                         "RTWSystemCode": "Auto",
-                        "ReferencedSubsystem": "",
                         "SFBlockType": "NONE",
-                        "ScheduleAs": "Sample time",
-                        "SetExecutionDomain": "off",
                         "ShowPortLabels": "FromPortIcon",
                         "SystemSampleTime": "-1",
                         "TemplateBlock": "",
                         "TreatAsAtomicUnit": "on",
                         "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                         "Variant": "off",
-                        "VariantActivationTime": "update diagram",
                         "VariantControl": "",
-                        "VariantControlMode": "expression",
                         "Virtual": "off",
                         "ZeroCross": "off",
                         "relop": "<="
@@ -9037,13 +8932,13 @@
                             0.2,
                             0
                         ],
-                        "Handle": 208.007568359375,
+                        "Handle": 208.002685546875,
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [],
                             "LConn": [],
-                            "Outport": 225.007568359375,
+                            "Outport": 225.0035400390625,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -9056,7 +8951,7 @@
                         "Path": "detect_fall_test_PP/DetectFallNonpositive2/U",
                         "Port": "1",
                         "PortConnectivity": {
-                            "DstBlock": 211.007568359375,
+                            "DstBlock": 211.00341796875,
                             "DstPort": 0,
                             "Position": [
                                 50,
@@ -9143,12 +9038,12 @@
                             0.2,
                             0
                         ],
-                        "Handle": 219.007568359375,
+                        "Handle": 219.003173828125,
                         "InitialOutput": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 223.007568359375,
+                            "Inport": 223.0035400390625,
                             "LConn": [],
                             "Outport": [],
                             "RConn": [],
@@ -9170,7 +9065,7 @@
                                 465,
                                 50
                             ],
-                            "SrcBlock": 210.007568359375,
+                            "SrcBlock": 210.0029296875,
                             "SrcPort": 0,
                             "Type": "1"
                         },
@@ -9196,20 +9091,18 @@
                 },
                 "DataTypeOverride": "UseLocalSettings",
                 "ErrorFcn": "",
-                "ExecutionDomainType": "Deduce",
                 "FunctionInterfaceSpec": "void_void",
                 "FunctionWithSeparateData": "off",
-                "Handle": 207.0076904296875,
-                "InputProcessing": "Elements as channels (sample based)",
+                "GeneratePreprocessorConditionals": "off",
+                "Handle": 207.0035400390625,
+                "InputProcessing": "Inherited",
                 "IsSubsystemVirtual": "off",
-                "LabelModeActiveChoice": "",
-                "Latency": "0",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 265.007568359375,
+                    "Inport": 265.004150390625,
                     "LConn": [],
-                    "Outport": 268.007568359375,
+                    "Outport": 268.00341796875,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -9223,7 +9116,7 @@
                 "Name": "Detect Fall\nNonpositive2",
                 "Origin_path": "detect_fall_test_PP/Detect Fall\nNonpositive2",
                 "OutDataTypeStr": "boolean",
-                "PartitionName": "",
+                "OverrideUsingVariant": "",
                 "Path": "detect_fall_test_PP/DetectFallNonpositive2",
                 "Permissions": "ReadWrite",
                 "PermitHierarchicalResolution": "All",
@@ -9235,12 +9128,12 @@
                             335,
                             220
                         ],
-                        "SrcBlock": 7.007568359375,
+                        "SrcBlock": 9.0042724609375,
                         "SrcPort": 0,
                         "Type": "1"
                     },
                     {
-                        "DstBlock": 254.007568359375,
+                        "DstBlock": 254.003173828125,
                         "DstPort": 0,
                         "Position": [
                             405,
@@ -9280,30 +9173,24 @@
                 "RTWMemSecFuncExecute": "Inherit from model",
                 "RTWMemSecFuncInitTerm": "Inherit from model",
                 "RTWSystemCode": "Auto",
-                "ReferencedSubsystem": "",
                 "SFBlockType": "NONE",
-                "ScheduleAs": "Sample time",
-                "SetExecutionDomain": "off",
                 "ShowPortLabels": "FromPortIcon",
                 "SystemSampleTime": "-1",
                 "TemplateBlock": "",
                 "TreatAsAtomicUnit": "on",
                 "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                 "Variant": "off",
-                "VariantActivationTime": "update diagram",
                 "VariantControl": "",
-                "VariantControlMode": "expression",
                 "Virtual": "off",
                 "vinit": "0"
             },
             "DetectFallNonpositive3": {
+                "ActiveVariant": "",
+                "ActiveVariantBlock": "",
                 "AllowZeroVariantControls": "off",
                 "AttributesFormatString": "",
-                "AutoFrameSizeCalculation": "off",
                 "BlockChoice": "",
                 "BlockType": "SubSystem",
-                "CompiledActiveChoiceBlock": "",
-                "CompiledActiveChoiceControl": "",
                 "CompiledPortComplexSignals": {
                     "Enable": [],
                     "Ifaction": [],
@@ -9370,15 +9257,15 @@
                 ],
                 "Content": {
                     "Annotation": [
-                        248.007568359375,
-                        247.0076904296875
+                        248.00732421875,
+                        247.163818359375
                     ],
                     "Annotation1": {
-                        "Handle": 248.007568359375,
+                        "Handle": 248.00732421875,
                         "Text": "U(k)"
                     },
                     "Annotation2": {
-                        "Handle": 247.0076904296875,
+                        "Handle": 247.163818359375,
                         "Text": "Edge"
                     },
                     "DelayInput1": {
@@ -9443,15 +9330,15 @@
                             0.2,
                             0
                         ],
-                        "Handle": 230.007568359375,
+                        "Handle": 230.0032958984375,
                         "InitialCondition": "vinit",
-                        "InputProcessing": "Elements as channels (sample based)",
+                        "InputProcessing": "Inherited",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 243.007568359375,
+                            "Inport": 243.00390625,
                             "LConn": [],
-                            "Outport": 245.007568359375,
+                            "Outport": 245.0035400390625,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -9468,12 +9355,12 @@
                                     205,
                                     65
                                 ],
-                                "SrcBlock": 232.007568359375,
+                                "SrcBlock": 232.0030517578125,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
                             {
-                                "DstBlock": 231.007568359375,
+                                "DstBlock": 231.0030517578125,
                                 "DstPort": 1,
                                 "Position": [
                                     245,
@@ -9577,17 +9464,17 @@
                             0.2,
                             0
                         ],
-                        "Handle": 231.007568359375,
+                        "Handle": 231.0030517578125,
                         "InputSameDT": "off",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [
-                                242.007568359375,
-                                245.007568359375
+                                242.0032958984375,
+                                245.0035400390625
                             ],
                             "LConn": [],
-                            "Outport": 244.007568359375,
+                            "Outport": 244.004150390625,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -9606,7 +9493,7 @@
                                     315,
                                     35
                                 ],
-                                "SrcBlock": 232.007568359375,
+                                "SrcBlock": 232.0030517578125,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
@@ -9617,12 +9504,12 @@
                                     315,
                                     65
                                 ],
-                                "SrcBlock": 230.007568359375,
+                                "SrcBlock": 230.0032958984375,
                                 "SrcPort": 0,
                                 "Type": "2"
                             },
                             {
-                                "DstBlock": 240.007568359375,
+                                "DstBlock": 240.003662109375,
                                 "DstPort": 0,
                                 "Position": [
                                     360,
@@ -9655,13 +9542,12 @@
                         "ZeroCross": "off"
                     },
                     "Nonpositive": {
+                        "ActiveVariant": "",
+                        "ActiveVariantBlock": "",
                         "AllowZeroVariantControls": "off",
                         "AttributesFormatString": "",
-                        "AutoFrameSizeCalculation": "off",
                         "BlockChoice": "",
                         "BlockType": "SubSystem",
-                        "CompiledActiveChoiceBlock": "",
-                        "CompiledActiveChoiceControl": "",
                         "CompiledPortComplexSignals": {
                             "Enable": [],
                             "Ifaction": [],
@@ -9797,17 +9683,17 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 234.007568359375,
+                                "Handle": 234.002685546875,
                                 "InputSameDT": "on",
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [
-                                        238.007568359375,
-                                        237.007568359375
+                                        238.0028076171875,
+                                        237.0029296875
                                     ],
                                     "LConn": [],
-                                    "Outport": 239.007568359375,
+                                    "Outport": 239.0030517578125,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -9826,7 +9712,7 @@
                                             140,
                                             35
                                         ],
-                                        "SrcBlock": 233.007568359375,
+                                        "SrcBlock": 233.00390625,
                                         "SrcPort": 0,
                                         "Type": "1"
                                     },
@@ -9837,12 +9723,12 @@
                                             140,
                                             70
                                         ],
-                                        "SrcBlock": 235.007568359375,
+                                        "SrcBlock": 235.00341796875,
                                         "SrcPort": 0,
                                         "Type": "2"
                                     },
                                     {
-                                        "DstBlock": 236.007568359375,
+                                        "DstBlock": 236.00244140625,
                                         "DstPort": 0,
                                         "Position": [
                                             190,
@@ -9931,13 +9817,13 @@
                                     null
                                 ],
                                 "FramePeriod": "inf",
-                                "Handle": 235.007568359375,
+                                "Handle": 235.00341796875,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 237.007568359375,
+                                    "Outport": 237.0029296875,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -9951,7 +9837,7 @@
                                 "OutMin": "[]",
                                 "Path": "detect_fall_test_PP/DetectFallNonpositive3/Nonpositive/Constant",
                                 "PortConnectivity": {
-                                    "DstBlock": 234.007568359375,
+                                    "DstBlock": 234.002685546875,
                                     "DstPort": 1,
                                     "Position": [
                                         105,
@@ -10039,13 +9925,13 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 233.007568359375,
+                                "Handle": 233.00390625,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 238.007568359375,
+                                    "Outport": 238.0028076171875,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -10058,7 +9944,7 @@
                                 "Path": "detect_fall_test_PP/DetectFallNonpositive3/Nonpositive/u",
                                 "Port": "1",
                                 "PortConnectivity": {
-                                    "DstBlock": 234.007568359375,
+                                    "DstBlock": 234.002685546875,
                                     "DstPort": 0,
                                     "Position": [
                                         50,
@@ -10144,12 +10030,12 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 236.007568359375,
+                                "Handle": 236.00244140625,
                                 "InitialOutput": "[]",
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
-                                    "Inport": 239.007568359375,
+                                    "Inport": 239.0030517578125,
                                     "LConn": [],
                                     "Outport": [],
                                     "RConn": [],
@@ -10171,7 +10057,7 @@
                                         265,
                                         55
                                     ],
-                                    "SrcBlock": 234.007568359375,
+                                    "SrcBlock": 234.002685546875,
                                     "SrcPort": 0,
                                     "Type": "1"
                                 },
@@ -10197,19 +10083,17 @@
                         },
                         "DataTypeOverride": "UseLocalSettings",
                         "ErrorFcn": "",
-                        "ExecutionDomainType": "Deduce",
                         "FunctionInterfaceSpec": "void_void",
                         "FunctionWithSeparateData": "off",
-                        "Handle": 232.007568359375,
+                        "GeneratePreprocessorConditionals": "off",
+                        "Handle": 232.0030517578125,
                         "IsSubsystemVirtual": "off",
-                        "LabelModeActiveChoice": "",
-                        "Latency": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 246.007568359375,
+                            "Inport": 246.0035400390625,
                             "LConn": [],
-                            "Outport": 241.007568359375,
+                            "Outport": 241.003173828125,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -10223,7 +10107,7 @@
                         "Name": "Nonpositive",
                         "Origin_path": "detect_fall_test_PP/Detect Fall\nNonpositive3/Nonpositive",
                         "OutDataTypeStr": "boolean",
-                        "PartitionName": "",
+                        "OverrideUsingVariant": "",
                         "Path": "detect_fall_test_PP/DetectFallNonpositive3/Nonpositive",
                         "Permissions": "ReadWrite",
                         "PermitHierarchicalResolution": "All",
@@ -10235,14 +10119,14 @@
                                     80,
                                     65
                                 ],
-                                "SrcBlock": 229.007568359375,
+                                "SrcBlock": 229.0030517578125,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
                             {
                                 "DstBlock": [
-                                    230.007568359375,
-                                    231.007568359375
+                                    230.0032958984375,
+                                    231.0030517578125
                                 ],
                                 "DstPort": [
                                     0,
@@ -10286,19 +10170,14 @@
                         "RTWMemSecFuncExecute": "Inherit from model",
                         "RTWMemSecFuncInitTerm": "Inherit from model",
                         "RTWSystemCode": "Auto",
-                        "ReferencedSubsystem": "",
                         "SFBlockType": "NONE",
-                        "ScheduleAs": "Sample time",
-                        "SetExecutionDomain": "off",
                         "ShowPortLabels": "FromPortIcon",
                         "SystemSampleTime": "-1",
                         "TemplateBlock": "",
                         "TreatAsAtomicUnit": "on",
                         "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                         "Variant": "off",
-                        "VariantActivationTime": "update diagram",
                         "VariantControl": "",
-                        "VariantControlMode": "expression",
                         "Virtual": "off",
                         "ZeroCross": "off",
                         "relop": "<="
@@ -10360,13 +10239,13 @@
                             0.2,
                             0
                         ],
-                        "Handle": 229.007568359375,
+                        "Handle": 229.0030517578125,
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [],
                             "LConn": [],
-                            "Outport": 246.007568359375,
+                            "Outport": 246.0035400390625,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -10379,7 +10258,7 @@
                         "Path": "detect_fall_test_PP/DetectFallNonpositive3/U",
                         "Port": "1",
                         "PortConnectivity": {
-                            "DstBlock": 232.007568359375,
+                            "DstBlock": 232.0030517578125,
                             "DstPort": 0,
                             "Position": [
                                 50,
@@ -10465,12 +10344,12 @@
                             0.2,
                             0
                         ],
-                        "Handle": 240.007568359375,
+                        "Handle": 240.003662109375,
                         "InitialOutput": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 244.007568359375,
+                            "Inport": 244.004150390625,
                             "LConn": [],
                             "Outport": [],
                             "RConn": [],
@@ -10492,7 +10371,7 @@
                                 465,
                                 50
                             ],
-                            "SrcBlock": 231.007568359375,
+                            "SrcBlock": 231.0030517578125,
                             "SrcPort": 0,
                             "Type": "1"
                         },
@@ -10518,20 +10397,18 @@
                 },
                 "DataTypeOverride": "UseLocalSettings",
                 "ErrorFcn": "",
-                "ExecutionDomainType": "Deduce",
                 "FunctionInterfaceSpec": "void_void",
                 "FunctionWithSeparateData": "off",
-                "Handle": 228.007568359375,
-                "InputProcessing": "Elements as channels (sample based)",
+                "GeneratePreprocessorConditionals": "off",
+                "Handle": 228.003173828125,
+                "InputProcessing": "Inherited",
                 "IsSubsystemVirtual": "off",
-                "LabelModeActiveChoice": "",
-                "Latency": "0",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 271.007568359375,
+                    "Inport": 271.002685546875,
                     "LConn": [],
-                    "Outport": 272.007568359375,
+                    "Outport": 272.00341796875,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -10545,7 +10422,7 @@
                 "Name": "Detect Fall\nNonpositive3",
                 "Origin_path": "detect_fall_test_PP/Detect Fall\nNonpositive3",
                 "OutDataTypeStr": "boolean",
-                "PartitionName": "",
+                "OverrideUsingVariant": "",
                 "Path": "detect_fall_test_PP/DetectFallNonpositive3",
                 "Permissions": "ReadWrite",
                 "PermitHierarchicalResolution": "All",
@@ -10557,12 +10434,12 @@
                             335,
                             315
                         ],
-                        "SrcBlock": 9.007568359375,
+                        "SrcBlock": 11.003662109375,
                         "SrcPort": 0,
                         "Type": "1"
                     },
                     {
-                        "DstBlock": 256.007568359375,
+                        "DstBlock": 256.002685546875,
                         "DstPort": 0,
                         "Position": [
                             405,
@@ -10602,19 +10479,14 @@
                 "RTWMemSecFuncExecute": "Inherit from model",
                 "RTWMemSecFuncInitTerm": "Inherit from model",
                 "RTWSystemCode": "Auto",
-                "ReferencedSubsystem": "",
                 "SFBlockType": "NONE",
-                "ScheduleAs": "Sample time",
-                "SetExecutionDomain": "off",
                 "ShowPortLabels": "FromPortIcon",
                 "SystemSampleTime": "-1",
                 "TemplateBlock": "",
                 "TreatAsAtomicUnit": "on",
                 "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                 "Variant": "off",
-                "VariantActivationTime": "update diagram",
                 "VariantControl": "",
-                "VariantControlMode": "expression",
                 "Virtual": "off",
                 "vinit": "0"
             },
@@ -10675,13 +10547,13 @@
                     0.2,
                     0
                 ],
-                "Handle": 2.007568359375,
+                "Handle": 4.2366943359375,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 258.007568359375,
+                    "Outport": 258.003173828125,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -10694,7 +10566,7 @@
                 "Path": "detect_fall_test_PP/In1",
                 "Port": "1",
                 "PortConnectivity": {
-                    "DstBlock": 10.007568359375,
+                    "DstBlock": 12.004150390625,
                     "DstPort": 0,
                     "Position": [
                         60,
@@ -10780,13 +10652,13 @@
                     0.2,
                     0
                 ],
-                "Handle": 3.007568359375,
+                "Handle": 5.003173828125,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 260.007568359375,
+                    "Outport": 260.00390625,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -10799,7 +10671,7 @@
                 "Path": "detect_fall_test_PP/In2",
                 "Port": "2",
                 "PortConnectivity": {
-                    "DstBlock": 31.007568359375,
+                    "DstBlock": 33.0042724609375,
                     "DstPort": 0,
                     "Position": [
                         60,
@@ -10886,13 +10758,13 @@
                     0.2,
                     0
                 ],
-                "Handle": 4.007568359375,
+                "Handle": 6.003173828125,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 262.007568359375,
+                    "Outport": 262.0037841796875,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -10905,7 +10777,7 @@
                 "Path": "detect_fall_test_PP/In3",
                 "Port": "3",
                 "PortConnectivity": {
-                    "DstBlock": 116.007568359375,
+                    "DstBlock": 116.0032958984375,
                     "DstPort": 0,
                     "Position": [
                         60,
@@ -10991,13 +10863,13 @@
                     0.2,
                     0
                 ],
-                "Handle": 5.007568359375,
+                "Handle": 7.003173828125,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 263.007568359375,
+                    "Outport": 263.004150390625,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -11010,7 +10882,7 @@
                 "Path": "detect_fall_test_PP/In4",
                 "Port": "4",
                 "PortConnectivity": {
-                    "DstBlock": 165.007568359375,
+                    "DstBlock": 165.003173828125,
                     "DstPort": 0,
                     "Position": [
                         315,
@@ -11096,13 +10968,13 @@
                     0.2,
                     0
                 ],
-                "Handle": 6.007568359375,
+                "Handle": 8.0035400390625,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 264.007568359375,
+                    "Outport": 264.00390625,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -11115,7 +10987,7 @@
                 "Path": "detect_fall_test_PP/In5",
                 "Port": "5",
                 "PortConnectivity": {
-                    "DstBlock": 186.007568359375,
+                    "DstBlock": 186.0040283203125,
                     "DstPort": 0,
                     "Position": [
                         315,
@@ -11202,13 +11074,13 @@
                     0.2,
                     0
                 ],
-                "Handle": 7.007568359375,
+                "Handle": 9.0042724609375,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 265.007568359375,
+                    "Outport": 265.004150390625,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -11221,7 +11093,7 @@
                 "Path": "detect_fall_test_PP/In6",
                 "Port": "6",
                 "PortConnectivity": {
-                    "DstBlock": 207.0076904296875,
+                    "DstBlock": 207.0035400390625,
                     "DstPort": 0,
                     "Position": [
                         315,
@@ -11307,13 +11179,13 @@
                     0.2,
                     0
                 ],
-                "Handle": 8.007568359375,
+                "Handle": 10.0040283203125,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 270.007568359375,
+                    "Outport": 270.0029296875,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -11326,7 +11198,7 @@
                 "Path": "detect_fall_test_PP/In7",
                 "Port": "7",
                 "PortConnectivity": {
-                    "DstBlock": 144.007568359375,
+                    "DstBlock": 144.0030517578125,
                     "DstPort": 0,
                     "Position": [
                         60,
@@ -11412,13 +11284,13 @@
                     0.2,
                     0
                 ],
-                "Handle": 9.007568359375,
+                "Handle": 11.003662109375,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 271.007568359375,
+                    "Outport": 271.002685546875,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -11431,7 +11303,7 @@
                 "Path": "detect_fall_test_PP/In8",
                 "Port": "8",
                 "PortConnectivity": {
-                    "DstBlock": 228.007568359375,
+                    "DstBlock": 228.003173828125,
                     "DstPort": 0,
                     "Position": [
                         315,
@@ -11517,12 +11389,12 @@
                     0.2,
                     0
                 ],
-                "Handle": 249.007568359375,
+                "Handle": 249.0030517578125,
                 "InitialOutput": "[]",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 257.007568359375,
+                    "Inport": 257.0029296875,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -11544,7 +11416,7 @@
                         175,
                         35
                     ],
-                    "SrcBlock": 10.007568359375,
+                    "SrcBlock": 12.004150390625,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -11624,12 +11496,12 @@
                     0.2,
                     0
                 ],
-                "Handle": 250.007568359375,
+                "Handle": 250.1627197265625,
                 "InitialOutput": "[]",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 259.007568359375,
+                    "Inport": 259.0030517578125,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -11651,7 +11523,7 @@
                         175,
                         130
                     ],
-                    "SrcBlock": 31.007568359375,
+                    "SrcBlock": 33.0042724609375,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -11737,7 +11609,7 @@
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 261.007568359375,
+                    "Inport": 261.0035400390625,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -11759,7 +11631,7 @@
                         175,
                         220
                     ],
-                    "SrcBlock": 116.007568359375,
+                    "SrcBlock": 116.0032958984375,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -11839,12 +11711,12 @@
                     0.2,
                     0
                 ],
-                "Handle": 252.007568359375,
+                "Handle": 252.0030517578125,
                 "InitialOutput": "[]",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 266.007568359375,
+                    "Inport": 266.003662109375,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -11866,7 +11738,7 @@
                         430,
                         40
                     ],
-                    "SrcBlock": 165.007568359375,
+                    "SrcBlock": 165.003173828125,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -11946,12 +11818,12 @@
                     0.2,
                     0
                 ],
-                "Handle": 253.007568359375,
+                "Handle": 253.0035400390625,
                 "InitialOutput": "[]",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 267.0076904296875,
+                    "Inport": 267.00390625,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -11973,7 +11845,7 @@
                         430,
                         130
                     ],
-                    "SrcBlock": 186.007568359375,
+                    "SrcBlock": 186.0040283203125,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -12054,12 +11926,12 @@
                     0.2,
                     0
                 ],
-                "Handle": 254.007568359375,
+                "Handle": 254.003173828125,
                 "InitialOutput": "[]",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 268.007568359375,
+                    "Inport": 268.00341796875,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -12081,7 +11953,7 @@
                         430,
                         220
                     ],
-                    "SrcBlock": 207.0076904296875,
+                    "SrcBlock": 207.0035400390625,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -12161,12 +12033,12 @@
                     0.2,
                     0
                 ],
-                "Handle": 255.007568359375,
+                "Handle": 255.0042724609375,
                 "InitialOutput": "[]",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 269.007568359375,
+                    "Inport": 269.0028076171875,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -12188,7 +12060,7 @@
                         175,
                         310
                     ],
-                    "SrcBlock": 144.007568359375,
+                    "SrcBlock": 144.0030517578125,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -12268,12 +12140,12 @@
                     0.2,
                     0
                 ],
-                "Handle": 256.007568359375,
+                "Handle": 256.002685546875,
                 "InitialOutput": "[]",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 272.007568359375,
+                    "Inport": 272.00341796875,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -12295,7 +12167,7 @@
                         430,
                         315
                     ],
-                    "SrcBlock": 228.007568359375,
+                    "SrcBlock": 228.003173828125,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -12319,7 +12191,7 @@
                 "UseBusObject": "off"
             }
         },
-        "Handle": 0.007568359375,
+        "Handle": 2.4378662109375,
         "Name": "detect_fall_test_PP",
         "Origin_path": "detect_fall_test_PP",
         "Path": "detect_fall_test_PP"
@@ -12328,8 +12200,8 @@
         "Declarations": {
             "Enumerations": []
         },
-        "date": "22-Oct-2020",
-        "file_path": "/Users/hbourbou/Documents/babelfish.arc.nasa.gov/cocosim_github/cocosim_tests/Simulink/unitTests/DetectChange/detect_fall_test_PP.slx",
+        "date": "01-Nov-2020",
+        "file_path": "/Users/ktrinh/cocosim/cocosim_github/cocosim_tests/Simulink/unitTests/DetectChange/detect_fall_test_PP.slx",
         "sampleTime": 0.2
     }
 }

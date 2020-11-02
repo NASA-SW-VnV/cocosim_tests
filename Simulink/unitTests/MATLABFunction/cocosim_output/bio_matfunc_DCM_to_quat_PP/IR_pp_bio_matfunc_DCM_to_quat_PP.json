@@ -71,11 +71,11 @@
                 "Decimation": "1",
                 "Floating": "off",
                 "Format": "short",
-                "Handle": 3.2724609375,
+                "Handle": 72.6981201171875,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 16.20263671875,
+                    "Inport": 180.723388671875,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -93,7 +93,7 @@
                         500,
                         90
                     ],
-                    "SrcBlock": 4.2686767578125,
+                    "SrcBlock": 99.816650390625,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -173,13 +173,13 @@
                     0.1,
                     0
                 ],
-                "Handle": 2.2664794921875,
+                "Handle": 48.9837646484375,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 18.200927734375,
+                    "Outport": 190.7938232421875,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -192,7 +192,7 @@
                 "Path": "bio_matfunc_DCM_to_quat_PP/In1",
                 "Port": "1",
                 "PortConnectivity": {
-                    "DstBlock": 4.2686767578125,
+                    "DstBlock": 99.816650390625,
                     "DstPort": 0,
                     "Position": [
                         90,
@@ -284,14 +284,14 @@
                     0
                 ],
                 "DataTypeOverride": "UseLocalSettings",
-                "Handle": 4.2686767578125,
+                "Handle": 99.816650390625,
                 "Inputs": [
                     {
                         "ArraySize": "-1",
                         "CompiledSize": "[3, 3]",
                         "CompiledType": "double",
                         "Datatype": "Inherit: Same as Simulink",
-                        "Id": 474,
+                        "Id": 287,
                         "Name": "Mat",
                         "Port": 1,
                         "Scope": "Input"
@@ -301,9 +301,9 @@
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 18.200927734375,
+                    "Inport": 190.7938232421875,
                     "LConn": [],
-                    "Outport": 15.20458984375,
+                    "Outport": 179.4112548828125,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -321,7 +321,7 @@
                         "CompiledSize": "4",
                         "CompiledType": "double",
                         "Datatype": "Inherit: Same as Simulink",
-                        "Id": 475,
+                        "Id": 288,
                         "Name": "quat",
                         "Port": 1,
                         "Scope": "Output"
@@ -338,14 +338,14 @@
                             230,
                             160
                         ],
-                        "SrcBlock": 2.2664794921875,
+                        "SrcBlock": 48.9837646484375,
                         "SrcPort": 0,
                         "Type": "1"
                     },
                     {
                         "DstBlock": [
-                            14.209716796875,
-                            3.2724609375
+                            178.782470703125,
+                            72.6981201171875
                         ],
                         "DstPort": [
                             0,
@@ -442,12 +442,12 @@
                     0.1,
                     0
                 ],
-                "Handle": 14.209716796875,
+                "Handle": 178.782470703125,
                 "InitialOutput": "[]",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 17.2001953125,
+                    "Inport": 182.7618408203125,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -469,7 +469,7 @@
                         450,
                         160
                     ],
-                    "SrcBlock": 4.2686767578125,
+                    "SrcBlock": 99.816650390625,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -493,7 +493,7 @@
                 "UseBusObject": "off"
             }
         },
-        "Handle": 0.2664794921875,
+        "Handle": 9.8338623046875,
         "Name": "bio_matfunc_DCM_to_quat_PP",
         "Origin_path": "bio_matfunc_DCM_to_quat_PP",
         "Path": "bio_matfunc_DCM_to_quat_PP"
@@ -502,8 +502,8 @@
         "Declarations": {
             "Enumerations": []
         },
-        "date": "23-Oct-2020",
-        "file_path": "/Users/hbourbou/Documents/babelfish.arc.nasa.gov/cocosim_github/cocosim_tests/Simulink/unitTests/MATLABFunction/bio_matfunc_DCM_to_quat_PP.slx",
+        "date": "01-Nov-2020",
+        "file_path": "/Users/ktrinh/cocosim/cocosim_github/cocosim_tests/Simulink/unitTests/MATLABFunction/bio_matfunc_DCM_to_quat_PP.slx",
         "sampleTime": 0.1
     }
 }

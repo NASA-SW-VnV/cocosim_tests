@@ -69,13 +69,13 @@
                     0.1,
                     0
                 ],
-                "Handle": 2.408935546875,
+                "Handle": 193.821044921875,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 5.4688720703125,
+                    "Outport": 293.5711669921875,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -88,7 +88,7 @@
                 "Path": "LookupTableOfCosine_PP/In1",
                 "Port": "1",
                 "PortConnectivity": {
-                    "DstBlock": 3.415283203125,
+                    "DstBlock": 194.958251953125,
                     "DstPort": 0,
                     "Position": [
                         230,
@@ -186,7 +186,6 @@
                 "BreakpointsForDimension1FirstPoint": "1",
                 "BreakpointsForDimension1Max": "[]",
                 "BreakpointsForDimension1Min": "[]",
-                "BreakpointsForDimension1Source": "Dialog",
                 "BreakpointsForDimension1Spacing": "1",
                 "BreakpointsForDimension2": "[10,22,31]",
                 "BreakpointsForDimension20": "[1:3]",
@@ -253,7 +252,6 @@
                 "BreakpointsForDimension2FirstPoint": "1",
                 "BreakpointsForDimension2Max": "[]",
                 "BreakpointsForDimension2Min": "[]",
-                "BreakpointsForDimension2Source": "Dialog",
                 "BreakpointsForDimension2Spacing": "1",
                 "BreakpointsForDimension3": "[1:3]",
                 "BreakpointsForDimension30": "[1:3]",
@@ -266,7 +264,6 @@
                 "BreakpointsForDimension3FirstPoint": "1",
                 "BreakpointsForDimension3Max": "[]",
                 "BreakpointsForDimension3Min": "[]",
-                "BreakpointsForDimension3Source": "Dialog",
                 "BreakpointsForDimension3Spacing": "1",
                 "BreakpointsForDimension4": "[1:3]",
                 "BreakpointsForDimension4DataTypeStr": "Inherit: Same as corresponding input",
@@ -367,18 +364,18 @@
                 "DiagnosticForOutOfRangeInput": "None",
                 "ExtrapMethod": "Clip",
                 "FractionDataTypeStr": "Inherit: Inherit via internal rule",
-                "Handle": 3.415283203125,
+                "Handle": 194.958251953125,
                 "IndexSearchMethod": "Evenly spaced points",
                 "InputSameDT": "off",
                 "IntermediateResultsDataTypeStr": "Inherit: Same as output",
                 "InternalRulePriority": "Speed",
-                "InterpMethod": "Linear point-slope",
+                "InterpMethod": "Linear",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 5.4688720703125,
+                    "Inport": 293.5711669921875,
                     "LConn": [],
-                    "Outport": 6.471435546875,
+                    "Outport": 294.4197998046875,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -402,12 +399,12 @@
                             290,
                             155
                         ],
-                        "SrcBlock": 2.408935546875,
+                        "SrcBlock": 193.821044921875,
                         "SrcPort": 0,
                         "Type": "1"
                     },
                     {
-                        "DstBlock": 4.411865234375,
+                        "DstBlock": 292.8416748046875,
                         "DstPort": 0,
                         "Position": [
                             360,
@@ -444,7 +441,6 @@
                 "TableDataTypeStr": "Inherit: Same as output",
                 "TableMax": "[]",
                 "TableMin": "[]",
-                "TableSource": "Dialog",
                 "UseLastTableValue": "off",
                 "UseOneInputPortForAllInputData": "off"
             },
@@ -505,12 +501,12 @@
                     0.1,
                     0
                 ],
-                "Handle": 4.411865234375,
+                "Handle": 292.8416748046875,
                 "InitialOutput": "[]",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 6.471435546875,
+                    "Inport": 294.4197998046875,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -532,7 +528,7 @@
                         400,
                         155
                     ],
-                    "SrcBlock": 3.415283203125,
+                    "SrcBlock": 194.958251953125,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -556,7 +552,7 @@
                 "UseBusObject": "off"
             }
         },
-        "Handle": 0.408935546875,
+        "Handle": 10.90185546875,
         "Name": "LookupTableOfCosine_PP",
         "Origin_path": "LookupTableOfCosine_PP",
         "Path": "LookupTableOfCosine_PP"
@@ -565,8 +561,8 @@
         "Declarations": {
             "Enumerations": []
         },
-        "date": "23-Oct-2020",
-        "file_path": "/Users/hbourbou/Documents/babelfish.arc.nasa.gov/cocosim_github/cocosim_tests/Simulink/unitTests/SineandCosine/LookupTableOfCosine_PP.slx",
+        "date": "01-Nov-2020",
+        "file_path": "/Users/ktrinh/cocosim/cocosim_github/cocosim_tests/Simulink/unitTests/SineandCosine/LookupTableOfCosine_PP.slx",
         "sampleTime": 0.1
     }
 }

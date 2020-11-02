@@ -3,8 +3,8 @@
         "Declarations": {
             "Enumerations": []
         },
-        "date": "23-Oct-2020",
-        "file_path": "/Users/hbourbou/Documents/babelfish.arc.nasa.gov/cocosim_github/cocosim_tests/Simulink/unitTests/Sigbuilderblock/sibBuilderBlock_TestGen11_PP.slx",
+        "date": "01-Nov-2020",
+        "file_path": "/Users/ktrinh/cocosim/cocosim_github/cocosim_tests/Simulink/unitTests/Sigbuilderblock/sibBuilderBlock_TestGen11_PP.slx",
         "sampleTime": 0.1
     },
     "sibBuilderBlock_TestGen11_PP": {
@@ -81,12 +81,12 @@
                     0,
                     0
                 ],
-                "Handle": 8.36767578125,
+                "Handle": 296.39892578125,
                 "InitialOutput": "[]",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 9.41845703125,
+                    "Inport": 308.875,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -108,7 +108,7 @@
                         225,
                         90
                     ],
-                    "SrcBlock": 2.3931884765625,
+                    "SrcBlock": 193.6474609375,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -132,13 +132,12 @@
                 "UseBusObject": "off"
             },
             "P": {
+                "ActiveVariant": "",
+                "ActiveVariantBlock": "",
                 "AllowZeroVariantControls": "off",
                 "AttributesFormatString": "",
-                "AutoFrameSizeCalculation": "off",
                 "BlockChoice": "",
                 "BlockType": "SubSystem",
-                "CompiledActiveChoiceBlock": "",
-                "CompiledActiveChoiceControl": "",
                 "CompiledPortComplexSignals": {
                     "Enable": [],
                     "Ifaction": [],
@@ -256,13 +255,13 @@
                             0
                         ],
                         "DisplayOption": "none",
-                        "Handle": 3.3995361328125,
+                        "Handle": 194.878173828125,
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 6.45556640625,
+                            "Inport": 294.4024658203125,
                             "LConn": [],
-                            "Outport": 7.42626953125,
+                            "Outport": 295.987060546875,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -280,12 +279,12 @@
                                     145,
                                     10
                                 ],
-                                "SrcBlock": 4.39599609375,
+                                "SrcBlock": 292.7911376953125,
                                 "SrcPort": 0,
                                 "Type": "1"
                             },
                             {
-                                "DstBlock": 5.4530029296875,
+                                "DstBlock": 293.5526123046875,
                                 "DstPort": 0,
                                 "Position": [
                                     165,
@@ -370,14 +369,14 @@
                             0,
                             0
                         ],
-                        "Handle": 4.39599609375,
+                        "Handle": 292.7911376953125,
                         "Interpolate": "on",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [],
                             "LConn": [],
-                            "Outport": 6.45556640625,
+                            "Outport": 294.4024658203125,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -389,7 +388,7 @@
                         "OutputAfterFinalValue": "Extrapolation",
                         "Path": "sibBuilderBlock_TestGen11_PP/P/FromWs",
                         "PortConnectivity": {
-                            "DstBlock": 3.3995361328125,
+                            "DstBlock": 194.878173828125,
                             "DstPort": 0,
                             "Position": [
                                 120,
@@ -477,12 +476,12 @@
                             0,
                             0
                         ],
-                        "Handle": 5.4530029296875,
+                        "Handle": 293.5526123046875,
                         "InitialOutput": "[]",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 7.42626953125,
+                            "Inport": 295.987060546875,
                             "LConn": [],
                             "Outport": [],
                             "RConn": [],
@@ -504,7 +503,7 @@
                                 245,
                                 25
                             ],
-                            "SrcBlock": 3.3995361328125,
+                            "SrcBlock": 194.878173828125,
                             "SrcPort": 0,
                             "Type": "1"
                         },
@@ -530,19 +529,17 @@
                 },
                 "DataTypeOverride": "UseLocalSettings",
                 "ErrorFcn": "",
-                "ExecutionDomainType": "Deduce",
                 "FunctionInterfaceSpec": "void_void",
                 "FunctionWithSeparateData": "off",
-                "Handle": 2.3931884765625,
+                "GeneratePreprocessorConditionals": "off",
+                "Handle": 193.6474609375,
                 "IsSubsystemVirtual": "off",
-                "LabelModeActiveChoice": "",
-                "Latency": "0",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 9.41845703125,
+                    "Outport": 308.875,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -555,12 +552,12 @@
                 "MinMaxOverflowLogging": "UseLocalSettings",
                 "Name": "P",
                 "Origin_path": "sibBuilderBlock_TestGen11_PP/P",
-                "PartitionName": "",
+                "OverrideUsingVariant": "",
                 "Path": "sibBuilderBlock_TestGen11_PP/P",
                 "Permissions": "ReadWrite",
                 "PermitHierarchicalResolution": "All",
                 "PortConnectivity": {
-                    "DstBlock": 8.36767578125,
+                    "DstBlock": 296.39892578125,
                     "DstPort": 0,
                     "Position": [
                         175,
@@ -599,24 +596,19 @@
                 "RTWMemSecFuncExecute": "Inherit from model",
                 "RTWMemSecFuncInitTerm": "Inherit from model",
                 "RTWSystemCode": "Auto",
-                "ReferencedSubsystem": "",
                 "SFBlockType": "NONE",
-                "ScheduleAs": "Sample time",
-                "SetExecutionDomain": "off",
                 "ShowPortLabels": "FromPortIcon",
                 "SystemSampleTime": "-1",
                 "TemplateBlock": "",
                 "TreatAsAtomicUnit": "on",
                 "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                 "Variant": "off",
-                "VariantActivationTime": "update diagram",
                 "VariantControl": "",
-                "VariantControlMode": "expression",
                 "Virtual": "off",
                 "tuvar": "[0:10]"
             }
         },
-        "Handle": 0.3931884765625,
+        "Handle": 10.441162109375,
         "Name": "sibBuilderBlock_TestGen11_PP",
         "Origin_path": "sibBuilderBlock_TestGen11_PP",
         "Path": "sibBuilderBlock_TestGen11_PP"

@@ -13,13 +13,12 @@
         ],
         "Content": {
             "Assumption": {
+                "ActiveVariant": "",
+                "ActiveVariantBlock": "",
                 "AllowZeroVariantControls": "off",
                 "AttributesFormatString": "%<intervals>",
-                "AutoFrameSizeCalculation": "off",
                 "BlockChoice": "",
                 "BlockType": "SubSystem",
-                "CompiledActiveChoiceBlock": "",
-                "CompiledActiveChoiceControl": "",
                 "CompiledPortComplexSignals": {
                     "Enable": [],
                     "Ifaction": [],
@@ -131,13 +130,13 @@
                             0.2,
                             0
                         ],
-                        "Handle": 180.0565185546875,
+                        "Handle": 192.033203125,
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [],
                             "LConn": [],
-                            "Outport": 188.0565185546875,
+                            "Outport": 200.0347900390625,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -150,7 +149,7 @@
                         "Path": "A1_PP/Assumption/In1",
                         "Port": "1",
                         "PortConnectivity": {
-                            "DstBlock": 181.0565185546875,
+                            "DstBlock": 193.0330810546875,
                             "DstPort": 0,
                             "Position": [
                                 60,
@@ -180,13 +179,12 @@
                         "UseBusObject": "off"
                     },
                     "viewdvc": {
+                        "ActiveVariant": "",
+                        "ActiveVariantBlock": "",
                         "AllowZeroVariantControls": "off",
                         "AttributesFormatString": "",
-                        "AutoFrameSizeCalculation": "off",
                         "BlockChoice": "",
                         "BlockType": "SubSystem",
-                        "CompiledActiveChoiceBlock": "",
-                        "CompiledActiveChoiceControl": "",
                         "CompiledPortComplexSignals": {
                             "Enable": [],
                             "Ifaction": [],
@@ -298,13 +296,13 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 182.0565185546875,
+                                "Handle": 194.0335693359375,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 184.0565185546875,
+                                    "Outport": 196.195068359375,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -317,7 +315,7 @@
                                 "Path": "A1_PP/Assumption/viewdvc/In1",
                                 "Port": "1",
                                 "PortConnectivity": {
-                                    "DstBlock": 183.0565185546875,
+                                    "DstBlock": 195.0333251953125,
                                     "DstPort": 0,
                                     "Position": [
                                         60,
@@ -403,11 +401,11 @@
                                     0
                                 ],
                                 "FunctionName": "customAVTBlockSFcn",
-                                "Handle": 183.0565185546875,
+                                "Handle": 195.0333251953125,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
-                                    "Inport": 184.0565185546875,
+                                    "Inport": 196.195068359375,
                                     "LConn": [],
                                     "Outport": [],
                                     "RConn": [],
@@ -426,7 +424,7 @@
                                         85,
                                         60
                                     ],
-                                    "SrcBlock": 182.0565185546875,
+                                    "SrcBlock": 194.0335693359375,
                                     "SrcPort": 0,
                                     "Type": "1"
                                 },
@@ -452,17 +450,15 @@
                         },
                         "DataTypeOverride": "UseLocalSettings",
                         "ErrorFcn": "",
-                        "ExecutionDomainType": "Deduce",
                         "FunctionInterfaceSpec": "void_void",
                         "FunctionWithSeparateData": "off",
-                        "Handle": 181.0565185546875,
+                        "GeneratePreprocessorConditionals": "off",
+                        "Handle": 193.0330810546875,
                         "IsSubsystemVirtual": "off",
-                        "LabelModeActiveChoice": "",
-                        "Latency": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 188.0565185546875,
+                            "Inport": 200.0347900390625,
                             "LConn": [],
                             "Outport": [],
                             "RConn": [],
@@ -477,7 +473,7 @@
                         "MinMaxOverflowLogging": "UseLocalSettings",
                         "Name": "viewdvc",
                         "Origin_path": "A1_PP/Assumption/viewdvc",
-                        "PartitionName": "",
+                        "OverrideUsingVariant": "",
                         "Path": "A1_PP/Assumption/viewdvc",
                         "Permissions": "ReadWrite",
                         "PermitHierarchicalResolution": "All",
@@ -488,7 +484,7 @@
                                 125,
                                 120
                             ],
-                            "SrcBlock": 180.0565185546875,
+                            "SrcBlock": 192.033203125,
                             "SrcPort": 0,
                             "Type": "1"
                         },
@@ -521,35 +517,28 @@
                         "RTWMemSecFuncExecute": "Inherit from model",
                         "RTWMemSecFuncInitTerm": "Inherit from model",
                         "RTWSystemCode": "Auto",
-                        "ReferencedSubsystem": "",
                         "SFBlockType": "NONE",
-                        "ScheduleAs": "Sample time",
-                        "SetExecutionDomain": "off",
                         "ShowPortLabels": "FromPortIcon",
                         "SystemSampleTime": "-1",
                         "TemplateBlock": "",
                         "TreatAsAtomicUnit": "on",
                         "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                         "Variant": "off",
-                        "VariantActivationTime": "update diagram",
                         "VariantControl": "",
-                        "VariantControlMode": "expression",
                         "Virtual": "off"
                     }
                 },
                 "DataTypeOverride": "UseLocalSettings",
                 "ErrorFcn": "",
-                "ExecutionDomainType": "Deduce",
                 "FunctionInterfaceSpec": "void_void",
                 "FunctionWithSeparateData": "off",
-                "Handle": 9.0565185546875,
+                "GeneratePreprocessorConditionals": "off",
+                "Handle": 14.6434326171875,
                 "IsSubsystemVirtual": "off",
-                "LabelModeActiveChoice": "",
-                "Latency": "0",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 17.0565185546875,
+                    "Inport": 26.681396484375,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -564,7 +553,7 @@
                 "MinMaxOverflowLogging": "UseLocalSettings",
                 "Name": "Assumption",
                 "Origin_path": "A1_PP/Assumption",
-                "PartitionName": "",
+                "OverrideUsingVariant": "",
                 "Path": "A1_PP/Assumption",
                 "Permissions": "ReadWrite",
                 "PermitHierarchicalResolution": "All",
@@ -575,7 +564,7 @@
                         355,
                         150
                     ],
-                    "SrcBlock": 2.0565185546875,
+                    "SrcBlock": 6.5137939453125,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -608,19 +597,14 @@
                 "RTWMemSecFuncExecute": "Inherit from model",
                 "RTWMemSecFuncInitTerm": "Inherit from model",
                 "RTWSystemCode": "Auto",
-                "ReferencedSubsystem": "",
                 "SFBlockType": "NONE",
-                "ScheduleAs": "Sample time",
-                "SetExecutionDomain": "off",
                 "ShowPortLabels": "FromPortIcon",
                 "SystemSampleTime": "-1",
                 "TemplateBlock": "",
                 "TreatAsAtomicUnit": "on",
                 "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                 "Variant": "off",
-                "VariantActivationTime": "update diagram",
                 "VariantControl": "",
-                "VariantControlMode": "expression",
                 "Virtual": "off",
                 "customAVTBlockType": "Assumption",
                 "dispValues": "on",
@@ -630,13 +614,12 @@
                 "outEnabled": "off"
             },
             "Assumption1": {
+                "ActiveVariant": "",
+                "ActiveVariantBlock": "",
                 "AllowZeroVariantControls": "off",
                 "AttributesFormatString": "%<intervals>",
-                "AutoFrameSizeCalculation": "off",
                 "BlockChoice": "",
                 "BlockType": "SubSystem",
-                "CompiledActiveChoiceBlock": "",
-                "CompiledActiveChoiceControl": "",
                 "CompiledPortComplexSignals": {
                     "Enable": [],
                     "Ifaction": [],
@@ -748,13 +731,13 @@
                             0.2,
                             0
                         ],
-                        "Handle": 185.056640625,
+                        "Handle": 197.0406494140625,
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [],
                             "LConn": [],
-                            "Outport": 196.0565185546875,
+                            "Outport": 207.03466796875,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -767,7 +750,7 @@
                         "Path": "A1_PP/Assumption1/In1",
                         "Port": "1",
                         "PortConnectivity": {
-                            "DstBlock": 186.056640625,
+                            "DstBlock": 198.0341796875,
                             "DstPort": 0,
                             "Position": [
                                 60,
@@ -797,13 +780,12 @@
                         "UseBusObject": "off"
                     },
                     "viewdvc": {
+                        "ActiveVariant": "",
+                        "ActiveVariantBlock": "",
                         "AllowZeroVariantControls": "off",
                         "AttributesFormatString": "",
-                        "AutoFrameSizeCalculation": "off",
                         "BlockChoice": "",
                         "BlockType": "SubSystem",
-                        "CompiledActiveChoiceBlock": "",
-                        "CompiledActiveChoiceControl": "",
                         "CompiledPortComplexSignals": {
                             "Enable": [],
                             "Ifaction": [],
@@ -915,13 +897,13 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 187.056640625,
+                                "Handle": 199.034423828125,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 192.0565185546875,
+                                    "Outport": 203.03173828125,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -934,7 +916,7 @@
                                 "Path": "A1_PP/Assumption1/viewdvc/In1",
                                 "Port": "1",
                                 "PortConnectivity": {
-                                    "DstBlock": 190.056640625,
+                                    "DstBlock": 202.031005859375,
                                     "DstPort": 0,
                                     "Position": [
                                         60,
@@ -1020,11 +1002,11 @@
                                     0
                                 ],
                                 "FunctionName": "customAVTBlockSFcn",
-                                "Handle": 190.056640625,
+                                "Handle": 202.031005859375,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
-                                    "Inport": 192.0565185546875,
+                                    "Inport": 203.03173828125,
                                     "LConn": [],
                                     "Outport": [],
                                     "RConn": [],
@@ -1043,7 +1025,7 @@
                                         85,
                                         60
                                     ],
-                                    "SrcBlock": 187.056640625,
+                                    "SrcBlock": 199.034423828125,
                                     "SrcPort": 0,
                                     "Type": "1"
                                 },
@@ -1069,17 +1051,15 @@
                         },
                         "DataTypeOverride": "UseLocalSettings",
                         "ErrorFcn": "",
-                        "ExecutionDomainType": "Deduce",
                         "FunctionInterfaceSpec": "void_void",
                         "FunctionWithSeparateData": "off",
-                        "Handle": 186.056640625,
+                        "GeneratePreprocessorConditionals": "off",
+                        "Handle": 198.0341796875,
                         "IsSubsystemVirtual": "off",
-                        "LabelModeActiveChoice": "",
-                        "Latency": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 196.0565185546875,
+                            "Inport": 207.03466796875,
                             "LConn": [],
                             "Outport": [],
                             "RConn": [],
@@ -1094,7 +1074,7 @@
                         "MinMaxOverflowLogging": "UseLocalSettings",
                         "Name": "viewdvc",
                         "Origin_path": "A1_PP/Assumption1/viewdvc",
-                        "PartitionName": "",
+                        "OverrideUsingVariant": "",
                         "Path": "A1_PP/Assumption1/viewdvc",
                         "Permissions": "ReadWrite",
                         "PermitHierarchicalResolution": "All",
@@ -1105,7 +1085,7 @@
                                 125,
                                 120
                             ],
-                            "SrcBlock": 185.056640625,
+                            "SrcBlock": 197.0406494140625,
                             "SrcPort": 0,
                             "Type": "1"
                         },
@@ -1138,35 +1118,28 @@
                         "RTWMemSecFuncExecute": "Inherit from model",
                         "RTWMemSecFuncInitTerm": "Inherit from model",
                         "RTWSystemCode": "Auto",
-                        "ReferencedSubsystem": "",
                         "SFBlockType": "NONE",
-                        "ScheduleAs": "Sample time",
-                        "SetExecutionDomain": "off",
                         "ShowPortLabels": "FromPortIcon",
                         "SystemSampleTime": "-1",
                         "TemplateBlock": "",
                         "TreatAsAtomicUnit": "on",
                         "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                         "Variant": "off",
-                        "VariantActivationTime": "update diagram",
                         "VariantControl": "",
-                        "VariantControlMode": "expression",
                         "Virtual": "off"
                     }
                 },
                 "DataTypeOverride": "UseLocalSettings",
                 "ErrorFcn": "",
-                "ExecutionDomainType": "Deduce",
                 "FunctionInterfaceSpec": "void_void",
                 "FunctionWithSeparateData": "off",
-                "Handle": 10.0565185546875,
+                "GeneratePreprocessorConditionals": "off",
+                "Handle": 15.044189453125,
                 "IsSubsystemVirtual": "off",
-                "LabelModeActiveChoice": "",
-                "Latency": "0",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 18.0565185546875,
+                    "Inport": 27.0592041015625,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -1181,7 +1154,7 @@
                 "MinMaxOverflowLogging": "UseLocalSettings",
                 "Name": "Assumption1",
                 "Origin_path": "A1_PP/Assumption1",
-                "PartitionName": "",
+                "OverrideUsingVariant": "",
                 "Path": "A1_PP/Assumption1",
                 "Permissions": "ReadWrite",
                 "PermitHierarchicalResolution": "All",
@@ -1192,7 +1165,7 @@
                         390,
                         205
                     ],
-                    "SrcBlock": 3.0565185546875,
+                    "SrcBlock": 7.0340576171875,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -1225,19 +1198,14 @@
                 "RTWMemSecFuncExecute": "Inherit from model",
                 "RTWMemSecFuncInitTerm": "Inherit from model",
                 "RTWSystemCode": "Auto",
-                "ReferencedSubsystem": "",
                 "SFBlockType": "NONE",
-                "ScheduleAs": "Sample time",
-                "SetExecutionDomain": "off",
                 "ShowPortLabels": "FromPortIcon",
                 "SystemSampleTime": "-1",
                 "TemplateBlock": "",
                 "TreatAsAtomicUnit": "on",
                 "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                 "Variant": "off",
-                "VariantActivationTime": "update diagram",
                 "VariantControl": "",
-                "VariantControlMode": "expression",
                 "Virtual": "off",
                 "customAVTBlockType": "Assumption",
                 "dispValues": "on",
@@ -1247,13 +1215,12 @@
                 "outEnabled": "off"
             },
             "Assumption2": {
+                "ActiveVariant": "",
+                "ActiveVariantBlock": "",
                 "AllowZeroVariantControls": "off",
                 "AttributesFormatString": "%<intervals>",
-                "AutoFrameSizeCalculation": "off",
                 "BlockChoice": "",
                 "BlockType": "SubSystem",
-                "CompiledActiveChoiceBlock": "",
-                "CompiledActiveChoiceControl": "",
                 "CompiledPortComplexSignals": {
                     "Enable": [],
                     "Ifaction": [],
@@ -1365,13 +1332,13 @@
                             0.2,
                             0
                         ],
-                        "Handle": 193.056640625,
+                        "Handle": 204.031494140625,
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [],
                             "LConn": [],
-                            "Outport": 204.0565185546875,
+                            "Outport": 214.037841796875,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -1384,7 +1351,7 @@
                         "Path": "A1_PP/Assumption2/In1",
                         "Port": "1",
                         "PortConnectivity": {
-                            "DstBlock": 194.056640625,
+                            "DstBlock": 205.0303955078125,
                             "DstPort": 0,
                             "Position": [
                                 60,
@@ -1414,13 +1381,12 @@
                         "UseBusObject": "off"
                     },
                     "viewdvc": {
+                        "ActiveVariant": "",
+                        "ActiveVariantBlock": "",
                         "AllowZeroVariantControls": "off",
                         "AttributesFormatString": "",
-                        "AutoFrameSizeCalculation": "off",
                         "BlockChoice": "",
                         "BlockType": "SubSystem",
-                        "CompiledActiveChoiceBlock": "",
-                        "CompiledActiveChoiceControl": "",
                         "CompiledPortComplexSignals": {
                             "Enable": [],
                             "Ifaction": [],
@@ -1532,13 +1498,13 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 195.056640625,
+                                "Handle": 206.0323486328125,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 200.0565185546875,
+                                    "Outport": 210.0367431640625,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -1551,7 +1517,7 @@
                                 "Path": "A1_PP/Assumption2/viewdvc/In1",
                                 "Port": "1",
                                 "PortConnectivity": {
-                                    "DstBlock": 198.056640625,
+                                    "DstBlock": 209.0335693359375,
                                     "DstPort": 0,
                                     "Position": [
                                         60,
@@ -1637,11 +1603,11 @@
                                     0
                                 ],
                                 "FunctionName": "customAVTBlockSFcn",
-                                "Handle": 198.056640625,
+                                "Handle": 209.0335693359375,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
-                                    "Inport": 200.0565185546875,
+                                    "Inport": 210.0367431640625,
                                     "LConn": [],
                                     "Outport": [],
                                     "RConn": [],
@@ -1660,7 +1626,7 @@
                                         85,
                                         60
                                     ],
-                                    "SrcBlock": 195.056640625,
+                                    "SrcBlock": 206.0323486328125,
                                     "SrcPort": 0,
                                     "Type": "1"
                                 },
@@ -1686,17 +1652,15 @@
                         },
                         "DataTypeOverride": "UseLocalSettings",
                         "ErrorFcn": "",
-                        "ExecutionDomainType": "Deduce",
                         "FunctionInterfaceSpec": "void_void",
                         "FunctionWithSeparateData": "off",
-                        "Handle": 194.056640625,
+                        "GeneratePreprocessorConditionals": "off",
+                        "Handle": 205.0303955078125,
                         "IsSubsystemVirtual": "off",
-                        "LabelModeActiveChoice": "",
-                        "Latency": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 204.0565185546875,
+                            "Inport": 214.037841796875,
                             "LConn": [],
                             "Outport": [],
                             "RConn": [],
@@ -1711,7 +1675,7 @@
                         "MinMaxOverflowLogging": "UseLocalSettings",
                         "Name": "viewdvc",
                         "Origin_path": "A1_PP/Assumption2/viewdvc",
-                        "PartitionName": "",
+                        "OverrideUsingVariant": "",
                         "Path": "A1_PP/Assumption2/viewdvc",
                         "Permissions": "ReadWrite",
                         "PermitHierarchicalResolution": "All",
@@ -1722,7 +1686,7 @@
                                 125,
                                 120
                             ],
-                            "SrcBlock": 193.056640625,
+                            "SrcBlock": 204.031494140625,
                             "SrcPort": 0,
                             "Type": "1"
                         },
@@ -1755,35 +1719,28 @@
                         "RTWMemSecFuncExecute": "Inherit from model",
                         "RTWMemSecFuncInitTerm": "Inherit from model",
                         "RTWSystemCode": "Auto",
-                        "ReferencedSubsystem": "",
                         "SFBlockType": "NONE",
-                        "ScheduleAs": "Sample time",
-                        "SetExecutionDomain": "off",
                         "ShowPortLabels": "FromPortIcon",
                         "SystemSampleTime": "-1",
                         "TemplateBlock": "",
                         "TreatAsAtomicUnit": "on",
                         "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                         "Variant": "off",
-                        "VariantActivationTime": "update diagram",
                         "VariantControl": "",
-                        "VariantControlMode": "expression",
                         "Virtual": "off"
                     }
                 },
                 "DataTypeOverride": "UseLocalSettings",
                 "ErrorFcn": "",
-                "ExecutionDomainType": "Deduce",
                 "FunctionInterfaceSpec": "void_void",
                 "FunctionWithSeparateData": "off",
-                "Handle": 11.0565185546875,
+                "GeneratePreprocessorConditionals": "off",
+                "Handle": 16.5205078125,
                 "IsSubsystemVirtual": "off",
-                "LabelModeActiveChoice": "",
-                "Latency": "0",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 19.0565185546875,
+                    "Inport": 28.0423583984375,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -1798,7 +1755,7 @@
                 "MinMaxOverflowLogging": "UseLocalSettings",
                 "Name": "Assumption2",
                 "Origin_path": "A1_PP/Assumption2",
-                "PartitionName": "",
+                "OverrideUsingVariant": "",
                 "Path": "A1_PP/Assumption2",
                 "Permissions": "ReadWrite",
                 "PermitHierarchicalResolution": "All",
@@ -1809,7 +1766,7 @@
                         355,
                         255
                     ],
-                    "SrcBlock": 4.0565185546875,
+                    "SrcBlock": 8.035400390625,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -1842,19 +1799,14 @@
                 "RTWMemSecFuncExecute": "Inherit from model",
                 "RTWMemSecFuncInitTerm": "Inherit from model",
                 "RTWSystemCode": "Auto",
-                "ReferencedSubsystem": "",
                 "SFBlockType": "NONE",
-                "ScheduleAs": "Sample time",
-                "SetExecutionDomain": "off",
                 "ShowPortLabels": "FromPortIcon",
                 "SystemSampleTime": "-1",
                 "TemplateBlock": "",
                 "TreatAsAtomicUnit": "on",
                 "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                 "Variant": "off",
-                "VariantActivationTime": "update diagram",
                 "VariantControl": "",
-                "VariantControlMode": "expression",
                 "Virtual": "off",
                 "customAVTBlockType": "Assumption",
                 "dispValues": "on",
@@ -1864,13 +1816,12 @@
                 "outEnabled": "off"
             },
             "Assumption3": {
+                "ActiveVariant": "",
+                "ActiveVariantBlock": "",
                 "AllowZeroVariantControls": "off",
                 "AttributesFormatString": "%<intervals>",
-                "AutoFrameSizeCalculation": "off",
                 "BlockChoice": "",
                 "BlockType": "SubSystem",
-                "CompiledActiveChoiceBlock": "",
-                "CompiledActiveChoiceControl": "",
                 "CompiledPortComplexSignals": {
                     "Enable": [],
                     "Ifaction": [],
@@ -1982,13 +1933,13 @@
                             0.2,
                             0
                         ],
-                        "Handle": 201.056640625,
+                        "Handle": 211.0372314453125,
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [],
                             "LConn": [],
-                            "Outport": 212.0565185546875,
+                            "Outport": 221.036376953125,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -2001,7 +1952,7 @@
                         "Path": "A1_PP/Assumption3/In1",
                         "Port": "1",
                         "PortConnectivity": {
-                            "DstBlock": 202.056640625,
+                            "DstBlock": 212.03515625,
                             "DstPort": 0,
                             "Position": [
                                 60,
@@ -2031,13 +1982,12 @@
                         "UseBusObject": "off"
                     },
                     "viewdvc": {
+                        "ActiveVariant": "",
+                        "ActiveVariantBlock": "",
                         "AllowZeroVariantControls": "off",
                         "AttributesFormatString": "",
-                        "AutoFrameSizeCalculation": "off",
                         "BlockChoice": "",
                         "BlockType": "SubSystem",
-                        "CompiledActiveChoiceBlock": "",
-                        "CompiledActiveChoiceControl": "",
                         "CompiledPortComplexSignals": {
                             "Enable": [],
                             "Ifaction": [],
@@ -2149,13 +2099,13 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 203.056640625,
+                                "Handle": 213.0380859375,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 208.0565185546875,
+                                    "Outport": 217.0360107421875,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -2168,7 +2118,7 @@
                                 "Path": "A1_PP/Assumption3/viewdvc/In1",
                                 "Port": "1",
                                 "PortConnectivity": {
-                                    "DstBlock": 206.056640625,
+                                    "DstBlock": 216.0347900390625,
                                     "DstPort": 0,
                                     "Position": [
                                         60,
@@ -2254,11 +2204,11 @@
                                     0
                                 ],
                                 "FunctionName": "customAVTBlockSFcn",
-                                "Handle": 206.056640625,
+                                "Handle": 216.0347900390625,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
-                                    "Inport": 208.0565185546875,
+                                    "Inport": 217.0360107421875,
                                     "LConn": [],
                                     "Outport": [],
                                     "RConn": [],
@@ -2277,7 +2227,7 @@
                                         85,
                                         60
                                     ],
-                                    "SrcBlock": 203.056640625,
+                                    "SrcBlock": 213.0380859375,
                                     "SrcPort": 0,
                                     "Type": "1"
                                 },
@@ -2303,17 +2253,15 @@
                         },
                         "DataTypeOverride": "UseLocalSettings",
                         "ErrorFcn": "",
-                        "ExecutionDomainType": "Deduce",
                         "FunctionInterfaceSpec": "void_void",
                         "FunctionWithSeparateData": "off",
-                        "Handle": 202.056640625,
+                        "GeneratePreprocessorConditionals": "off",
+                        "Handle": 212.03515625,
                         "IsSubsystemVirtual": "off",
-                        "LabelModeActiveChoice": "",
-                        "Latency": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 212.0565185546875,
+                            "Inport": 221.036376953125,
                             "LConn": [],
                             "Outport": [],
                             "RConn": [],
@@ -2328,7 +2276,7 @@
                         "MinMaxOverflowLogging": "UseLocalSettings",
                         "Name": "viewdvc",
                         "Origin_path": "A1_PP/Assumption3/viewdvc",
-                        "PartitionName": "",
+                        "OverrideUsingVariant": "",
                         "Path": "A1_PP/Assumption3/viewdvc",
                         "Permissions": "ReadWrite",
                         "PermitHierarchicalResolution": "All",
@@ -2339,7 +2287,7 @@
                                 125,
                                 120
                             ],
-                            "SrcBlock": 201.056640625,
+                            "SrcBlock": 211.0372314453125,
                             "SrcPort": 0,
                             "Type": "1"
                         },
@@ -2372,35 +2320,28 @@
                         "RTWMemSecFuncExecute": "Inherit from model",
                         "RTWMemSecFuncInitTerm": "Inherit from model",
                         "RTWSystemCode": "Auto",
-                        "ReferencedSubsystem": "",
                         "SFBlockType": "NONE",
-                        "ScheduleAs": "Sample time",
-                        "SetExecutionDomain": "off",
                         "ShowPortLabels": "FromPortIcon",
                         "SystemSampleTime": "-1",
                         "TemplateBlock": "",
                         "TreatAsAtomicUnit": "on",
                         "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                         "Variant": "off",
-                        "VariantActivationTime": "update diagram",
                         "VariantControl": "",
-                        "VariantControlMode": "expression",
                         "Virtual": "off"
                     }
                 },
                 "DataTypeOverride": "UseLocalSettings",
                 "ErrorFcn": "",
-                "ExecutionDomainType": "Deduce",
                 "FunctionInterfaceSpec": "void_void",
                 "FunctionWithSeparateData": "off",
-                "Handle": 12.0565185546875,
+                "GeneratePreprocessorConditionals": "off",
+                "Handle": 21.7467041015625,
                 "IsSubsystemVirtual": "off",
-                "LabelModeActiveChoice": "",
-                "Latency": "0",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 20.0565185546875,
+                    "Inport": 29.046142578125,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -2415,7 +2356,7 @@
                 "MinMaxOverflowLogging": "UseLocalSettings",
                 "Name": "Assumption3",
                 "Origin_path": "A1_PP/Assumption3",
-                "PartitionName": "",
+                "OverrideUsingVariant": "",
                 "Path": "A1_PP/Assumption3",
                 "Permissions": "ReadWrite",
                 "PermitHierarchicalResolution": "All",
@@ -2426,7 +2367,7 @@
                         355,
                         300
                     ],
-                    "SrcBlock": 5.0565185546875,
+                    "SrcBlock": 9.0416259765625,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -2459,19 +2400,14 @@
                 "RTWMemSecFuncExecute": "Inherit from model",
                 "RTWMemSecFuncInitTerm": "Inherit from model",
                 "RTWSystemCode": "Auto",
-                "ReferencedSubsystem": "",
                 "SFBlockType": "NONE",
-                "ScheduleAs": "Sample time",
-                "SetExecutionDomain": "off",
                 "ShowPortLabels": "FromPortIcon",
                 "SystemSampleTime": "-1",
                 "TemplateBlock": "",
                 "TreatAsAtomicUnit": "on",
                 "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                 "Variant": "off",
-                "VariantActivationTime": "update diagram",
                 "VariantControl": "",
-                "VariantControlMode": "expression",
                 "Virtual": "off",
                 "customAVTBlockType": "Assumption",
                 "dispValues": "on",
@@ -2481,13 +2417,12 @@
                 "outEnabled": "off"
             },
             "Assumption4": {
+                "ActiveVariant": "",
+                "ActiveVariantBlock": "",
                 "AllowZeroVariantControls": "off",
                 "AttributesFormatString": "%<intervals>",
-                "AutoFrameSizeCalculation": "off",
                 "BlockChoice": "",
                 "BlockType": "SubSystem",
-                "CompiledActiveChoiceBlock": "",
-                "CompiledActiveChoiceControl": "",
                 "CompiledPortComplexSignals": {
                     "Enable": [],
                     "Ifaction": [],
@@ -2599,13 +2534,13 @@
                             0.2,
                             0
                         ],
-                        "Handle": 209.056640625,
+                        "Handle": 218.0364990234375,
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [],
                             "LConn": [],
-                            "Outport": 220.0565185546875,
+                            "Outport": 228.0396728515625,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -2618,7 +2553,7 @@
                         "Path": "A1_PP/Assumption4/In1",
                         "Port": "1",
                         "PortConnectivity": {
-                            "DstBlock": 210.056640625,
+                            "DstBlock": 219.0360107421875,
                             "DstPort": 0,
                             "Position": [
                                 60,
@@ -2648,13 +2583,12 @@
                         "UseBusObject": "off"
                     },
                     "viewdvc": {
+                        "ActiveVariant": "",
+                        "ActiveVariantBlock": "",
                         "AllowZeroVariantControls": "off",
                         "AttributesFormatString": "",
-                        "AutoFrameSizeCalculation": "off",
                         "BlockChoice": "",
                         "BlockType": "SubSystem",
-                        "CompiledActiveChoiceBlock": "",
-                        "CompiledActiveChoiceControl": "",
                         "CompiledPortComplexSignals": {
                             "Enable": [],
                             "Ifaction": [],
@@ -2766,13 +2700,13 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 211.056640625,
+                                "Handle": 220.0355224609375,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 216.0565185546875,
+                                    "Outport": 224.042236328125,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -2785,7 +2719,7 @@
                                 "Path": "A1_PP/Assumption4/viewdvc/In1",
                                 "Port": "1",
                                 "PortConnectivity": {
-                                    "DstBlock": 214.056640625,
+                                    "DstBlock": 223.043701171875,
                                     "DstPort": 0,
                                     "Position": [
                                         60,
@@ -2871,11 +2805,11 @@
                                     0
                                 ],
                                 "FunctionName": "customAVTBlockSFcn",
-                                "Handle": 214.056640625,
+                                "Handle": 223.043701171875,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
-                                    "Inport": 216.0565185546875,
+                                    "Inport": 224.042236328125,
                                     "LConn": [],
                                     "Outport": [],
                                     "RConn": [],
@@ -2894,7 +2828,7 @@
                                         85,
                                         60
                                     ],
-                                    "SrcBlock": 211.056640625,
+                                    "SrcBlock": 220.0355224609375,
                                     "SrcPort": 0,
                                     "Type": "1"
                                 },
@@ -2920,17 +2854,15 @@
                         },
                         "DataTypeOverride": "UseLocalSettings",
                         "ErrorFcn": "",
-                        "ExecutionDomainType": "Deduce",
                         "FunctionInterfaceSpec": "void_void",
                         "FunctionWithSeparateData": "off",
-                        "Handle": 210.056640625,
+                        "GeneratePreprocessorConditionals": "off",
+                        "Handle": 219.0360107421875,
                         "IsSubsystemVirtual": "off",
-                        "LabelModeActiveChoice": "",
-                        "Latency": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 220.0565185546875,
+                            "Inport": 228.0396728515625,
                             "LConn": [],
                             "Outport": [],
                             "RConn": [],
@@ -2945,7 +2877,7 @@
                         "MinMaxOverflowLogging": "UseLocalSettings",
                         "Name": "viewdvc",
                         "Origin_path": "A1_PP/Assumption4/viewdvc",
-                        "PartitionName": "",
+                        "OverrideUsingVariant": "",
                         "Path": "A1_PP/Assumption4/viewdvc",
                         "Permissions": "ReadWrite",
                         "PermitHierarchicalResolution": "All",
@@ -2956,7 +2888,7 @@
                                 125,
                                 120
                             ],
-                            "SrcBlock": 209.056640625,
+                            "SrcBlock": 218.0364990234375,
                             "SrcPort": 0,
                             "Type": "1"
                         },
@@ -2989,35 +2921,28 @@
                         "RTWMemSecFuncExecute": "Inherit from model",
                         "RTWMemSecFuncInitTerm": "Inherit from model",
                         "RTWSystemCode": "Auto",
-                        "ReferencedSubsystem": "",
                         "SFBlockType": "NONE",
-                        "ScheduleAs": "Sample time",
-                        "SetExecutionDomain": "off",
                         "ShowPortLabels": "FromPortIcon",
                         "SystemSampleTime": "-1",
                         "TemplateBlock": "",
                         "TreatAsAtomicUnit": "on",
                         "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                         "Variant": "off",
-                        "VariantActivationTime": "update diagram",
                         "VariantControl": "",
-                        "VariantControlMode": "expression",
                         "Virtual": "off"
                     }
                 },
                 "DataTypeOverride": "UseLocalSettings",
                 "ErrorFcn": "",
-                "ExecutionDomainType": "Deduce",
                 "FunctionInterfaceSpec": "void_void",
                 "FunctionWithSeparateData": "off",
-                "Handle": 13.0565185546875,
+                "GeneratePreprocessorConditionals": "off",
+                "Handle": 22.223876953125,
                 "IsSubsystemVirtual": "off",
-                "LabelModeActiveChoice": "",
-                "Latency": "0",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 21.0565185546875,
+                    "Inport": 30.6373291015625,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -3032,7 +2957,7 @@
                 "MinMaxOverflowLogging": "UseLocalSettings",
                 "Name": "Assumption4",
                 "Origin_path": "A1_PP/Assumption4",
-                "PartitionName": "",
+                "OverrideUsingVariant": "",
                 "Path": "A1_PP/Assumption4",
                 "Permissions": "ReadWrite",
                 "PermitHierarchicalResolution": "All",
@@ -3043,7 +2968,7 @@
                         355,
                         350
                     ],
-                    "SrcBlock": 6.0565185546875,
+                    "SrcBlock": 10.0504150390625,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -3076,19 +3001,14 @@
                 "RTWMemSecFuncExecute": "Inherit from model",
                 "RTWMemSecFuncInitTerm": "Inherit from model",
                 "RTWSystemCode": "Auto",
-                "ReferencedSubsystem": "",
                 "SFBlockType": "NONE",
-                "ScheduleAs": "Sample time",
-                "SetExecutionDomain": "off",
                 "ShowPortLabels": "FromPortIcon",
                 "SystemSampleTime": "-1",
                 "TemplateBlock": "",
                 "TreatAsAtomicUnit": "on",
                 "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                 "Variant": "off",
-                "VariantActivationTime": "update diagram",
                 "VariantControl": "",
-                "VariantControlMode": "expression",
                 "Virtual": "off",
                 "customAVTBlockType": "Assumption",
                 "dispValues": "on",
@@ -3098,13 +3018,12 @@
                 "outEnabled": "off"
             },
             "Assumption5": {
+                "ActiveVariant": "",
+                "ActiveVariantBlock": "",
                 "AllowZeroVariantControls": "off",
                 "AttributesFormatString": "%<intervals>",
-                "AutoFrameSizeCalculation": "off",
                 "BlockChoice": "",
                 "BlockType": "SubSystem",
-                "CompiledActiveChoiceBlock": "",
-                "CompiledActiveChoiceControl": "",
                 "CompiledPortComplexSignals": {
                     "Enable": [],
                     "Ifaction": [],
@@ -3221,13 +3140,13 @@
                             0.2,
                             0
                         ],
-                        "Handle": 217.056640625,
+                        "Handle": 225.04150390625,
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
                             "Inport": [],
                             "LConn": [],
-                            "Outport": 226.0565185546875,
+                            "Outport": 233.034423828125,
                             "RConn": [],
                             "Reset": [],
                             "State": [],
@@ -3241,8 +3160,8 @@
                         "Port": "1",
                         "PortConnectivity": {
                             "DstBlock": [
-                                218.056640625,
-                                225.0565185546875
+                                226.0450439453125,
+                                232.0347900390625
                             ],
                             "DstPort": [
                                 0,
@@ -3332,12 +3251,12 @@
                             0.2,
                             0
                         ],
-                        "Handle": 225.0565185546875,
+                        "Handle": 232.0347900390625,
                         "InitialOutput": "[]",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 227.0565185546875,
+                            "Inport": 234.034423828125,
                             "LConn": [],
                             "Outport": [],
                             "RConn": [],
@@ -3359,7 +3278,7 @@
                                 270,
                                 35
                             ],
-                            "SrcBlock": 217.056640625,
+                            "SrcBlock": 225.04150390625,
                             "SrcPort": 0,
                             "Type": "1"
                         },
@@ -3383,13 +3302,12 @@
                         "UseBusObject": "off"
                     },
                     "viewdvc": {
+                        "ActiveVariant": "",
+                        "ActiveVariantBlock": "",
                         "AllowZeroVariantControls": "off",
                         "AttributesFormatString": "",
-                        "AutoFrameSizeCalculation": "off",
                         "BlockChoice": "",
                         "BlockType": "SubSystem",
-                        "CompiledActiveChoiceBlock": "",
-                        "CompiledActiveChoiceControl": "",
                         "CompiledPortComplexSignals": {
                             "Enable": [],
                             "Ifaction": [],
@@ -3501,13 +3419,13 @@
                                     0.2,
                                     0
                                 ],
-                                "Handle": 219.056640625,
+                                "Handle": 227.0426025390625,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
                                     "Inport": [],
                                     "LConn": [],
-                                    "Outport": 224.0565185546875,
+                                    "Outport": 231.03466796875,
                                     "RConn": [],
                                     "Reset": [],
                                     "State": [],
@@ -3520,7 +3438,7 @@
                                 "Path": "A1_PP/Assumption5/viewdvc/In1",
                                 "Port": "1",
                                 "PortConnectivity": {
-                                    "DstBlock": 222.056640625,
+                                    "DstBlock": 230.0343017578125,
                                     "DstPort": 0,
                                     "Position": [
                                         60,
@@ -3606,11 +3524,11 @@
                                     0
                                 ],
                                 "FunctionName": "customAVTBlockSFcn",
-                                "Handle": 222.056640625,
+                                "Handle": 230.0343017578125,
                                 "LineHandles": {
                                     "Enable": [],
                                     "Ifaction": [],
-                                    "Inport": 224.0565185546875,
+                                    "Inport": 231.03466796875,
                                     "LConn": [],
                                     "Outport": [],
                                     "RConn": [],
@@ -3629,7 +3547,7 @@
                                         85,
                                         60
                                     ],
-                                    "SrcBlock": 219.056640625,
+                                    "SrcBlock": 227.0426025390625,
                                     "SrcPort": 0,
                                     "Type": "1"
                                 },
@@ -3655,17 +3573,15 @@
                         },
                         "DataTypeOverride": "UseLocalSettings",
                         "ErrorFcn": "",
-                        "ExecutionDomainType": "Deduce",
                         "FunctionInterfaceSpec": "void_void",
                         "FunctionWithSeparateData": "off",
-                        "Handle": 218.056640625,
+                        "GeneratePreprocessorConditionals": "off",
+                        "Handle": 226.0450439453125,
                         "IsSubsystemVirtual": "off",
-                        "LabelModeActiveChoice": "",
-                        "Latency": "0",
                         "LineHandles": {
                             "Enable": [],
                             "Ifaction": [],
-                            "Inport": 228.0565185546875,
+                            "Inport": 235.0340576171875,
                             "LConn": [],
                             "Outport": [],
                             "RConn": [],
@@ -3680,7 +3596,7 @@
                         "MinMaxOverflowLogging": "UseLocalSettings",
                         "Name": "viewdvc",
                         "Origin_path": "A1_PP/Assumption5/viewdvc",
-                        "PartitionName": "",
+                        "OverrideUsingVariant": "",
                         "Path": "A1_PP/Assumption5/viewdvc",
                         "Permissions": "ReadWrite",
                         "PermitHierarchicalResolution": "All",
@@ -3691,7 +3607,7 @@
                                 125,
                                 120
                             ],
-                            "SrcBlock": 217.056640625,
+                            "SrcBlock": 225.04150390625,
                             "SrcPort": 0,
                             "Type": "1"
                         },
@@ -3724,37 +3640,30 @@
                         "RTWMemSecFuncExecute": "Inherit from model",
                         "RTWMemSecFuncInitTerm": "Inherit from model",
                         "RTWSystemCode": "Auto",
-                        "ReferencedSubsystem": "",
                         "SFBlockType": "NONE",
-                        "ScheduleAs": "Sample time",
-                        "SetExecutionDomain": "off",
                         "ShowPortLabels": "FromPortIcon",
                         "SystemSampleTime": "-1",
                         "TemplateBlock": "",
                         "TreatAsAtomicUnit": "on",
                         "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                         "Variant": "off",
-                        "VariantActivationTime": "update diagram",
                         "VariantControl": "",
-                        "VariantControlMode": "expression",
                         "Virtual": "off"
                     }
                 },
                 "DataTypeOverride": "UseLocalSettings",
                 "ErrorFcn": "",
-                "ExecutionDomainType": "Deduce",
                 "FunctionInterfaceSpec": "void_void",
                 "FunctionWithSeparateData": "off",
-                "Handle": 14.0565185546875,
+                "GeneratePreprocessorConditionals": "off",
+                "Handle": 23.896728515625,
                 "IsSubsystemVirtual": "off",
-                "LabelModeActiveChoice": "",
-                "Latency": "0",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 22.0565185546875,
+                    "Inport": 31.2142333984375,
                     "LConn": [],
-                    "Outport": 23.0565185546875,
+                    "Outport": 32.0555419921875,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -3767,7 +3676,7 @@
                 "MinMaxOverflowLogging": "UseLocalSettings",
                 "Name": "Assumption5",
                 "Origin_path": "A1_PP/Assumption5",
-                "PartitionName": "",
+                "OverrideUsingVariant": "",
                 "Path": "A1_PP/Assumption5",
                 "Permissions": "ReadWrite",
                 "PermitHierarchicalResolution": "All",
@@ -3779,12 +3688,12 @@
                             275,
                             405
                         ],
-                        "SrcBlock": 7.0565185546875,
+                        "SrcBlock": 11.05078125,
                         "SrcPort": 0,
                         "Type": "1"
                     },
                     {
-                        "DstBlock": 15.0565185546875,
+                        "DstBlock": 24.051025390625,
                         "DstPort": 0,
                         "Position": [
                             310,
@@ -3824,19 +3733,14 @@
                 "RTWMemSecFuncExecute": "Inherit from model",
                 "RTWMemSecFuncInitTerm": "Inherit from model",
                 "RTWSystemCode": "Auto",
-                "ReferencedSubsystem": "",
                 "SFBlockType": "NONE",
-                "ScheduleAs": "Sample time",
-                "SetExecutionDomain": "off",
                 "ShowPortLabels": "FromPortIcon",
                 "SystemSampleTime": "-1",
                 "TemplateBlock": "",
                 "TreatAsAtomicUnit": "on",
                 "TreatAsGroupedWhenPropagatingVariantConditions": "on",
                 "Variant": "off",
-                "VariantActivationTime": "update diagram",
                 "VariantControl": "",
-                "VariantControlMode": "expression",
                 "Virtual": "off",
                 "customAVTBlockType": "Assumption",
                 "dispValues": "on",
@@ -3902,13 +3806,13 @@
                     0.2,
                     0
                 ],
-                "Handle": 2.0565185546875,
+                "Handle": 6.5137939453125,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 17.0565185546875,
+                    "Outport": 26.681396484375,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -3921,7 +3825,7 @@
                 "Path": "A1_PP/In1",
                 "Port": "1",
                 "PortConnectivity": {
-                    "DstBlock": 9.0565185546875,
+                    "DstBlock": 14.6434326171875,
                     "DstPort": 0,
                     "Position": [
                         200,
@@ -4007,13 +3911,13 @@
                     0.2,
                     0
                 ],
-                "Handle": 3.0565185546875,
+                "Handle": 7.0340576171875,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 18.0565185546875,
+                    "Outport": 27.0592041015625,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -4026,7 +3930,7 @@
                 "Path": "A1_PP/In2",
                 "Port": "2",
                 "PortConnectivity": {
-                    "DstBlock": 10.0565185546875,
+                    "DstBlock": 15.044189453125,
                     "DstPort": 0,
                     "Position": [
                         200,
@@ -4112,13 +4016,13 @@
                     0.2,
                     0
                 ],
-                "Handle": 4.0565185546875,
+                "Handle": 8.035400390625,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 19.0565185546875,
+                    "Outport": 28.0423583984375,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -4131,7 +4035,7 @@
                 "Path": "A1_PP/In3",
                 "Port": "3",
                 "PortConnectivity": {
-                    "DstBlock": 11.0565185546875,
+                    "DstBlock": 16.5205078125,
                     "DstPort": 0,
                     "Position": [
                         200,
@@ -4217,13 +4121,13 @@
                     0.2,
                     0
                 ],
-                "Handle": 5.0565185546875,
+                "Handle": 9.0416259765625,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 20.0565185546875,
+                    "Outport": 29.046142578125,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -4236,7 +4140,7 @@
                 "Path": "A1_PP/In4",
                 "Port": "4",
                 "PortConnectivity": {
-                    "DstBlock": 12.0565185546875,
+                    "DstBlock": 21.7467041015625,
                     "DstPort": 0,
                     "Position": [
                         200,
@@ -4322,13 +4226,13 @@
                     0.2,
                     0
                 ],
-                "Handle": 6.0565185546875,
+                "Handle": 10.0504150390625,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 21.0565185546875,
+                    "Outport": 30.6373291015625,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -4341,7 +4245,7 @@
                 "Path": "A1_PP/In5",
                 "Port": "5",
                 "PortConnectivity": {
-                    "DstBlock": 13.0565185546875,
+                    "DstBlock": 22.223876953125,
                     "DstPort": 0,
                     "Position": [
                         200,
@@ -4427,13 +4331,13 @@
                     0.2,
                     0
                 ],
-                "Handle": 7.0565185546875,
+                "Handle": 11.05078125,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 22.0565185546875,
+                    "Outport": 31.2142333984375,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -4446,7 +4350,7 @@
                 "Path": "A1_PP/In6",
                 "Port": "6",
                 "PortConnectivity": {
-                    "DstBlock": 14.0565185546875,
+                    "DstBlock": 23.896728515625,
                     "DstPort": 0,
                     "Position": [
                         200,
@@ -4532,13 +4436,13 @@
                     0.2,
                     0
                 ],
-                "Handle": 8.0565185546875,
+                "Handle": 12.03759765625,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 24.0565185546875,
+                    "Outport": 33.2127685546875,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -4551,7 +4455,7 @@
                 "Path": "A1_PP/In7",
                 "Port": "7",
                 "PortConnectivity": {
-                    "DstBlock": 15.0565185546875,
+                    "DstBlock": 24.051025390625,
                     "DstPort": 1,
                     "Position": [
                         200,
@@ -4651,17 +4555,17 @@
                     0.2,
                     0
                 ],
-                "Handle": 15.0565185546875,
+                "Handle": 24.051025390625,
                 "Inputs": "2",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [
-                        23.0565185546875,
-                        24.0565185546875
+                        32.0555419921875,
+                        33.2127685546875
                     ],
                     "LConn": [],
-                    "Outport": 25.0565185546875,
+                    "Outport": 36.47265625,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -4680,7 +4584,7 @@
                             355,
                             420
                         ],
-                        "SrcBlock": 14.0565185546875,
+                        "SrcBlock": 23.896728515625,
                         "SrcPort": 0,
                         "Type": "1"
                     },
@@ -4691,12 +4595,12 @@
                             355,
                             435
                         ],
-                        "SrcBlock": 8.0565185546875,
+                        "SrcBlock": 12.03759765625,
                         "SrcPort": 0,
                         "Type": "2"
                     },
                     {
-                        "DstBlock": 16.0565185546875,
+                        "DstBlock": 25.0408935546875,
                         "DstPort": 0,
                         "Position": [
                             395,
@@ -4783,12 +4687,12 @@
                     0.2,
                     0
                 ],
-                "Handle": 16.0565185546875,
+                "Handle": 25.0408935546875,
                 "InitialOutput": "[]",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 25.0565185546875,
+                    "Inport": 36.47265625,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -4810,7 +4714,7 @@
                         425,
                         430
                     ],
-                    "SrcBlock": 15.0565185546875,
+                    "SrcBlock": 24.051025390625,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -4834,7 +4738,7 @@
                 "UseBusObject": "off"
             }
         },
-        "Handle": 0.0565185546875,
+        "Handle": 3.7890625,
         "Name": "A1_PP",
         "Origin_path": "A1_PP",
         "Path": "A1_PP"
@@ -4843,8 +4747,8 @@
         "Declarations": {
             "Enumerations": []
         },
-        "date": "23-Oct-2020",
-        "file_path": "/Users/hbourbou/Documents/babelfish.arc.nasa.gov/cocosim_github/cocosim_tests/Simulink/unitTests/Assumption/A1_PP.slx",
+        "date": "01-Nov-2020",
+        "file_path": "/Users/ktrinh/cocosim/cocosim_github/cocosim_tests/Simulink/unitTests/Assumption/A1_PP.slx",
         "sampleTime": 0.2
     }
 }
