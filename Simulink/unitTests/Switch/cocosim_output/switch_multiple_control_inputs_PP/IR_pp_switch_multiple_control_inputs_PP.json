@@ -3,7 +3,7 @@
         "Declarations": {
             "Enumerations": []
         },
-        "date": "01-Nov-2020",
+        "date": "20-Nov-2020",
         "file_path": "/Users/ktrinh/cocosim/cocosim_github/cocosim_tests/Simulink/unitTests/Switch/switch_multiple_control_inputs_PP.slx",
         "sampleTime": 1
     },
@@ -77,13 +77,13 @@
                     1,
                     0
                 ],
-                "Handle": 296.55126953125,
+                "Handle": 294.563720703125,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 314.8837890625,
+                    "Outport": 315.755615234375,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -96,7 +96,7 @@
                 "Path": "switch_multiple_control_inputs_PP/In31",
                 "Port": "1",
                 "PortConnectivity": {
-                    "DstBlock": 312.913818359375,
+                    "DstBlock": 311.4000244140625,
                     "DstPort": 0,
                     "Position": [
                         775,
@@ -182,13 +182,13 @@
                     1,
                     0
                 ],
-                "Handle": 308.9144287109375,
+                "Handle": 295.760986328125,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 316.910888671875,
+                    "Outport": 316.4083251953125,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -201,7 +201,7 @@
                 "Path": "switch_multiple_control_inputs_PP/In32",
                 "Port": "2",
                 "PortConnectivity": {
-                    "DstBlock": 312.913818359375,
+                    "DstBlock": 311.4000244140625,
                     "DstPort": 1,
                     "Position": [
                         775,
@@ -287,13 +287,13 @@
                     1,
                     0
                 ],
-                "Handle": 310.5906982421875,
+                "Handle": 310.8326416015625,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 317.5699462890625,
+                    "Outport": 318.73974609375,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -306,7 +306,7 @@
                 "Path": "switch_multiple_control_inputs_PP/In33",
                 "Port": "3",
                 "PortConnectivity": {
-                    "DstBlock": 312.913818359375,
+                    "DstBlock": 311.4000244140625,
                     "DstPort": 2,
                     "Position": [
                         775,
@@ -392,12 +392,12 @@
                     1,
                     0
                 ],
-                "Handle": 313.557373046875,
+                "Handle": 312.722412109375,
                 "InitialOutput": "[]",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 318.881103515625,
+                    "Inport": 319.8758544921875,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -419,7 +419,7 @@
                         960,
                         50
                     ],
-                    "SrcBlock": 312.913818359375,
+                    "SrcBlock": 311.4000244140625,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -519,18 +519,18 @@
                     0
                 ],
                 "Criteria": "u2 > Threshold",
-                "Handle": 312.913818359375,
+                "Handle": 311.4000244140625,
                 "InputSameDT": "off",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [
-                        314.8837890625,
-                        316.910888671875,
-                        317.5699462890625
+                        315.755615234375,
+                        316.4083251953125,
+                        318.73974609375
                     ],
                     "LConn": [],
-                    "Outport": 318.881103515625,
+                    "Outport": 319.8758544921875,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -551,7 +551,7 @@
                             850,
                             40
                         ],
-                        "SrcBlock": 296.55126953125,
+                        "SrcBlock": 294.563720703125,
                         "SrcPort": 0,
                         "Type": "1"
                     },
@@ -562,7 +562,7 @@
                             850,
                             50
                         ],
-                        "SrcBlock": 308.9144287109375,
+                        "SrcBlock": 295.760986328125,
                         "SrcPort": 0,
                         "Type": "2"
                     },
@@ -573,12 +573,12 @@
                             850,
                             60
                         ],
-                        "SrcBlock": 310.5906982421875,
+                        "SrcBlock": 310.8326416015625,
                         "SrcPort": 0,
                         "Type": "3"
                     },
                     {
-                        "DstBlock": 313.557373046875,
+                        "DstBlock": 312.722412109375,
                         "DstPort": 0,
                         "Position": [
                             890,
@@ -613,7 +613,7 @@
                 "ZeroCross": "on"
             }
         },
-        "Handle": 293.7413330078125,
+        "Handle": 195.9364013671875,
         "Name": "switch_multiple_control_inputs_PP",
         "Origin_path": "switch_multiple_control_inputs_PP",
         "Path": "switch_multiple_control_inputs_PP"

@@ -69,13 +69,13 @@
                     0
                 ],
                 "FramePeriod": "inf",
-                "Handle": 73.997314453125,
+                "Handle": 73.9970703125,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 122.8350830078125,
+                    "Outport": 144.96630859375,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -89,7 +89,7 @@
                 "OutMin": "[]",
                 "Path": "LookupTableDynamic_below_PP/Constant2",
                 "PortConnectivity": {
-                    "DstBlock": 100.9820556640625,
+                    "DstBlock": 103.80078125,
                     "DstPort": 1,
                     "Position": [
                         240,
@@ -179,11 +179,11 @@
                 "Decimation": "1",
                 "Floating": "off",
                 "Format": "short",
-                "Handle": 99.768798828125,
+                "Handle": 85.9752197265625,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 106.25146484375,
+                    "Inport": 113.392822265625,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -201,7 +201,7 @@
                         475,
                         570
                     ],
-                    "SrcBlock": 100.9820556640625,
+                    "SrcBlock": 103.80078125,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -280,13 +280,13 @@
                     0.2,
                     0
                 ],
-                "Handle": 72.65966796875,
+                "Handle": 72.659423828125,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 117.9608154296875,
+                    "Outport": 122.5030517578125,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -299,7 +299,7 @@
                 "Path": "LookupTableDynamic_below_PP/In1",
                 "Port": "2",
                 "PortConnectivity": {
-                    "DstBlock": 100.9820556640625,
+                    "DstBlock": 103.80078125,
                     "DstPort": 0,
                     "Position": [
                         170,
@@ -385,13 +385,13 @@
                     0.2,
                     0
                 ],
-                "Handle": 48.3173828125,
+                "Handle": 48.3165283203125,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 118.7081298828125,
+                    "Outport": 133.6922607421875,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -404,7 +404,7 @@
                 "Path": "LookupTableDynamic_below_PP/In2",
                 "Port": "1",
                 "PortConnectivity": {
-                    "DstBlock": 100.9820556640625,
+                    "DstBlock": 103.80078125,
                     "DstPort": 2,
                     "Position": [
                         150,
@@ -511,17 +511,17 @@
                 "Content": {},
                 "DoSatur": "off",
                 "FunctionName": "sfix_look1_dyn",
-                "Handle": 100.9820556640625,
+                "Handle": 103.80078125,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [
-                        117.9608154296875,
-                        122.8350830078125,
-                        118.7081298828125
+                        122.5030517578125,
+                        144.96630859375,
+                        133.6922607421875
                     ],
                     "LConn": [],
-                    "Outport": 105.24755859375,
+                    "Outport": 112.270263671875,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -544,7 +544,7 @@
                             300,
                             300
                         ],
-                        "SrcBlock": 72.65966796875,
+                        "SrcBlock": 72.659423828125,
                         "SrcPort": 0,
                         "Type": "1"
                     },
@@ -555,7 +555,7 @@
                             300,
                             340
                         ],
-                        "SrcBlock": 73.997314453125,
+                        "SrcBlock": 73.9970703125,
                         "SrcPort": 0,
                         "Type": "2"
                     },
@@ -566,14 +566,14 @@
                             300,
                             380
                         ],
-                        "SrcBlock": 48.3173828125,
+                        "SrcBlock": 48.3165283203125,
                         "SrcPort": 0,
                         "Type": "3"
                     },
                     {
                         "DstBlock": [
-                            104.8997802734375,
-                            99.768798828125
+                            105.26123046875,
+                            85.9752197265625
                         ],
                         "DstPort": [
                             0,
@@ -665,12 +665,12 @@
                     0.2,
                     0
                 ],
-                "Handle": 104.8997802734375,
+                "Handle": 105.26123046875,
                 "InitialOutput": "[]",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 113.42236328125,
+                    "Inport": 118.3697509765625,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -692,7 +692,7 @@
                         485,
                         340
                     ],
-                    "SrcBlock": 100.9820556640625,
+                    "SrcBlock": 103.80078125,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -725,7 +725,7 @@
         "Declarations": {
             "Enumerations": []
         },
-        "date": "01-Nov-2020",
+        "date": "20-Nov-2020",
         "file_path": "/Users/ktrinh/cocosim/cocosim_github/cocosim_tests/Simulink/unitTests/LookupTableDynamic/LookupTableDynamic_below_PP.slx",
         "sampleTime": 0.2
     }
