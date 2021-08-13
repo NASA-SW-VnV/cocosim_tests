@@ -3,7 +3,7 @@
         "Declarations": {
             "Enumerations": []
         },
-        "date": "20-Nov-2020",
+        "date": "12-Aug-2021",
         "file_path": "/Users/ktrinh/cocosim/cocosim_github/cocosim_tests/Simulink/unitTests/Switch/switch_multiple_thresholds_PP.slx",
         "sampleTime": 1
     },
@@ -77,13 +77,13 @@
                     1,
                     0
                 ],
-                "Handle": 294.5667724609375,
+                "Handle": 309.7900390625,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 315.755859375,
+                    "Outport": 317.7535400390625,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -96,7 +96,7 @@
                 "Path": "switch_multiple_thresholds_PP/In31",
                 "Port": "1",
                 "PortConnectivity": {
-                    "DstBlock": 311.4002685546875,
+                    "DstBlock": 314.3961181640625,
                     "DstPort": 0,
                     "Position": [
                         775,
@@ -182,13 +182,13 @@
                     1,
                     0
                 ],
-                "Handle": 295.76123046875,
+                "Handle": 311.5655517578125,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 316.4090576171875,
+                    "Outport": 321.6328125,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -201,7 +201,7 @@
                 "Path": "switch_multiple_thresholds_PP/In32",
                 "Port": "2",
                 "PortConnectivity": {
-                    "DstBlock": 311.4002685546875,
+                    "DstBlock": 314.3961181640625,
                     "DstPort": 1,
                     "Position": [
                         775,
@@ -287,13 +287,13 @@
                     1,
                     0
                 ],
-                "Handle": 310.8328857421875,
+                "Handle": 313.9013671875,
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [],
                     "LConn": [],
-                    "Outport": 318.740478515625,
+                    "Outport": 322.5650634765625,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -306,7 +306,7 @@
                 "Path": "switch_multiple_thresholds_PP/In33",
                 "Port": "3",
                 "PortConnectivity": {
-                    "DstBlock": 311.4002685546875,
+                    "DstBlock": 314.3961181640625,
                     "DstPort": 2,
                     "Position": [
                         775,
@@ -392,12 +392,12 @@
                     1,
                     0
                 ],
-                "Handle": 312.72265625,
+                "Handle": 315.8704833984375,
                 "InitialOutput": "[]",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
-                    "Inport": 319.8765869140625,
+                    "Inport": 338.997314453125,
                     "LConn": [],
                     "Outport": [],
                     "RConn": [],
@@ -419,7 +419,7 @@
                         960,
                         50
                     ],
-                    "SrcBlock": 311.4002685546875,
+                    "SrcBlock": 314.3961181640625,
                     "SrcPort": 0,
                     "Type": "1"
                 },
@@ -519,18 +519,18 @@
                     0
                 ],
                 "Criteria": "u2 > Threshold",
-                "Handle": 311.4002685546875,
+                "Handle": 314.3961181640625,
                 "InputSameDT": "off",
                 "LineHandles": {
                     "Enable": [],
                     "Ifaction": [],
                     "Inport": [
-                        315.755859375,
-                        316.4090576171875,
-                        318.740478515625
+                        317.7535400390625,
+                        321.6328125,
+                        322.5650634765625
                     ],
                     "LConn": [],
-                    "Outport": 319.8765869140625,
+                    "Outport": 338.997314453125,
                     "RConn": [],
                     "Reset": [],
                     "State": [],
@@ -551,7 +551,7 @@
                             850,
                             40
                         ],
-                        "SrcBlock": 294.5667724609375,
+                        "SrcBlock": 309.7900390625,
                         "SrcPort": 0,
                         "Type": "1"
                     },
@@ -562,7 +562,7 @@
                             850,
                             50
                         ],
-                        "SrcBlock": 295.76123046875,
+                        "SrcBlock": 311.5655517578125,
                         "SrcPort": 0,
                         "Type": "2"
                     },
@@ -573,12 +573,12 @@
                             850,
                             60
                         ],
-                        "SrcBlock": 310.8328857421875,
+                        "SrcBlock": 313.9013671875,
                         "SrcPort": 0,
                         "Type": "3"
                     },
                     {
-                        "DstBlock": 312.72265625,
+                        "DstBlock": 315.8704833984375,
                         "DstPort": 0,
                         "Position": [
                             890,
@@ -613,7 +613,7 @@
                 "ZeroCross": "on"
             }
         },
-        "Handle": 195.9366455078125,
+        "Handle": 293.9478759765625,
         "Name": "switch_multiple_thresholds_PP",
         "Origin_path": "switch_multiple_thresholds_PP",
         "Path": "switch_multiple_thresholds_PP"
